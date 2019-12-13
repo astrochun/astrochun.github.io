@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chun Ly</title>
+    <link>https://astrochun.github.io/</link>
+      <atom:link href="https://astrochun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chun Ly</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Chun Ly</title>
+      <link>https://astrochun.github.io/</link>
+    </image>
+    
+    <item>
+      <title>DEEP2 Survey</title>
+      <link>https://astrochun.github.io/project/deep2/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/deep2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metal Abundances across Cosmic Time</title>
+      <link>https://astrochun.github.io/project/mact/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/mact/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;h2 id=&#34;evolution-of-the-massmetallicity-relation&#34;&gt;Evolution of the Mass&amp;ndash;Metallicity Relation&lt;/h2&gt;
+&lt;h2 id=&#34;main-sequence-relation-of-extremely-lowmass-galaxies&#34;&gt;Main Sequence Relation of Extremely Low-Mass Galaxies&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Subaru Deep Field (SDF)</title>
+      <link>https://astrochun.github.io/project/sdf/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/sdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UofA Research Data Repository</title>
+      <link>https://astrochun.github.io/project/redata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/redata/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;h2 id=&#34;other-stuff&#34;&gt;Other stuff&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

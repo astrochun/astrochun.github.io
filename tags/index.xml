@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/</link>
+      <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://astrochun.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>Chemical enrichment</title>
+      <link>https://astrochun.github.io/tags/chemical-enrichment/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/chemical-enrichment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy evolution</title>
+      <link>https://astrochun.github.io/tags/galaxy-evolution/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/galaxy-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://astrochun.github.io/tags/research/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Management</title>
+      <link>https://astrochun.github.io/tags/data-management/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Literacy</title>
+      <link>https://astrochun.github.io/tags/digital-literacy/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/digital-literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Figshare</title>
+      <link>https://astrochun.github.io/tags/figshare/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/figshare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Science</title>
+      <link>https://astrochun.github.io/tags/open-science/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/open-science/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

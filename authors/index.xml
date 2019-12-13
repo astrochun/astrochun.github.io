@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/</link>
+      <atom:link href="https://astrochun.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://astrochun.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://astrochun.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;Dr. Chun Ly is the Research Data Systems Integration Specialist for
+&lt;a href=&#34;https://new.library.arizona.ed&#34;&gt;University Libraries&lt;/a&gt; and an Affiliate
+Assistant Astronomer at the &lt;a href=&#34;https://www.as.arizona.edu&#34;&gt;Steward Observatory&lt;/a&gt;
+at the University of Arizona (UofA). In his current Librarian role, he is
+supporting the roll-out of a research data repository service to enable open
+and reproducible science at the UofA.  He earned his Bachelor&#39;s degrees in
+Astronomy and Physics from the UofA, and received his Master&#39;s and Ph.D. from
+the University of California−Los Angeles. After completing his Ph.D., Chun
+held a Giacconi Postdoctoral Fellowship position at the
+&lt;a href=&#34;https://www.stsci.edu&#34;&gt;Space Telescope Science Institute&lt;/a&gt; (Baltimore, MD) and
+a NASA Postdoctoral Fellowship at the
+&lt;a href=&#34;https://www.nasa.gov/goddard&#34;&gt;NASA Goddard Space Flight Center&lt;/a&gt; (Greenbelt, MD).
+He was a Queue Observer for the
+&lt;a href=&#34;https://www.mmto.org&#34;&gt;MMT Observatory&lt;/a&gt; (Mt. Hopkins, AZ) between 2016 and 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
