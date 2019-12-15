@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomical Data Analysis | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
+      <atom:link href="https://astrochun.github.io/tags/astronomical-data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Astronomical Data Analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Astronomical Data Analysis</title>
+      <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Automation of MMT/MMIRS data reduction</title>
+      <link>https://astrochun.github.io/project/mmttools/mmirs/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/mmttools/mmirs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gemini GNIRS Longslit Reduction</title>
+      <link>https://astrochun.github.io/project/gnirslongslit/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/gnirslongslit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
