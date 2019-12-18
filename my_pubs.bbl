@@ -1,0 +1,683 @@
+@ARTICLE{2018ApJ...855..128W,
+   author = {{Walker}, R.~C. and {Hardee}, P.~E. and {Davies}, F.~B. and 
+	{Ly}, C. and {Junor}, W.},
+    title = "{The Structure and Dynamics of the Subparsec Jet in M87 Based on 50 VLBA Observations over 17 Years at 43 GHz}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1802.06166},
+ primaryClass = "astro-ph.HE",
+ keywords = {galaxies: active, galaxies: individual: M87, galaxies: jets, hydrodynamics, radio continuum: galaxies, relativistic processes},
+     year = 2018,
+    month = mar,
+   volume = 855,
+      eid = {128},
+    pages = {128},
+      doi = {10.3847/1538-4357/aaafcc},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2018ApJ...855..128W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017ApJ...850....5M,
+   author = {{Malkan}, M.~A. and {Cohen}, D.~P. and {Maruyama}, M. and {Kashikawa}, N. and 
+	{Ly}, C. and {Ishikawa}, S. and {Shimasaku}, K. and {Hayashi}, M. and 
+	{Motohara}, K.},
+    title = "{Lyman-break Galaxies at z {\tilde} 3 in the Subaru Deep Field: Luminosity Function, Clustering, and [O III] Emission}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1711.04787},
+ keywords = {cosmology: observations, galaxies: evolution, galaxies: high-redshift, galaxies: luminosity function, mass function, galaxies: star formation, large-scale structure of universe},
+     year = 2017,
+    month = nov,
+   volume = 850,
+      eid = {5},
+    pages = {5},
+      doi = {10.3847/1538-4357/aa9331},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2017ApJ...850....5M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016Galax...4...46W,
+   author = {{Walker}, R.~C. and {Hardee}, P.~E. and {Davies}, F. and {Ly}, C. and 
+	{Junor}, W. and {Mertens}, F. and {Lobanov}, A.},
+    title = "{Observations of the Structure and Dynamics of the Inner M87 Jet}",
+  journal = {Galaxies},
+archivePrefix = "arXiv",
+   eprint = {1610.08600},
+ primaryClass = "astro-ph.HE",
+     year = 2016,
+    month = oct,
+   volume = 4,
+    pages = {46},
+      doi = {10.3390/galaxies4040046},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2016Galax...4...46W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016ApJS..226....5L,
+   author = {{Ly}, C. and {Malhotra}, S. and {Malkan}, M.~A. and {Rigby}, J.~R. and 
+	{Kashikawa}, N. and {de los Reyes}, M.~A. and {Rhoads}, J.~E.
+	},
+    title = "{The Metal Abundances across Cosmic Time (MACT) Survey. I. Optical Spectroscopy in the Subaru Deep Field}",
+  journal = {\apjs},
+archivePrefix = "arXiv",
+   eprint = {1602.01089},
+ keywords = {galaxies: abundances, galaxies: distances and redshifts, galaxies: evolution, galaxies: ISM, galaxies: photometry, galaxies: star formation},
+     year = 2016,
+    month = sep,
+   volume = 226,
+      eid = {5},
+    pages = {5},
+      doi = {10.3847/0067-0049/226/1/5},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2016ApJS..226....5L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016ApJ...828...67L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Rigby}, J.~R. and {Nagao}, T.
+	},
+    title = "{The Metal Abundances across Cosmic Time (MACT) Survey. II. Evolution of the Mass-metallicity Relation over 8 Billion Years, Using [OIII]4363AA-based Metallicities}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1602.01098},
+ keywords = {galaxies: abundances, galaxies: distances and redshift, galaxies: evolution, galaxies: ISM, galaxies: photometry, galaxies: star formation},
+     year = 2016,
+    month = sep,
+   volume = 828,
+      eid = {67},
+    pages = {67},
+      doi = {10.3847/0004-637X/828/2/67},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2016ApJ...828...67L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015PASJ...67...80H,
+   author = {{Hayashi}, M. and {Ly}, C. and {Shimasaku}, K. and {Motohara}, K. and 
+	{Malkan}, M.~A. and {Nagao}, T. and {Kashikawa}, N. and {Goto}, R. and 
+	{Naito}, Y.},
+    title = "{Physical conditions of the interstellar medium in star-forming galaxies at z {\tilde} 1.5}",
+  journal = {\pasj},
+archivePrefix = "arXiv",
+   eprint = {1504.05589},
+ keywords = {galaxies: evolution, galaxies: high-redshift, galaxies: ISM, galaxies: star formation},
+     year = 2015,
+    month = oct,
+   volume = 67,
+      eid = {80},
+    pages = {80},
+      doi = {10.1093/pasj/psv041},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2015PASJ...67...80H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015ApJ...805...45L,
+   author = {{Ly}, C. and {Rigby}, J.~R. and {Cooper}, M. and {Yan}, R.},
+    title = "{Metal-poor, Strongly Star-forming Galaxies in the DEEP2 Survey: The Relationship between Stellar Mass, Temperature-based Metallicity, and Star Formation Rate}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1412.1834},
+ keywords = {galaxies: abundances, galaxies: distances and redshifts, galaxies: evolution, galaxies: ISM, galaxies: photometry, galaxies: starburst},
+     year = 2015,
+    month = may,
+   volume = 805,
+      eid = {45},
+    pages = {45},
+      doi = {10.1088/0004-637X/805/1/45},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2015ApJ...805...45L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015AJ....149...79D,
+   author = {{de los Reyes}, M.~A. and {Ly}, C. and {Lee}, J.~C. and {Salim}, S. and 
+	{Peeples}, M.~S. and {Momcheva}, I. and {Feddersen}, J. and 
+	{Dale}, D.~A. and {Ouchi}, M. and {Ono}, Y. and {Finn}, R.},
+    title = "{The Relationship between Stellar Mass, Gas Metallicity, and Star Formation Rate for H{$\alpha$}-Selected Galaxies at z {\ap} 0.8 from the NewH{$\alpha$} Survey}",
+  journal = {\aj},
+archivePrefix = "arXiv",
+   eprint = {1410.1551},
+ keywords = {galaxies: abundances, galaxies: evolution, galaxies: fundamental parameters, galaxies: ISM, galaxies: starburst},
+     year = 2015,
+    month = feb,
+   volume = 149,
+      eid = {79},
+    pages = {79},
+      doi = {10.1088/0004-6256/149/2/79},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2015AJ....149...79D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014ApJ...797..126S,
+   author = {{Salim}, S. and {Lee}, J.~C. and {Ly}, C. and {Brinchmann}, J. and 
+	{Dav{\'e}}, R. and {Dickinson}, M. and {Salzer}, J.~J. and {Charlot}, S.
+	},
+    title = "{A Critical Look at the Mass-Metallicity-Star Formation Rate Relation in the Local Universe. I. An Improved Analysis Framework and Confounding Systematics}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1411.7391},
+ keywords = {galaxies: abundances, galaxies: evolution, galaxies: fundamental parameters },
+     year = 2014,
+    month = dec,
+   volume = 797,
+      eid = {126},
+    pages = {126},
+      doi = {10.1088/0004-637X/797/2/126},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2014ApJ...797..126S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014ApJ...780..122L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Nagao}, T. and {Kashikawa}, N. and 
+	{Shimasaku}, K. and {Hayashi}, M.},
+    title = "{``Direct'' Gas-phase Metallicities, Stellar Properties, and Local Environments of Emission-line Galaxies at Redshifts below 0.90}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1307.7712},
+ keywords = {galaxies: abundances, galaxies: distances and redshifts, galaxies: evolution, galaxies: ISM, galaxies: photometry, galaxies: starburst},
+     year = 2014,
+    month = jan,
+   volume = 780,
+      eid = {122},
+    pages = {122},
+      doi = {10.1088/0004-637X/780/2/122},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2014ApJ...780..122L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013ApJ...772...48P,
+   author = {{Pirzkal}, N. and {Rothberg}, B. and {Ly}, C. and {Malhotra}, S. and 
+	{Rhoads}, J.~E. and {Grogin}, N.~A. and {Dahlen}, T. and {Noeske}, K.~G. and 
+	{Meurer}, G.~R. and {Walsh}, J.~R. and {Hathi}, N.~P. and {Cohen}, S.~H. and 
+	{Bellini}, A. and {Holwerda}, B.~W. and {Straughn}, A.~N. and 
+	{Mechtley}, M. and {Windhorst}, R.~A.},
+    title = "{Emission-line Galaxies from the Hubble Space Telescope Probing Evolution and Reionization Spectroscopically (PEARS) Grism Survey. II. The Complete Sample}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1208.5535},
+ keywords = {catalogs, galaxies: evolution, galaxies: luminosity function, mass function, line: identification},
+     year = 2013,
+    month = jul,
+   volume = 772,
+      eid = {48},
+    pages = {48},
+      doi = {10.1088/0004-637X/772/1/48},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2013ApJ...772...48P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013AJ....145...47M,
+   author = {{Momcheva}, I.~G. and {Lee}, J.~C. and {Ly}, C. and {Salim}, S. and 
+	{Dale}, D.~A. and {Ouchi}, M. and {Finn}, R. and {Ono}, Y.},
+    title = "{Nebular Attenuation in H{$\alpha$}-selected Star-forming Galaxies at z = 0.8 from the NewH{$\alpha$} Survey}",
+  journal = {\aj},
+archivePrefix = "arXiv",
+   eprint = {1207.5479},
+ keywords = {dust, extinction, galaxies: evolution, galaxies: high-redshift, galaxies: star formation },
+     year = 2013,
+    month = feb,
+   volume = 145,
+      eid = {47},
+    pages = {47},
+      doi = {10.1088/0004-6256/145/2/47},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2013AJ....145...47M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...761...85K,
+   author = {{Kashikawa}, N. and {Nagao}, T. and {Toshikawa}, J. and {Ishizaki}, Y. and 
+	{Egami}, E. and {Hayashi}, M. and {Ly}, C. and {Malkan}, M.~A. and 
+	{Matsuda}, Y. and {Shimasaku}, K. and {Iye}, M. and {Ota}, K. and 
+	{Shibuya}, T. and {Jiang}, L. and {Taniguchi}, Y. and {Shioya}, Y.
+	},
+    title = "{A Ly{$\alpha$} Emitter with an Extremely Large Rest-frame Equivalent Width of \~{}900 {\AA} at z = 6.5: A Candidate Population III-dominated Galaxy?}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1210.4933},
+ keywords = {cosmology: observations, early universe, galaxies: formation, galaxies: high-redshift},
+     year = 2012,
+    month = dec,
+   volume = 761,
+      eid = {85},
+    pages = {85},
+      doi = {10.1088/0004-637X/761/2/85},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012ApJ...761...85K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...760L..11U,
+   author = {{Urata}, Y. and {Tsai}, P.~P. and {Huang}, K. and {Morokuma}, T. and 
+	{Yasuda}, N. and {Tanaka}, M. and {Motohara}, K. and {Hayashi}, M. and 
+	{Kashikawa}, N. and {Ly}, C. and {Malkan}, M.~A.},
+    title = "{Unusual Long and Luminous Optical Transient in the Subaru Deep Field}",
+  journal = {\apjl},
+archivePrefix = "arXiv",
+   eprint = {1210.6909},
+ keywords = {supernovae: general},
+     year = 2012,
+    month = nov,
+   volume = 760,
+      eid = {L11},
+    pages = {L11},
+      doi = {10.1088/2041-8205/760/1/L11},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012ApJ...760L..11U},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...757...63L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Kashikawa}, N. and {Hayashi}, M. and 
+	{Nagao}, T. and {Shimasaku}, K. and {Ota}, K. and {Ross}, N.~R.
+	},
+    title = "{The Stellar Population and Star Formation Rates of z {\ap} 1.5-1.6 [O II]-emitting Galaxies Selected from Narrowband Emission-line Surveys}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1206.4303},
+ keywords = {galaxies: distances and redshifts, galaxies: evolution, galaxies: high-redshift, galaxies: photometry, galaxies: star formation, infrared: galaxies, ultraviolet: galaxies},
+     year = 2012,
+    month = sep,
+   volume = 757,
+      eid = {63},
+    pages = {63},
+      doi = {10.1088/0004-637X/757/1/63},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012ApJ...757...63L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012PASP..124..782L,
+   author = {{Lee}, J.~C. and {Ly}, C. and {Spitler}, L. and {Labb{\'e}}, I. and 
+	{Salim}, S. and {Persson}, S.~E. and {Ouchi}, M. and {Dale}, D.~A. and 
+	{Monson}, A. and {Murphy}, D.},
+    title = "{A Dual-Narrowband Survey for H{$\alpha$} Emitters at Redshift of 2.2: Demonstration of the Technique and Constraints on the H{$\alpha$} Luminosity Function}",
+  journal = {\pasp},
+archivePrefix = "arXiv",
+   eprint = {1205.0017},
+     year = 2012,
+    month = jul,
+   volume = 124,
+    pages = {782},
+      doi = {10.1086/666528},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012PASP..124..782L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...747L..16L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Kashikawa}, N. and {Ota}, K. and 
+	{Shimasaku}, K. and {Iye}, M. and {Currie}, T.},
+    title = "{Dust Attenuation and H{$\alpha$} Star Formation Rates of z \~{} 0.5 Galaxies}",
+  journal = {\apjl},
+archivePrefix = "arXiv",
+   eprint = {1202.0278},
+ keywords = {dust, extinction, galaxies: distances and redshifts, galaxies: evolution, galaxies: high-redshift, galaxies: photometry},
+     year = 2012,
+    month = mar,
+   volume = 747,
+      eid = {L16},
+    pages = {L16},
+      doi = {10.1088/2041-8205/747/1/L16},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012ApJ...747L..16L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...746..151A,
+   author = {{Abramowski}, A. and {Acero}, F. and {Aharonian}, F. and {Akhperjanian}, A.~G. and 
+	{Anton}, G. and {Balzer}, A. and {Barnacka}, A. and {Barres de Almeida}, U. and 
+	{Becherini}, Y. and {Becker}, J. and et al.},
+    title = "{The 2010 Very High Energy {$\gamma$}-Ray Flare and 10 Years of Multi-wavelength Observations of M 87}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1111.5341},
+ primaryClass = "astro-ph.CO",
+ keywords = {galaxies: active, galaxies: individual: M 87, galaxies: jets, galaxies: nuclei, gamma rays: galaxies, radiation mechanisms: non-thermal},
+     year = 2012,
+    month = feb,
+   volume = 746,
+      eid = {151},
+    pages = {151},
+      doi = {10.1088/0004-637X/746/2/151},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012ApJ...746..151A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...745...12N,
+   author = {{Nakajima}, K. and {Ouchi}, M. and {Shimasaku}, K. and {Ono}, Y. and 
+	{Lee}, J.~C. and {Foucaud}, S. and {Ly}, C. and {Dale}, D.~A. and 
+	{Salim}, S. and {Finn}, R. and {Almaini}, O. and {Okamura}, S.
+	},
+    title = "{Average Metallicity and Star Formation Rate of Ly{$\alpha$} Emitters Probed by a Triple Narrowband Survey}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1105.2824},
+ keywords = {galaxies: abundances, galaxies: evolution, galaxies: formation, galaxies: high-redshift, galaxies: star formation},
+     year = 2012,
+    month = jan,
+   volume = 745,
+      eid = {12},
+    pages = {12},
+      doi = {10.1088/0004-637X/745/1/12},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2012ApJ...745...12N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2011ApJ...735...91L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Hayashi}, M. and {Motohara}, K. and 
+	{Kashikawa}, N. and {Shimasaku}, K. and {Nagao}, T. and {Grady}, C.
+	},
+    title = "{A Census of Star-forming Galaxies at z = 1-3 in the Subaru Deep Field}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1104.5019},
+ primaryClass = "astro-ph.CO",
+ keywords = {galaxies: distances and redshifts, galaxies: evolution, galaxies: high-redshift, galaxies: photometry, infrared: galaxies, ultraviolet: galaxies},
+     year = 2011,
+    month = jul,
+   volume = 735,
+      eid = {91},
+    pages = {91},
+      doi = {10.1088/0004-637X/735/2/91},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2011ApJ...735...91L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2011ApJ...734..119K,
+   author = {{Kashikawa}, N. and {Shimasaku}, K. and {Matsuda}, Y. and {Egami}, E. and 
+	{Jiang}, L. and {Nagao}, T. and {Ouchi}, M. and {Malkan}, M.~A. and 
+	{Hattori}, T. and {Ota}, K. and {Taniguchi}, Y. and {Okamura}, S. and 
+	{Ly}, C. and {Iye}, M. and {Furusawa}, H. and {Shioya}, Y. and 
+	{Shibuya}, T. and {Ishizaki}, Y. and {Toshikawa}, J.},
+    title = "{Completing the Census of Ly{$\alpha$} Emitters at the Reionization Epoch}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1104.2330},
+ keywords = {cosmology: observations, early universe, galaxies: formation, galaxies: high-redshift},
+     year = 2011,
+    month = jun,
+   volume = 734,
+      eid = {119},
+    pages = {119},
+      doi = {10.1088/0004-637X/734/2/119},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2011ApJ...734..119K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2011ApJ...726..109L,
+   author = {{Ly}, C. and {Lee}, J.~C. and {Dale}, D.~A. and {Momcheva}, I. and 
+	{Salim}, S. and {Staudaher}, S. and {Moore}, C.~A. and {Finn}, R.
+	},
+    title = "{The H{$\alpha$} Luminosity Function and Star Formation Rate Volume Density at z = 0.8 from the NEWFIRM H{$\alpha$} Survey}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1011.2759},
+ primaryClass = "astro-ph.CO",
+ keywords = {galaxies: distances and redshifts, galaxies: evolution, galaxies: luminosity function, mass function, galaxies: photometry, galaxies: star formation},
+     year = 2011,
+    month = jan,
+   volume = 726,
+      eid = {109},
+    pages = {109},
+      doi = {10.1088/0004-637X/726/2/109},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2011ApJ...726..109L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010PASJ...62.1167O,
+   author = {{Ota}, K. and {Ly}, C. and {Malkan}, M.~A. and {Motohara}, K. and 
+	{Hayashi}, M. and {Shimasaku}, K. and {Morokuma}, T. and {Iye}, M. and 
+	{Kashikawa}, N. and {Hattori}, T.},
+    title = "{Spitzer Space Telescope Constraint on the Stellar Mass of a z = 6.96 Ly{$\alpha$} Emitter}",
+  journal = {\pasj},
+archivePrefix = "arXiv",
+   eprint = {1008.4837},
+ keywords = {cosmology: early universe, cosmology: observations, galaxies: high-redshift},
+     year = 2010,
+    month = oct,
+   volume = 62,
+    pages = {1167-1175},
+      doi = {10.1093/pasj/62.5.1167},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2010PASJ...62.1167O},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010A&A...509A..83D,
+   author = {{Doherty}, M. and {Tanaka}, M. and {De Breuck}, C. and {Ly}, C. and 
+	{Kodama}, T. and {Kurk}, J. and {Seymour}, N. and {Vernet}, J. and 
+	{Stern}, D. and {Venemans}, B. and {Kajisawa}, M. and {Tanaka}, I.
+	},
+    title = "{Optical and near-IR spectroscopy of candidate red galaxies in two z \~{} 2.5 proto-clusters}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {0911.1717},
+ keywords = {galaxies: clusters: individual: MRC 1138-262, galaxies: clusters: individual: MRC 0943-242, galaxies: evolution, galaxies: high-redshift, large-scale structure of Universe, infrared: galaxies},
+     year = 2010,
+    month = jan,
+   volume = 509,
+      eid = {A83},
+    pages = {A83},
+      doi = {10.1051/0004-6361/200912868},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2010A%26A...509A..83D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2009Sci...325..444A,
+   author = {{Acciari}, V.~A. and {Aliu}, E. and {Arlen}, T. and {Bautista}, M. and 
+	{Beilicke}, M. and {Benbow}, W. and {Bradbury}, S.~M. and {Buckley}, J.~H. and 
+	{Bugaev}, V. and {Butt}, Y. and et al.},
+    title = "{Radio Imaging of the Very-High-Energy {$\gamma$}-Ray Emission Region in the Central Engine of a Radio Galaxy}",
+  journal = {Science},
+archivePrefix = "arXiv",
+   eprint = {0908.0511},
+ primaryClass = "astro-ph.HE",
+     year = 2009,
+    month = jul,
+   volume = 325,
+    pages = {444},
+      doi = {10.1126/science.1175406},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2009Sci...325..444A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2009PASJ...61..487H,
+   author = {{Hatsukade}, B. and {Iono}, D. and {Motohara}, K. and {Nakanishi}, K. and 
+	{Hayashi}, M. and {Shimasaku}, K. and {Nagao}, T. and {Tamura}, Y. and 
+	{Malkan}, M.~A. and {Ly}, C. and {Kohno}, K.},
+    title = "{A Search for Molecular Gas toward a BzK-Selected Star-Forming Galaxy at z = 2.044}",
+  journal = {\pasj},
+archivePrefix = "arXiv",
+   eprint = {0901.3388},
+ keywords = {cosmology: observations, galaxies: evolution, galaxies: formation, galaxies: high-redshift, galaxies: individual (SDF-26821), galaxies: ISM, galaxies: starburst},
+     year = 2009,
+    month = jun,
+   volume = 61,
+    pages = {487-491},
+      doi = {10.1093/pasj/61.3.487},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2009PASJ...61..487H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2009ApJ...697.1410L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Treu}, T. and {Woo}, J.-H. and 
+	{Currie}, T. and {Hayashi}, M. and {Kashikawa}, N. and {Motohara}, K. and 
+	{Shimasaku}, K. and {Yoshida}, M.},
+    title = "{Lyman Break Galaxies at z {\ap} 1.8-2.8: GALEX/NUV Imaging of the Subaru Deep Field}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {0902.4712},
+ primaryClass = "astro-ph.CO",
+ keywords = {galaxies: evolution, galaxies: high-redshift, galaxies: luminosity function, mass function, galaxies: photometry},
+     year = 2009,
+    month = jun,
+   volume = 697,
+    pages = {1410-1432},
+      doi = {10.1088/0004-637X/697/2/1410},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2009ApJ...697.1410L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2009ApJ...691..140H,
+   author = {{Hayashi}, M. and {Motohara}, K. and {Shimasaku}, K. and {Onodera}, M. and 
+	{Uchimoto}, Y.~K. and {Kashikawa}, N. and {Yoshida}, M. and 
+	{Okamura}, S. and {Ly}, C. and {Malkan}, M.~A.},
+    title = "{Star Formation Rates and Metallicities of K-Selected Star-Forming Galaxies at z \~{} 2}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {0809.5100},
+ keywords = {galaxies: abundances, galaxies: formation, galaxies: high-redshift, galaxies: starburst},
+     year = 2009,
+    month = jan,
+   volume = 691,
+    pages = {140-151},
+      doi = {10.1088/0004-637X/691/1/140},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2009ApJ...691..140H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2008ApJ...680..100N,
+   author = {{Nagao}, T. and {Sasaki}, S.~S. and {Maiolino}, R. and {Grady}, C. and 
+	{Kashikawa}, N. and {Ly}, C. and {Malkan}, M.~A. and {Motohara}, K. and 
+	{Murayama}, T. and {Schaerer}, D. and {Shioya}, Y. and {Taniguchi}, Y.
+	},
+    title = "{A Photometric Survey for Ly{$\alpha$}-He II Dual Emitters: Searching for Population III Stars in High-Redshift Galaxies}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {0802.4123},
+ keywords = {early universe, galaxies: evolution, galaxies: formation, galaxies: starburst, stars: early-type},
+     year = 2008,
+    month = jun,
+   volume = 680,
+    pages = {100-109},
+      doi = {10.1086/587888},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2008ApJ...680..100N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2007A&A...468..877N,
+   author = {{Nagao}, T. and {Murayama}, T. and {Maiolino}, R. and {Marconi}, A. and 
+	{Kashikawa}, N. and {Ajiki}, M. and {Hattori}, T. and {Ly}, C. and 
+	{Malkan}, M.~A. and {Motohara}, K. and {Ohta}, K. and {Sasaki}, S.~S. and 
+	{Shioya}, Y. and {Taniguchi}, Y.},
+    title = "{High-redshift Ly{$\alpha$} emitters with a large equivalent width. Properties of i'-dropout galaxies with an NB921-band depression in the Subaru deep field}",
+  journal = {\aap},
+   eprint = {astro-ph/0702377},
+ keywords = {cosmology: early universe, galaxies: evolution, galaxies: formation, galaxies: individual: J132345.6+271701, galaxies: individual: J132519.4+271829, galaxies: starburst},
+     year = 2007,
+    month = jun,
+   volume = 468,
+    pages = {877-883},
+      doi = {10.1051/0004-6361:20066177},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2007A%26A...468..877N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2007ApJ...660..200L,
+   author = {{Ly}, C. and {Walker}, R.~C. and {Junor}, W.},
+    title = "{High-Frequency VLBI Imaging of the Jet Base of M87}",
+  journal = {\apj},
+   eprint = {astro-ph/0701511},
+ keywords = {Galaxies: Active, Galaxies: Elliptical and Lenticular, cD, Galaxies: Individual: Messier Number: M87, Galaxies: Jets, Galaxies: Kinematics and Dynamics, Radio Continuum: Galaxies},
+     year = 2007,
+    month = may,
+   volume = 660,
+    pages = {200-205},
+      doi = {10.1086/512846},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2007ApJ...660..200L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2007ApJ...657..738L,
+   author = {{Ly}, C. and {Malkan}, M.~A. and {Kashikawa}, N. and {Shimasaku}, K. and 
+	{Doi}, M. and {Nagao}, T. and {Iye}, M. and {Kodama}, T. and 
+	{Morokuma}, T. and {Motohara}, K.},
+    title = "{The Luminosity Function and Star Formation Rate between Redshifts of 0.07 and 1.47 for Narrowband Emitters in the Subaru Deep Field}",
+  journal = {\apj},
+   eprint = {astro-ph/0610846},
+ keywords = {Galaxies: Distances and Redshifts, Galaxies: Evolution, Galaxies: Luminosity Function, Mass Function, Galaxies: Photometry},
+     year = 2007,
+    month = mar,
+   volume = 657,
+    pages = {738-759},
+      doi = {10.1086/510828},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2007ApJ...657..738L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2006ApJ...648....7K,
+   author = {{Kashikawa}, N. and {Shimasaku}, K. and {Malkan}, M.~A. and 
+	{Doi}, M. and {Matsuda}, Y. and {Ouchi}, M. and {Taniguchi}, Y. and 
+	{Ly}, C. and {Nagao}, T. and {Iye}, M. and {Motohara}, K. and 
+	{Murayama}, T. and {Murozono}, K. and {Nariai}, K. and {Ohta}, K. and 
+	{Okamura}, S. and {Sasaki}, T. and {Shioya}, Y. and {Umemura}, M.
+	},
+    title = "{The End of the Reionization Epoch Probed by Ly{$\alpha$} Emitters at z = 6.5 in the Subaru Deep Field}",
+  journal = {\apj},
+   eprint = {astro-ph/0604149},
+ keywords = {Cosmology: Observations, Cosmology: Early Universe, Galaxies: Formation, Galaxies: High-Redshift},
+     year = 2006,
+    month = sep,
+   volume = 648,
+    pages = {7-22},
+      doi = {10.1086/504966},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2006ApJ...648....7K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2006PASJ...58..313S,
+   author = {{Shimasaku}, K. and {Kashikawa}, N. and {Doi}, M. and {Ly}, C. and 
+	{Malkan}, M.~A. and {Matsuda}, Y. and {Ouchi}, M. and {Hayashino}, T. and 
+	{Iye}, M. and {Motohara}, K. and {Murayama}, T. and {Nagao}, T. and 
+	{Ohta}, K. and {Okamura}, S. and {Sasaki}, T. and {Shioya}, Y. and 
+	{Taniguchi}, Y.},
+    title = "{Ly{$\alpha$} Emitters at z = 5.7 in the Subaru Deep Field}",
+  journal = {\pasj},
+   eprint = {astro-ph/0602614},
+ keywords = {galaxies: evolution, galaxies: high-redshift, galaxies: luminosity function, mass function, galaxies: photometry},
+     year = 2006,
+    month = apr,
+   volume = 58,
+    pages = {313-334},
+      doi = {10.1093/pasj/58.2.313},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2006PASJ...58..313S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005ApJ...618..609L,
+   author = {{Ly}, C. and {De Young}, D.~S. and {Bechtold}, J.},
+    title = "{The Discovery of Extended Thermal X-Ray Emission from PKS 2152-699: Evidence for a ``Jet-Cloud'' Interaction}",
+  journal = {\apj},
+   eprint = {astro-ph/0409272},
+ keywords = {Galaxies: Active, Galaxies: Individual: Alphanumeric: PKS 2152-699, Galaxies: Jets, Galaxies: Kinematics and Dynamics},
+     year = 2005,
+    month = jan,
+   volume = 618,
+    pages = {609-617},
+      doi = {10.1086/426011},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2005ApJ...618..609L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2004AJ....127..119L,
+   author = {{Ly}, C. and {Walker}, R.~C. and {Wrobel}, J.~M.},
+    title = "{An Attempt to Probe the Radio Jet Collimation Regions in NGC 4278, NGC 4374 (M84), and NGC 6166}",
+  journal = {\aj},
+   eprint = {astro-ph/0309743},
+ keywords = {Galaxies: Active, Galaxies: Elliptical and Lenticular, cD, galaxies: individual (NGC 4278), Galaxies: Individual: NGC Number: NGC 4374, Galaxies: Individual: NGC Number: NGC 4486, Galaxies: Individual: NGC Number: NGC 6166, Galaxies: Jets-},
+     year = 2004,
+    month = jan,
+   volume = 127,
+    pages = {119-124},
+      doi = {10.1086/379855},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2004AJ....127..119L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2002AJ....124.1943B,
+   author = {{Brotherton}, M.~S. and {Ly}, C. and {Wills}, B.~J. and {Laurent-Muehleisen}, S.~A. and 
+	{van Breugel}, W. and {Antonucci}, R.~R.~J.},
+    title = "{Multiband VLA Observations of the Faint Radio Core of 3CR 68.1}",
+  journal = {\aj},
+   eprint = {astro-ph/0206324},
+ keywords = {Galaxies: Quasars: General, Galaxies: Quasars: Individual: Alphanumeric: 3CR 68.1, Radio Continuum},
+     year = 2002,
+    month = oct,
+   volume = 124,
+    pages = {1943-1947},
+      doi = {10.1086/342450},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2002AJ....124.1943B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
