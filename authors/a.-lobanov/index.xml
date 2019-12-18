@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Lobanov | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/a.-lobanov/</link>
+      <atom:link href="https://astrochun.github.io/authors/a.-lobanov/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Lobanov</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 01 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>A. Lobanov</title>
+      <link>https://astrochun.github.io/authors/a.-lobanov/</link>
+    </image>
+    
+    <item>
+      <title>Observations of the Structure and Dynamics of the Inner M87 Jet</title>
+      <link>https://astrochun.github.io/publication/2016-galax-4-46-w/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2016-galax-4-46-w/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

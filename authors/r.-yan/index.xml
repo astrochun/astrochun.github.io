@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R. Yan | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/r.-yan/</link>
+      <atom:link href="https://astrochun.github.io/authors/r.-yan/index.xml" rel="self" type="application/rss+xml" />
+    <description>R. Yan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Fri, 01 May 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>R. Yan</title>
+      <link>https://astrochun.github.io/authors/r.-yan/</link>
+    </image>
+    
+    <item>
+      <title>Metal-poor, Strongly Star-forming Galaxies in the DEEP2 Survey: The Relationship between Stellar Mass, Temperature-based Metallicity, and Star Formation Rate</title>
+      <link>https://astrochun.github.io/publication/2015-ap-j-805-45-l/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2015-ap-j-805-45-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

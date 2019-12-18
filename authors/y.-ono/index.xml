@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y. Ono | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/y.-ono/</link>
+      <atom:link href="https://astrochun.github.io/authors/y.-ono/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y. Ono</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 01 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Y. Ono</title>
+      <link>https://astrochun.github.io/authors/y.-ono/</link>
+    </image>
+    
+    <item>
+      <title>The Relationship between Stellar Mass, Gas Metallicity, and Star Formation Rate for H$α$-Selected Galaxies at z ap 0.8 from the NewH$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2015-aj-149-79-d/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2015-aj-149-79-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nebular Attenuation in H$α$-selected Star-forming Galaxies at z = 0.8 from the NewH$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2013-aj-145-47-m/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2013-aj-145-47-m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Average Metallicity and Star Formation Rate of Ly$α$ Emitters Probed by a Triple Narrowband Survey</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-745-12-n/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-745-12-n/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

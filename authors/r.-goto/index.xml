@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R. Goto | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/r.-goto/</link>
+      <atom:link href="https://astrochun.github.io/authors/r.-goto/index.xml" rel="self" type="application/rss+xml" />
+    <description>R. Goto</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>R. Goto</title>
+      <link>https://astrochun.github.io/authors/r.-goto/</link>
+    </image>
+    
+    <item>
+      <title>Physical conditions of the interstellar medium in star-forming galaxies at z tilde 1.5</title>
+      <link>https://astrochun.github.io/publication/2015-pasj-67-80-h/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2015-pasj-67-80-h/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
