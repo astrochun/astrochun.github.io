@@ -17,7 +17,17 @@
       <link>https://astrochun.github.io/project/mmttools/mmirs/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/project/mmttools/mmirs/</guid>
-      <description>&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+      <description>&lt;p&gt;Reduction of &lt;a href=&#34;https://www.cfa.harvard.edu/mmti/mmirs.html&#34;&gt;MMIRS (MMT and Magellan Infrared Spectograph)&lt;/a&gt;
+spectral data is possible using an existing open-source pipeline called
+&lt;code&gt;mmirs-pipeline&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The pipeline software, developed by Igor Chilingarian (SAO), is published
+in the &lt;a href=&#34;http://dx.doi.org/10.1086/680598&#34;&gt;PASP Journal&lt;/a&gt;. The pipeline&#39;s
+git repository is available &lt;a href=&#34;https://bitbucket.org/chil_sai/mmirs-pipeline/wiki/Home&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One difficulty with using &lt;code&gt;mmirs-pipeline&lt;/code&gt; is the use of &amp;ldquo;taskfiles&amp;rdquo; that
+describe the observation and the steps for data reduction.  These files are
+constructed for each pair of dithered spectra.  No existing software existed to
+create these files.  As such, a lot of manual effort on the part of a researcher
+was needed.&lt;/p&gt;
 </description>
     </item>
     
