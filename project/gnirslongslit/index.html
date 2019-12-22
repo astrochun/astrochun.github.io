@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Using public data to understand chemical enrichment in galaxies">
+  <meta name="description" content="A Python/PyRAF data reduction pipeline for longslit near-infared spectra from Gemini/GNIRS instrument">
 
   
   <link rel="alternate" hreflang="en-us" href="https://astrochun.github.io/project/gnirslongslit/">
@@ -115,7 +115,7 @@
   <meta property="og:site_name" content="Chun Ly">
   <meta property="og:url" content="https://astrochun.github.io/project/gnirslongslit/">
   <meta property="og:title" content="Gemini GNIRS Longslit Reduction | Chun Ly">
-  <meta property="og:description" content="Using public data to understand chemical enrichment in galaxies"><meta property="og:image" content="https://astrochun.github.io/img/icon-192.png">
+  <meta property="og:description" content="A Python/PyRAF data reduction pipeline for longslit near-infared spectra from Gemini/GNIRS instrument"><meta property="og:image" content="https://astrochun.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://astrochun.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -165,7 +165,7 @@
       "url": "https://astrochun.github.io/img/icon-512.png"
     }
   },
-  "description": "Using public data to understand chemical enrichment in galaxies"
+  "description": "A Python/PyRAF data reduction pipeline for longslit near-infared spectra from Gemini/GNIRS instrument"
 }
 </script>
 
@@ -541,6 +541,22 @@
 
 
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.github.com/astrochun/GNIRSLongSlit" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    GitHub
+  </a>
+
 
 </div>
 
@@ -553,7 +569,33 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This page is under construction. Stay tuned!</p>
+      <h2 id="overview">Overview</h2>
+<p>The <a href="https://www.gemini.edu/sciops/instruments/gnirs/">Gemini Near-Infrared Spectograph (GNIRS)</a>
+was commissioned in 2004 by the <a href="https://www.gemini.edu/">Gemini Observatory</a>.
+With coverage of 1&ndash;5$\mu$m, it remains a work-horse facility instrument on
+the Gemini North telescope in Hawai`i.</p>
+<p>Recently, I used this instrument to obtain near-infrared spectra for low-mass
+galaxies at $z\approx0.8$. I learned that while Gemini has provided an <a href="https://www.gemini.edu/node/11823">IRAF
+reduction pipeline</a>, automated
+implementation of this pipeline has been limited. For example, this
+<a href="https://www.gemini.edu/sciops/data-and-results/getting-started#gnirs">website</a>
+provided a number of tutorials, but ultimately the user needed to create scripts
+to execute, as this <a href="http://www.gemini.edu/sciops/data/IRAFdoc/gnirs_xd_example.cl">example script</a>
+demonstrates.  While Gemini recently released the <a href="https://ascl.net/1811.002">DRAGONS Python-based
+data reduction pipeline</a>, reduction is limited
+to imaging data.</p>
+<h2 id="the-automation-pipeline">The Automation Pipeline</h2>
+<p>With spectra taken on several dozens of nights, automation was critical to
+expedite data reduction for my project. Thus, I created a Python/PyRAF
+pipeline that used the existing Gemini IRAF package. This automation pipeline
+is made publicly available on <a href="https://github.com/astrochun/GNIRSLongSlit">GitHub</a>
+and distributed under an <a href="https://choosealicense.com/licenses/mit/">MIT License</a>.</p>
+<p>The pipeline has several features:</p>
+<ul>
+<li>Longslit target acquisition checks with quality assurance (QA) visualization</li>
+<li>CLEANIR</li>
+</ul>
+<p>This page is under construction. Stay tuned!</p>
 
     </div>
 
@@ -754,6 +796,21 @@
     <li>
       <a href="/files/CV.pdf" >
         <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=9O0KHcUAAAAJ&amp;hl" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
       </a>
     </li>
   
