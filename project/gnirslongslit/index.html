@@ -589,11 +589,19 @@ to imaging data.</p>
 expedite data reduction for my project. Thus, I created a Python/PyRAF
 pipeline that used the existing Gemini IRAF package. This automation pipeline
 is made publicly available on <a href="https://github.com/astrochun/GNIRSLongSlit">GitHub</a>
-and distributed under an <a href="https://choosealicense.com/licenses/mit/">MIT License</a>.</p>
+and distributed under an <a href="https://choosealicense.com/licenses/mit/">MIT License</a>.
+Because of the dependence on PyRAF/IRAF, this code is only compatible with
+Python 2.7.</p>
 <p>The pipeline has several features:</p>
 <ul>
 <li>Longslit target acquisition checks with quality assurance (QA) visualization</li>
-<li>CLEANIR</li>
+<li>Correct detector readout artefacts with
+<a href="https://www.gemini.edu/sciops/instruments/niri/data-format-and-reduction/cleanir"><code>CLEANIR</code> routine</a></li>
+<li>Flat fielding</li>
+<li>Wavelength calibration</li>
+<li>Dithered stacking</li>
+<li>Telluric flux calibration</li>
+<li>Spectral extraction</li>
 </ul>
 <p>This page is under construction. Stay tuned!</p>
 
