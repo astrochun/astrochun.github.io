@@ -3,17 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://astrochun.github.io/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <loc>https://astrochun.github.io/tags/astronomical-data-analysis/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://astrochun.github.io/tags/galaxy-evolution/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <loc>https://astrochun.github.io/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://astrochun.github.io/project/gnirslongslit/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://astrochun.github.io/project/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://astrochun.github.io/tags/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://astrochun.github.io/tags/galaxy-evolution/</loc>
     <lastmod>2019-12-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,16 +43,6 @@
   </url>
   
   <url>
-    <loc>https://astrochun.github.io/tags/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://astrochun.github.io/tags/astronomical-data-analysis/</loc>
-    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://astrochun.github.io/project/mmttools/mmirs/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
@@ -49,11 +54,6 @@
   
   <url>
     <loc>https://astrochun.github.io/project/deep2/</loc>
-    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://astrochun.github.io/project/gnirslongslit/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   

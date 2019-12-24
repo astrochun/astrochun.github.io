@@ -5,12 +5,55 @@
     <link>https://astrochun.github.io/</link>
       <atom:link href="https://astrochun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Chun Ly</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Chun Ly</title>
       <link>https://astrochun.github.io/</link>
     </image>
+    
+    <item>
+      <title>Gemini GNIRS Longslit Reduction</title>
+      <link>https://astrochun.github.io/project/gnirslongslit/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/gnirslongslit/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.gemini.edu/sciops/instruments/gnirs/&#34;&gt;Gemini Near-Infrared Spectograph (GNIRS)&lt;/a&gt;
+was commissioned in 2004 by the &lt;a href=&#34;https://www.gemini.edu/&#34;&gt;Gemini Observatory&lt;/a&gt;.
+With coverage of 1&amp;ndash;5$\mu$m, it remains a work-horse facility instrument on
+the Gemini North telescope in Hawai`i.&lt;/p&gt;
+&lt;p&gt;Recently, I used this instrument to obtain near-infrared spectra for low-mass
+galaxies at $z\approx0.8$. I learned that while Gemini has provided an &lt;a href=&#34;https://www.gemini.edu/node/11823&#34;&gt;IRAF
+reduction pipeline&lt;/a&gt;, automated
+implementation of this pipeline has been limited. For example, this
+&lt;a href=&#34;https://www.gemini.edu/sciops/data-and-results/getting-started#gnirs&#34;&gt;website&lt;/a&gt;
+provided a number of tutorials, but ultimately the user needed to create scripts
+to execute, as this &lt;a href=&#34;http://www.gemini.edu/sciops/data/IRAFdoc/gnirs_xd_example.cl&#34;&gt;example script&lt;/a&gt;
+demonstrates.  While Gemini recently released the &lt;a href=&#34;https://ascl.net/1811.002&#34;&gt;DRAGONS Python-based
+data reduction pipeline&lt;/a&gt;, reduction is limited
+to imaging data.&lt;/p&gt;
+&lt;h2 id=&#34;the-automation-pipeline&#34;&gt;The Automation Pipeline&lt;/h2&gt;
+&lt;p&gt;With spectra taken on several dozens of nights, automation was critical to
+expedite data reduction for my project. Thus, I created a Python/PyRAF
+pipeline that used the existing Gemini IRAF package. This automation pipeline
+is made publicly available on &lt;a href=&#34;https://github.com/astrochun/GNIRSLongSlit&#34;&gt;GitHub&lt;/a&gt;
+and distributed under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.
+Because of the dependence on PyRAF/IRAF, this code is only compatible with
+Python 2.7.&lt;/p&gt;
+&lt;p&gt;The pipeline has several features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Longslit target acquisition checks with quality assurance (QA) visualization&lt;/li&gt;
+&lt;li&gt;Correct detector readout artefacts with
+&lt;a href=&#34;https://www.gemini.edu/sciops/instruments/niri/data-format-and-reduction/cleanir&#34;&gt;&lt;code&gt;CLEANIR&lt;/code&gt; routine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Flat fielding&lt;/li&gt;
+&lt;li&gt;Wavelength calibration&lt;/li&gt;
+&lt;li&gt;Dithered stacking&lt;/li&gt;
+&lt;li&gt;Telluric flux calibration&lt;/li&gt;
+&lt;li&gt;Spectral extraction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Subaru Deep Field (SDF)</title>
@@ -194,49 +237,6 @@ dependence on star formation in the mass&amp;ndash;metallicity relation.&lt;/p&g
 &lt;a href=&#34;http://dx.doi.org/10.1093/mnras/stz3047&#34;&gt;&lt;em&gt;Monthly Notices of the Royal Astronomical Society&lt;/em&gt;&lt;/a&gt;
 as a first-author paper for Drew Weldon, a former undergraduate astronomy major at the
 UofA and now attending UC Riverside for graduate school.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Gemini GNIRS Longslit Reduction</title>
-      <link>https://astrochun.github.io/project/gnirslongslit/</link>
-      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/project/gnirslongslit/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&#34;https://www.gemini.edu/sciops/instruments/gnirs/&#34;&gt;Gemini Near-Infrared Spectograph (GNIRS)&lt;/a&gt;
-was commissioned in 2004 by the &lt;a href=&#34;https://www.gemini.edu/&#34;&gt;Gemini Observatory&lt;/a&gt;.
-With coverage of 1&amp;ndash;5$\mu$m, it remains a work-horse facility instrument on
-the Gemini North telescope in Hawai`i.&lt;/p&gt;
-&lt;p&gt;Recently, I used this instrument to obtain near-infrared spectra for low-mass
-galaxies at $z\approx0.8$. I learned that while Gemini has provided an &lt;a href=&#34;https://www.gemini.edu/node/11823&#34;&gt;IRAF
-reduction pipeline&lt;/a&gt;, automated
-implementation of this pipeline has been limited. For example, this
-&lt;a href=&#34;https://www.gemini.edu/sciops/data-and-results/getting-started#gnirs&#34;&gt;website&lt;/a&gt;
-provided a number of tutorials, but ultimately the user needed to create scripts
-to execute, as this &lt;a href=&#34;http://www.gemini.edu/sciops/data/IRAFdoc/gnirs_xd_example.cl&#34;&gt;example script&lt;/a&gt;
-demonstrates.  While Gemini recently released the &lt;a href=&#34;https://ascl.net/1811.002&#34;&gt;DRAGONS Python-based
-data reduction pipeline&lt;/a&gt;, reduction is limited
-to imaging data.&lt;/p&gt;
-&lt;h2 id=&#34;the-automation-pipeline&#34;&gt;The Automation Pipeline&lt;/h2&gt;
-&lt;p&gt;With spectra taken on several dozens of nights, automation was critical to
-expedite data reduction for my project. Thus, I created a Python/PyRAF
-pipeline that used the existing Gemini IRAF package. This automation pipeline
-is made publicly available on &lt;a href=&#34;https://github.com/astrochun/GNIRSLongSlit&#34;&gt;GitHub&lt;/a&gt;
-and distributed under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.
-Because of the dependence on PyRAF/IRAF, this code is only compatible with
-Python 2.7.&lt;/p&gt;
-&lt;p&gt;The pipeline has several features:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Longslit target acquisition checks with quality assurance (QA) visualization&lt;/li&gt;
-&lt;li&gt;Correct detector readout artefacts with
-&lt;a href=&#34;https://www.gemini.edu/sciops/instruments/niri/data-format-and-reduction/cleanir&#34;&gt;&lt;code&gt;CLEANIR&lt;/code&gt; routine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Flat fielding&lt;/li&gt;
-&lt;li&gt;Wavelength calibration&lt;/li&gt;
-&lt;li&gt;Dithered stacking&lt;/li&gt;
-&lt;li&gt;Telluric flux calibration&lt;/li&gt;
-&lt;li&gt;Spectral extraction&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
 </description>
     </item>
     

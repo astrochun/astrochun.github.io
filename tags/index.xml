@@ -5,12 +5,20 @@
     <link>https://astrochun.github.io/tags/</link>
       <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://astrochun.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Astronomical Data Analysis</title>
+      <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/astronomical-data-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Galaxy evolution</title>
@@ -25,14 +33,6 @@
       <link>https://astrochun.github.io/tags/research/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Astronomical Data Analysis</title>
-      <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
-      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/astronomical-data-analysis/</guid>
       <description></description>
     </item>
     
@@ -93,7 +93,7 @@
     </item>
     
     <item>
-      <title>cosmology: observations</title>
+      <title>Cosmology: Observations</title>
       <link>https://astrochun.github.io/tags/cosmology-observations/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/cosmology-observations/</guid>
@@ -109,7 +109,7 @@
     </item>
     
     <item>
-      <title>galaxies: high-redshift</title>
+      <title>Galaxies: High-Redshift</title>
       <link>https://astrochun.github.io/tags/galaxies-high-redshift/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-high-redshift/</guid>
@@ -165,7 +165,7 @@
     </item>
     
     <item>
-      <title>galaxies: distances and redshifts</title>
+      <title>Galaxies: Distances and Redshifts</title>
       <link>https://astrochun.github.io/tags/galaxies-distances-and-redshifts/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-distances-and-redshifts/</guid>
@@ -277,7 +277,7 @@
     </item>
     
     <item>
-      <title>galaxies: formation</title>
+      <title>Galaxies: Formation</title>
       <link>https://astrochun.github.io/tags/galaxies-formation/</link>
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-formation/</guid>
@@ -341,7 +341,7 @@
     </item>
     
     <item>
-      <title>cosmology: early universe</title>
+      <title>Cosmology: Early Universe</title>
       <link>https://astrochun.github.io/tags/cosmology-early-universe/</link>
       <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/cosmology-early-universe/</guid>
