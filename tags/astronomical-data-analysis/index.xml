@@ -71,6 +71,14 @@ describe the observation and the steps for data reduction.  These files are
 constructed for each pair of dithered spectra.  No existing software existed to
 create these files.  As such, a lot of manual effort on the part of a researcher
 was needed.&lt;/p&gt;
+&lt;h2 id=&#34;the-python-tool&#34;&gt;The Python Tool&lt;/h2&gt;
+&lt;p&gt;As part of a larger Python git repository (&lt;a href=&#34;www.github.com/astrochun/MMTtools&#34;&gt;MMTtools&lt;/a&gt;),
+&lt;code&gt;mmirs_pipeline_taskfile&lt;/code&gt; is a Python tool (compatible with 2.7 and 3.xx) that
+constructs the necessary task files and IDL script for execution. This code is
+made publicly available under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The code is available through PyPI, although cloning from the GitHub repository
+will give you the latest stable version.  Below are the steps for installation and the
+necessary prerequisite:&lt;/p&gt;
 </description>
     </item>
     
