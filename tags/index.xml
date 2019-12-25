@@ -5,7 +5,7 @@
     <link>https://astrochun.github.io/tags/</link>
       <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,17 +13,17 @@
     </image>
     
     <item>
-      <title>Astronomical Data Analysis</title>
-      <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/astronomical-data-analysis/</guid>
+      <title>Chemical enrichment</title>
+      <link>https://astrochun.github.io/tags/chemical-enrichment/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/chemical-enrichment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxy evolution</title>
       <link>https://astrochun.github.io/tags/galaxy-evolution/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxy-evolution/</guid>
       <description></description>
     </item>
@@ -31,16 +31,16 @@
     <item>
       <title>Research</title>
       <link>https://astrochun.github.io/tags/research/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chemical enrichment</title>
-      <link>https://astrochun.github.io/tags/chemical-enrichment/</link>
-      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/chemical-enrichment/</guid>
+      <title>Astronomical Data Analysis</title>
+      <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/astronomical-data-analysis/</guid>
       <description></description>
     </item>
     
