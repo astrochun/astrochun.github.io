@@ -63,12 +63,10 @@ Python 2.7.&lt;/p&gt;
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;The Subaru 8.2-meter telescope has stared for over 30 nights at one particular
 region of the northern sky with one of the most sensitive optical imagers in
-the world, Suprime-Cam. This camera enables images to be taken over a large
-part of the sky that is comparable to the angular extent of the Moon. The large
-area allows us to look at hundreds of thousands of galaxies simultaneously.
-Why stare for so long? To identify some of the faintest galaxies in the early
-universe! To do so, the survey utilized a technique called &amp;ldquo;narrowband imaging&amp;rdquo;
-to pick up emission from hydrogen and oxygen gas that reside within galaxies.&lt;/p&gt;
+the world (Suprime-Cam) to develop the Subaru Deep Field (SDF). This camera
+enables images to be taken over a large part of the sky that is comparable to
+the angular extent of the Moon. The large area allows us to look at hundreds
+of thousands of galaxies simultaneously.&lt;/p&gt;
 
 
 
@@ -100,6 +98,41 @@ to pick up emission from hydrogen and oxygen gas that reside within galaxies.&lt
 
 &lt;/figure&gt;
 
+&lt;p&gt;Why stare for so long? To identify some of the faintest galaxies in the early
+universe! To do so, the survey utilized a technique called &amp;ldquo;narrowband imaging&amp;rdquo;
+to pick up emission from hydrogen and oxygen gas that reside within galaxies.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://astrochun.github.io/img/Ly2014_fig1.jpg&#34; data-caption=&#34;Narrowband and intermediate filters for the SDF (Ly et al. 2014)&#34;&gt;
+&lt;img src=&#34;https://astrochun.github.io/img/Ly2014_fig1.jpg&#34; alt=&#34;&#34; width=&#34;75%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Narrowband and intermediate filters for the SDF (&lt;a href=&#34;http://dx.doi.org/10.1088/0004-637X/780/2/122&#34;&gt;Ly et al. 2014&lt;/a&gt;)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;i-luminosity-function-and-star-formation-rate-density&#34;&gt;I. Luminosity Function and Star Formation Rate Density&lt;/h3&gt;
 &lt;p&gt;Using the MMT, Keck, and Subaru observatories, my collaborators and I have
 targeted some of these faint galaxies with optical and near-infrared
 spectrographs. We found a rare population of galaxies that are rapidly forming
