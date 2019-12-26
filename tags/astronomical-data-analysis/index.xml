@@ -51,6 +51,8 @@ Python 2.7.&lt;/p&gt;
 &lt;li&gt;Telluric flux calibration&lt;/li&gt;
 &lt;li&gt;Spectral extraction&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Installation is best done by cloning the GitHub repository and installing PyRAF.&lt;/p&gt;
 &lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
 </description>
     </item>
@@ -76,9 +78,11 @@ was needed.&lt;/p&gt;
 &lt;code&gt;mmirs_pipeline_taskfile&lt;/code&gt; is a Python tool (compatible with 2.7 and 3.xx) that
 constructs the necessary task files and IDL script for execution. This code is
 made publicly available under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 &lt;p&gt;The code is available through PyPI, although cloning from the GitHub repository
 will give you the latest stable version.  Below are the steps for installation and the
 necessary prerequisite:&lt;/p&gt;
+&lt;p&gt;This page is still under construction.  Stay tuned!&lt;/p&gt;
 </description>
     </item>
     
