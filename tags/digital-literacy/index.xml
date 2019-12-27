@@ -21,12 +21,12 @@
 &lt;p&gt;There has been a growing need for digital preservation to enable open and
 reproducible science.  One of the major drivers for researchers is the
 requirement from federal agencies (e.g., NSF, NASA, NIH, DoE)
-of a data management plan. Data repositories, such as,
-&lt;a href=&#34;https://dataverse.org/&#34;&gt;Dataverse&lt;/a&gt;, &lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt;, and
-&lt;a href=&#34;https://figshare.com/&#34;&gt;Figshare&lt;/a&gt; are being used across all disciplines,
-including science, humanities, medicine, and technology to satisfy
-funder&#39;s requirements and other needs. These repository services focus
-on following the guiding data principles of
+of a &lt;a href=&#34;https://data.library.arizona.edu/data-management-plans&#34;&gt;data management plan&lt;/a&gt;.
+Data repositories, such as, &lt;a href=&#34;https://dataverse.org/&#34;&gt;Dataverse&lt;/a&gt;,
+&lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt;, and &lt;a href=&#34;https://figshare.com/&#34;&gt;Figshare&lt;/a&gt; are being
+used across all disciplines, including science, humanities, medicine, and
+technology to satisfy funder&#39;s requirements and other needs. These repository
+services focus on following the guiding data principles of
 &lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34;&gt;FAIR&lt;/a&gt;
 (Findable, Accessible, Interoperable, and Reusable).&lt;/p&gt;
 &lt;p&gt;In addition to these public repositories, R-1 universities have been providing
