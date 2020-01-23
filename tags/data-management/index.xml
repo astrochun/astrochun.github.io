@@ -5,12 +5,25 @@
     <link>https://astrochun.github.io/tags/data-management/</link>
       <atom:link href="https://astrochun.github.io/tags/data-management/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Management</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Data Management</title>
       <link>https://astrochun.github.io/tags/data-management/</link>
     </image>
+    
+    <item>
+      <title>Tech Talks</title>
+      <link>https://astrochun.github.io/project/techtalks/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/techtalks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Below are materials for recent presentations:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://astrochun.github.io/post/overleaf_github_git_sync&#34;&gt;Integrating an Overleaf git repo with your GitHub account (the right way!)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+&lt;p&gt;fill in the blank&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>UofA Research Data Repository</title>
