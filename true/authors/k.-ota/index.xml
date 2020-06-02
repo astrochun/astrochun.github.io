@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K. Ota | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/k.-ota/</link>
+      <atom:link href="https://astrochun.github.io/authors/k.-ota/index.xml" rel="self" type="application/rss+xml" />
+    <description>K. Ota</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 01 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>K. Ota</title>
+      <link>https://astrochun.github.io/authors/k.-ota/</link>
+    </image>
+    
+    <item>
+      <title>A Ly$α$ Emitter with an Extremely Large Rest-frame Equivalent Width of ̃900 Å at z = 6.5: A Candidate Population III-dominated Galaxy?</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-761-85-k/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-761-85-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Stellar Population and Star Formation Rates of z ap 1.5-1.6 [O II]-emitting Galaxies Selected from Narrowband Emission-line Surveys</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-757-63-l/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-757-63-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dust Attenuation and H$α$ Star Formation Rates of z ̃ 0.5 Galaxies</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-747-l-16-l/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-747-l-16-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Completing the Census of Ly$α$ Emitters at the Reionization Epoch</title>
+      <link>https://astrochun.github.io/publication/2011-ap-j-734-119-k/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2011-ap-j-734-119-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spitzer Space Telescope Constraint on the Stellar Mass of a z = 6.96 Ly$α$ Emitter</title>
+      <link>https://astrochun.github.io/publication/2010-pasj-62-1167-o/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2010-pasj-62-1167-o/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

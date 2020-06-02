@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Chun Ly</title>
+    <link>https://astrochun.github.io/post/</link>
+      <atom:link href="https://astrochun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://astrochun.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Integrating an Overleaf git repo with your GitHub account (the right way!)</title>
+      <link>https://astrochun.github.io/post/overleaf_github_git_sync/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/post/overleaf_github_git_sync/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt; is an environment for researchers to
+collaboratively write their manuscripts and papers with $\LaTeX$. It is
+an amazing tool, but I have found that it has its limitations. For example,
+if you edit within their web UI, each character change would show up as
+separate changes in their History page.  One of the benefits of Overleaf
+is that it is integrated with &lt;code&gt;git&lt;/code&gt;.  This is great as you can maintain
+version control and document changes to your collaborators.&lt;/p&gt;
+&lt;p&gt;With the power of &lt;code&gt;git&lt;/code&gt;, I wanted to find a way to bring all the version
+control to &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; and their nice UI to illustrate
+changes.&lt;/p&gt;
+&lt;p&gt;I came across this tutorial:
+&lt;a href=&#34;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&#34;&gt;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This website was briefly down for a day, which worried me, so I felt it
+might be good to preserve this tutorial in this blog post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Chun Ly</title>
+    <link>https://astrochun.github.io/project/</link>
+      <atom:link href="https://astrochun.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://astrochun.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Tech Talks</title>
+      <link>https://astrochun.github.io/project/techtalks/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/techtalks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Below are materials for recent presentations:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://astrochun.github.io/post/overleaf_github_git_sync&#34;&gt;Integrating an Overleaf git repo with your GitHub account (the right way!)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+&lt;p&gt;fill in the blank&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NewH$\alpha$ Survey</title>
+      <link>https://astrochun.github.io/project/newha/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/newha/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This page is under construction.  Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gemini GNIRS Longslit Reduction</title>
+      <link>https://astrochun.github.io/project/gnirslongslit/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/gnirslongslit/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.gemini.edu/sciops/instruments/gnirs/&#34;&gt;Gemini Near-Infrared Spectograph (GNIRS)&lt;/a&gt;
+was commissioned in 2004 by the &lt;a href=&#34;https://www.gemini.edu/&#34;&gt;Gemini Observatory&lt;/a&gt;.
+With coverage of 1&amp;ndash;5$\mu$m, it remains a work-horse facility instrument on
+the Gemini North telescope in Hawai`i.&lt;/p&gt;
+&lt;p&gt;Recently, I used this instrument to obtain near-infrared spectra for low-mass
+galaxies at $z\approx0.8$. I learned that while Gemini has provided an &lt;a href=&#34;https://www.gemini.edu/node/11823&#34;&gt;IRAF
+reduction pipeline&lt;/a&gt;, automated
+implementation of this pipeline has been limited. For example, this
+&lt;a href=&#34;https://www.gemini.edu/sciops/data-and-results/getting-started#gnirs&#34;&gt;website&lt;/a&gt;
+provided a number of tutorials, but ultimately the user needed to create scripts
+to execute, as this &lt;a href=&#34;http://www.gemini.edu/sciops/data/IRAFdoc/gnirs_xd_example.cl&#34;&gt;example script&lt;/a&gt;
+demonstrates.  While Gemini recently released the &lt;a href=&#34;https://ascl.net/1811.002&#34;&gt;DRAGONS Python-based
+data reduction pipeline&lt;/a&gt;, reduction is limited
+to imaging data.&lt;/p&gt;
+&lt;h2 id=&#34;the-automation-pipeline&#34;&gt;The Automation Pipeline&lt;/h2&gt;
+&lt;p&gt;With spectra taken on several dozens of nights, automation was critical to
+expedite data reduction for my project. Thus, I created a Python/PyRAF
+pipeline that used the existing Gemini IRAF package. This automation pipeline
+is made publicly available on &lt;a href=&#34;https://github.com/astrochun/GNIRSLongSlit&#34;&gt;GitHub&lt;/a&gt;
+and distributed under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.
+Because of the dependence on PyRAF/IRAF, this code is only compatible with
+Python 2.7.&lt;/p&gt;
+&lt;p&gt;The pipeline has several features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Longslit target acquisition checks with quality assurance (QA) visualization&lt;/li&gt;
+&lt;li&gt;Correct detector readout artefacts with
+&lt;a href=&#34;https://www.gemini.edu/sciops/instruments/niri/data-format-and-reduction/cleanir&#34;&gt;&lt;code&gt;CLEANIR&lt;/code&gt; routine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Flat fielding&lt;/li&gt;
+&lt;li&gt;Wavelength calibration&lt;/li&gt;
+&lt;li&gt;Dithered stacking&lt;/li&gt;
+&lt;li&gt;Telluric flux calibration&lt;/li&gt;
+&lt;li&gt;Spectral extraction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Installation is best done by cloning the GitHub repository and installing PyRAF.&lt;/p&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Subaru Deep Field (SDF)</title>
+      <link>https://astrochun.github.io/project/sdf/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/sdf/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Subaru 8.2-meter telescope has stared for over 30 nights at one particular
+region of the northern sky with one of the most sensitive optical imagers in
+the world (Suprime-Cam) to develop the Subaru Deep Field (SDF;
+&lt;a href=&#34;https://dx.doi.org/:10.1093/pasj/56.6.1011&#34;&gt;Kashikawa et al. 2004&lt;/a&gt;). This camera
+enables images to be taken over a large part of the sky that is comparable to
+the angular extent of the Moon. The large area allows us to look at hundreds
+of thousands of galaxies simultaneously.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://astrochun.github.io/img/sdf_moon.png&#34; data-caption=&#34;Areal comparison of the SDF against the Hubble Deep Field (HDF) and the Moon&#34;&gt;
+&lt;img src=&#34;https://astrochun.github.io/img/sdf_moon.png&#34; alt=&#34;&#34; width=&#34;65%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Areal comparison of the SDF against the Hubble Deep Field (HDF) and the Moon
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Why stare for so long? To identify some of the faintest galaxies in the early
+universe! To do so, the survey utilized a unique technique called &amp;ldquo;narrowband
+imaging&amp;rdquo; to pick up emission from hydrogen and oxygen gas that reside within
+galaxies.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://astrochun.github.io/img/Ly2014_fig1.jpg&#34; data-caption=&#34;Narrowband and intermediate filters for the SDF (adapted from Ly et al. 2014)&#34;&gt;
+&lt;img src=&#34;https://astrochun.github.io/img/Ly2014_fig1.jpg&#34; alt=&#34;&#34; width=&#34;75%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Narrowband and intermediate filters for the SDF (adapted from &lt;a href=&#34;http://dx.doi.org/10.1088/0004-637X/780/2/122&#34;&gt;Ly et al. 2014&lt;/a&gt;)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;i-luminosity-function-and-star-formation-rate-density&#34;&gt;I. Luminosity Function and Star Formation Rate Density&lt;/h3&gt;
+&lt;h3 id=&#34;ii-lyman-break-galaxies-in-the-redshift-desert-with-galex-imaging&#34;&gt;II. Lyman Break Galaxies in the Redshift Desert with &lt;em&gt;GALEX&lt;/em&gt; imaging&lt;/h3&gt;
+&lt;h3 id=&#34;iii-census-of-starforming-galaxies-at-galaxy-high-noon&#34;&gt;III. Census of Star-Forming Galaxies at &amp;ldquo;Galaxy High Noon&amp;rdquo;&lt;/h3&gt;
+&lt;h3 id=&#34;iv-dust-attenuation-and-star-formation-in-dwarf-galaxies&#34;&gt;IV. Dust Attenuation and Star Formation in Dwarf Galaxies&lt;/h3&gt;
+&lt;h3 id=&#34;v&#34;&gt;V.&lt;/h3&gt;
+&lt;h3 id=&#34;vi-extremely-metalpoor-galaxies&#34;&gt;VI. Extremely Metal-Poor Galaxies&lt;/h3&gt;
+&lt;p&gt;Using the MMT, Keck, and Subaru observatories, my collaborators and I have
+targeted some of these faint galaxies with optical and near-infrared
+spectrographs. We found a rare population of galaxies that are rapidly forming
+at an unexpected rate. Many of these galaxies show signs of interactions with
+other nearby galaxies (see below). We believe that these interactions trigger
+the extreme bursts of star formation that we see. With detections of a very
+weak line, [OIII]λ4363, we were able to determine that these galaxies do not
+have significant heavy elements. In fact, a few of our galaxies have the most
+metal pristine gas seen for galaxies outside the local Universe. I am trying to
+understand why these galaxies have so few metals. One interpretation is that
+these galaxy interactions can drive new metal pristine gas into the galaxies,
+\making it appear &amp;ldquo;metal-poor&amp;rdquo; and fueling recent star formation. You can
+find more information in our paper.&lt;/p&gt;
+&lt;h3 id=&#34;vii&#34;&gt;VII.&lt;/h3&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automation of MMT/MMIRS data reduction</title>
+      <link>https://astrochun.github.io/project/mmttools/mmirs/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/mmttools/mmirs/</guid>
+      <description>&lt;p&gt;Reduction of &lt;a href=&#34;https://www.cfa.harvard.edu/mmti/mmirs.html&#34;&gt;MMIRS (MMT and Magellan Infrared Spectograph)&lt;/a&gt;
+spectral data is possible using an existing open-source pipeline called
+&lt;code&gt;mmirs-pipeline&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The pipeline software, developed by Igor Chilingarian (SAO), is published
+in the &lt;a href=&#34;http://dx.doi.org/10.1086/680598&#34;&gt;PASP Journal&lt;/a&gt;. The pipeline&#39;s
+git repository is available &lt;a href=&#34;https://bitbucket.org/chil_sai/mmirs-pipeline/wiki/Home&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One difficulty with using &lt;code&gt;mmirs-pipeline&lt;/code&gt; is the use of &amp;ldquo;taskfiles&amp;rdquo; that
+describe the observation and the steps for data reduction.  These files are
+constructed for each pair of dithered spectra.  No existing software existed to
+create these files.  As such, a lot of manual effort on the part of a researcher
+was needed.&lt;/p&gt;
+&lt;h2 id=&#34;the-python-tool&#34;&gt;The Python Tool&lt;/h2&gt;
+&lt;p&gt;As part of a larger Python git repository (&lt;a href=&#34;www.github.com/astrochun/MMTtools&#34;&gt;MMTtools&lt;/a&gt;),
+&lt;code&gt;mmirs_pipeline_taskfile&lt;/code&gt; is a Python tool (compatible with 2.7 and 3.xx) that
+constructs the necessary task files and IDL script for execution. This code is
+made publicly available under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;The code is available through PyPI, although cloning from the GitHub repository
+will give you the latest stable version.  Below are the steps for installation and the
+necessary prerequisite:&lt;/p&gt;
+&lt;p&gt;This page is still under construction.  Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DEEP2 Survey</title>
+      <link>https://astrochun.github.io/project/deep2/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/deep2/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;http://deep.ps.uci.edu/&#34;&gt;DEEP2 Survey&lt;/a&gt; is an extragalactic survey conducted
+by the University of California to obtain deep optical spectra for $\sim$50,000 faint
+galaxies at redshifts of $0 &amp;lt; z &amp;lt; 1.4$. These spectra have provided accurate
+redshifts for $\approx$40,000 galaxies. While the spectra were primarily used
+to determine distances/redshifts using two emission lines, a subset of the
+sample (4,140 galaxies) contains spectral coverage that span 3700&amp;ndash;5010 Angstroms,
+enabling gas-phase chemical abundance determination.&lt;/p&gt;
+&lt;p&gt;Using the &lt;a href=&#34;http://deep.ps.uci.edu/DR4/home.html&#34;&gt;publicly available data&lt;/a&gt;, I
+identified a large sample of 28 galaxies with detection of
+$[{\rm O~{\small III}}]\lambda4363$, a gas temperature diagnostics.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://astrochun.github.io/img/Ly2015_fig1.jpg&#34; data-caption=&#34;Illustration of eight galaxies with $[{\rm O~{\small III}}]\lambda4363$ detections (Ly et al. 2015)&#34;&gt;
+&lt;img src=&#34;https://astrochun.github.io/img/Ly2015_fig1.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Illustration of eight galaxies with $[{\rm O~{\small III}}]\lambda4363$ detections (&lt;a href=&#34;https://dx.doi.org/10.1088/0004-637X/805/1/45&#34;&gt;Ly et al. 2015&lt;/a&gt;)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This work, titled &amp;ldquo;&lt;em&gt;Metal-poor, Strongly Star-forming Galaxies in the DEEP2 Survey:
+The Relationship between Stellar Mass, Temperature-based Metallicity, and Star
+Formation Rate&lt;/em&gt;&amp;quot;, is published in the
+&lt;a href=&#34;https://dx.doi.org/10.1088/0004-637X/805/1/45&#34;&gt;&lt;em&gt;Astrophysical Journal&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;spitzer-followup-imaging-to-characterize-stellar-population&#34;&gt;&lt;em&gt;Spitzer&lt;/em&gt; follow-up imaging to characterize stellar population&lt;/h2&gt;
+&lt;p&gt;While the spectra enabled us to characterize the interstellar gas properties
+of these metal-poor galaxies, understanding the stellar properties of these
+$[{\rm O~{\small III}}]\lambda4363$-detected galaxies requires observations
+in the infrared to detect the light from low-mass stars.  Using the
+&lt;a href=&#34;https://www.cfa.harvard.edu/irac/&#34;&gt;InfraRed Array Camera (IRAC)&lt;/a&gt; on the
+NASA&#39;s &lt;a href=&#34;http://www.spitzer.caltech.edu/&#34;&gt;&lt;em&gt;Spitzer Space Telescope&lt;/em&gt;&lt;/a&gt;, I
+obtained deep imaging at 3.6 $\mu$m.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://astrochun.github.io/img/Weldon19_fig1.jpg&#34; data-caption=&#34;Spitzer/IRAC observations of all 28 metal-poor galaxies from Ly et al. (2015)&#34;&gt;
+&lt;img src=&#34;https://astrochun.github.io/img/Weldon19_fig1.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Spitzer&lt;/em&gt;/IRAC observations of all 28 metal-poor galaxies from Ly et al. (2015)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;These observations demonstrated that these galaxies are very faint, and can
+be classified as &amp;ldquo;dwarf&amp;rdquo; galaxies. In addition, our work illustrated a strong
+evolution in the mass&amp;ndash;metallicity relation, $(1+z)^{-1.45^{+0.61}_{-0.76}}$.
+Specifically, we find that lower mass galaxies ($4\times10^8~M_{\odot}$) built
+up their metal content 1.6 times more rapidly than higher mass galaxies
+($10^{10}~M_{\odot}$). We also found that there is not a secondary
+dependence on star formation in the mass&amp;ndash;metallicity relation.&lt;/p&gt;
+&lt;p&gt;This work is now published in the
+&lt;a href=&#34;http://dx.doi.org/10.1093/mnras/stz3047&#34;&gt;&lt;em&gt;Monthly Notices of the Royal Astronomical Society&lt;/em&gt;&lt;/a&gt;
+as a first-author paper for Drew Weldon, a former undergraduate astronomy major at the
+UofA and now attending UC Riverside for graduate school.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Metal Abundances across Cosmic Time</title>
+      <link>https://astrochun.github.io/project/mact/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/mact/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;h2 id=&#34;evolution-of-the-massmetallicity-relation&#34;&gt;Evolution of the Mass&amp;ndash;Metallicity Relation&lt;/h2&gt;
+&lt;h2 id=&#34;main-sequence-relation-of-extremely-lowmass-galaxies&#34;&gt;Main Sequence Relation of Extremely Low-Mass Galaxies&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UofA Research Data Repository</title>
+      <link>https://astrochun.github.io/project/redata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/redata/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;There has been a growing need for digital preservation to enable open and
+reproducible science.  One of the major drivers for researchers is the
+requirement from federal agencies (e.g., NSF, NASA, NIH, DoE)
+of a &lt;a href=&#34;https://data.library.arizona.edu/data-management-plans&#34;&gt;data management plan&lt;/a&gt;.
+Data repositories, such as, &lt;a href=&#34;https://dataverse.org/&#34;&gt;Dataverse&lt;/a&gt;,
+&lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt;, and &lt;a href=&#34;https://figshare.com/&#34;&gt;Figshare&lt;/a&gt; are being
+used across all disciplines, including science, humanities, medicine, and
+technology to satisfy funder&#39;s requirements and other needs. These repository
+services focus on following the guiding data principles of
+&lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34;&gt;FAIR&lt;/a&gt;
+(Findable, Accessible, Interoperable, and Reusable).&lt;/p&gt;
+&lt;p&gt;In addition to these public repositories, R-1 universities have been providing
+institutional data repositories to serve the greater needs of their university.
+These repositories also enable university administration to track
+research output and productivity.&lt;/p&gt;
+&lt;p&gt;Motivated by a number of factors, the University of Arizona Libraries is leading
+the effort to develop and sustain a data repository with funding from the
+&lt;a href=&#34;https://provost.arizona.edu/provost-investment-fund&#34;&gt;Provost Investment Fund&lt;/a&gt;.
+The repository, called ReDATA, will be hosted through an
+&lt;a href=&#34;https://knowledge.figshare.com/institutions&#34;&gt;institutional Figshare&lt;/a&gt; site.&lt;/p&gt;
+&lt;p&gt;More information about the data repository is available
+&lt;a href=&#34;https://data.library.arizona.edu/services/ua-research-data-repository&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In my current role as Research Data Systems Integration Specialist, I help with&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technical oversight and software development.  This includes engaging with
+major campus stakeholders to identify and develop workflows for integrating
+the research data repository system with existing library, campus computing,
+and research administration systems, such as, single-sign on (SSO) with
+the University&#39;s enterprise-level Shibboleth system, &lt;a href=&#34;https://orcid.org/&#34;&gt;ORCiD&lt;/a&gt;,
+and &lt;a href=&#34;http://hpc.arizona.edu/&#34;&gt;UofA HPC&lt;/a&gt; and &lt;a href=&#34;https://cyverse.org/&#34;&gt;CyVerse&lt;/a&gt;
+cyberinfrastructure&lt;/li&gt;
+&lt;li&gt;Conduct outreach to engage researchers across campus to use the data
+repository to satisfy funder&#39;s mandates and for open and reproducible science&lt;/li&gt;
+&lt;li&gt;Participate in discussions regarding data repository curation and governance
+policies.&lt;/li&gt;
+&lt;li&gt;Routine management and maintenance of the data repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;announcement-early-adopters-needed&#34;&gt;Announcement: Early Adopters Needed&lt;/h3&gt;
+&lt;p&gt;For Spring 2020, we are looking for early adopters to deposit research
+datasets, code, media, and other materials and to provide feedback on process
+and policies, while acting as champions for the repository.&lt;/p&gt;
+&lt;p&gt;If you’d like to influence how UA’s public research data repository will
+operate, we would like to work with you! As an early adopter, you’ll be able
+to work directly with the data repository team.  Please contact us at:
+&lt;a href=&#34;data-management@email.arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@email.arizona.edu&#34;&gt;data-management@email.arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;upcoming-talks-and-events&#34;&gt;Upcoming Talks and Events&lt;/h3&gt;
+&lt;p&gt;We are planning a number of events in 2020.  Events will include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Weekly drop-in at the CATalyst Studios for help with depositing data&lt;/li&gt;
+&lt;li&gt;Informational talks and demos at IT Summit InterACTIVE, and Research Bazaar
+Arizona&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomical Data Analysis | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
+      <atom:link href="https://astrochun.github.io/tags/astronomical-data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Astronomical Data Analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Astronomical Data Analysis</title>
+      <link>https://astrochun.github.io/tags/astronomical-data-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Gemini GNIRS Longslit Reduction</title>
+      <link>https://astrochun.github.io/project/gnirslongslit/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/gnirslongslit/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.gemini.edu/sciops/instruments/gnirs/&#34;&gt;Gemini Near-Infrared Spectograph (GNIRS)&lt;/a&gt;
+was commissioned in 2004 by the &lt;a href=&#34;https://www.gemini.edu/&#34;&gt;Gemini Observatory&lt;/a&gt;.
+With coverage of 1&amp;ndash;5$\mu$m, it remains a work-horse facility instrument on
+the Gemini North telescope in Hawai`i.&lt;/p&gt;
+&lt;p&gt;Recently, I used this instrument to obtain near-infrared spectra for low-mass
+galaxies at $z\approx0.8$. I learned that while Gemini has provided an &lt;a href=&#34;https://www.gemini.edu/node/11823&#34;&gt;IRAF
+reduction pipeline&lt;/a&gt;, automated
+implementation of this pipeline has been limited. For example, this
+&lt;a href=&#34;https://www.gemini.edu/sciops/data-and-results/getting-started#gnirs&#34;&gt;website&lt;/a&gt;
+provided a number of tutorials, but ultimately the user needed to create scripts
+to execute, as this &lt;a href=&#34;http://www.gemini.edu/sciops/data/IRAFdoc/gnirs_xd_example.cl&#34;&gt;example script&lt;/a&gt;
+demonstrates.  While Gemini recently released the &lt;a href=&#34;https://ascl.net/1811.002&#34;&gt;DRAGONS Python-based
+data reduction pipeline&lt;/a&gt;, reduction is limited
+to imaging data.&lt;/p&gt;
+&lt;h2 id=&#34;the-automation-pipeline&#34;&gt;The Automation Pipeline&lt;/h2&gt;
+&lt;p&gt;With spectra taken on several dozens of nights, automation was critical to
+expedite data reduction for my project. Thus, I created a Python/PyRAF
+pipeline that used the existing Gemini IRAF package. This automation pipeline
+is made publicly available on &lt;a href=&#34;https://github.com/astrochun/GNIRSLongSlit&#34;&gt;GitHub&lt;/a&gt;
+and distributed under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.
+Because of the dependence on PyRAF/IRAF, this code is only compatible with
+Python 2.7.&lt;/p&gt;
+&lt;p&gt;The pipeline has several features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Longslit target acquisition checks with quality assurance (QA) visualization&lt;/li&gt;
+&lt;li&gt;Correct detector readout artefacts with
+&lt;a href=&#34;https://www.gemini.edu/sciops/instruments/niri/data-format-and-reduction/cleanir&#34;&gt;&lt;code&gt;CLEANIR&lt;/code&gt; routine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Flat fielding&lt;/li&gt;
+&lt;li&gt;Wavelength calibration&lt;/li&gt;
+&lt;li&gt;Dithered stacking&lt;/li&gt;
+&lt;li&gt;Telluric flux calibration&lt;/li&gt;
+&lt;li&gt;Spectral extraction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Installation is best done by cloning the GitHub repository and installing PyRAF.&lt;/p&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automation of MMT/MMIRS data reduction</title>
+      <link>https://astrochun.github.io/project/mmttools/mmirs/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/mmttools/mmirs/</guid>
+      <description>&lt;p&gt;Reduction of &lt;a href=&#34;https://www.cfa.harvard.edu/mmti/mmirs.html&#34;&gt;MMIRS (MMT and Magellan Infrared Spectograph)&lt;/a&gt;
+spectral data is possible using an existing open-source pipeline called
+&lt;code&gt;mmirs-pipeline&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The pipeline software, developed by Igor Chilingarian (SAO), is published
+in the &lt;a href=&#34;http://dx.doi.org/10.1086/680598&#34;&gt;PASP Journal&lt;/a&gt;. The pipeline&#39;s
+git repository is available &lt;a href=&#34;https://bitbucket.org/chil_sai/mmirs-pipeline/wiki/Home&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One difficulty with using &lt;code&gt;mmirs-pipeline&lt;/code&gt; is the use of &amp;ldquo;taskfiles&amp;rdquo; that
+describe the observation and the steps for data reduction.  These files are
+constructed for each pair of dithered spectra.  No existing software existed to
+create these files.  As such, a lot of manual effort on the part of a researcher
+was needed.&lt;/p&gt;
+&lt;h2 id=&#34;the-python-tool&#34;&gt;The Python Tool&lt;/h2&gt;
+&lt;p&gt;As part of a larger Python git repository (&lt;a href=&#34;www.github.com/astrochun/MMTtools&#34;&gt;MMTtools&lt;/a&gt;),
+&lt;code&gt;mmirs_pipeline_taskfile&lt;/code&gt; is a Python tool (compatible with 2.7 and 3.xx) that
+constructs the necessary task files and IDL script for execution. This code is
+made publicly available under an &lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;The code is available through PyPI, although cloning from the GitHub repository
+will give you the latest stable version.  Below are the steps for installation and the
+necessary prerequisite:&lt;/p&gt;
+&lt;p&gt;This page is still under construction.  Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

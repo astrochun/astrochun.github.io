@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P.~E. Hardee | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/p.~e.-hardee/</link>
+      <atom:link href="https://astrochun.github.io/authors/p.~e.-hardee/index.xml" rel="self" type="application/rss+xml" />
+    <description>P.~E. Hardee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>P.~E. Hardee</title>
+      <link>https://astrochun.github.io/authors/p.~e.-hardee/</link>
+    </image>
+    
+    <item>
+      <title>The Structure and Dynamics of the Subparsec Jet in M87 Based on 50 VLBA Observations over 17 Years at 43 GHz</title>
+      <link>https://astrochun.github.io/publication/2018-ap-j-855-128-w/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2018-ap-j-855-128-w/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observations of the Structure and Dynamics of the Inner M87 Jet</title>
+      <link>https://astrochun.github.io/publication/2016-galax-4-46-w/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2016-galax-4-46-w/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
