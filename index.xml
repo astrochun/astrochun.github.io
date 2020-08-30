@@ -5,7 +5,7 @@
     <link>https://astrochun.github.io/</link>
       <atom:link href="https://astrochun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Chun Ly</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Chun Ly</title>
@@ -13,37 +13,248 @@
     </image>
     
     <item>
-      <title>Tech Talks</title>
-      <link>https://astrochun.github.io/project/techtalks/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/project/techtalks/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Below are materials for recent presentations:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://astrochun.github.io/post/overleaf_github_git_sync&#34;&gt;Integrating an Overleaf git repo with your GitHub account (the right way!)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
-&lt;p&gt;fill in the blank&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Integrating an Overleaf git repo with your GitHub account (the right way!)</title>
       <link>https://astrochun.github.io/post/overleaf_github_git_sync/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/post/overleaf_github_git_sync/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt; is an environment for researchers to
 collaboratively write their manuscripts and papers with $\LaTeX$. It is
 an amazing tool, but I have found that it has its limitations. For example,
-if you edit within their web UI, each character change would show up as
-separate changes in their History page.  One of the benefits of Overleaf
-is that it is integrated with &lt;code&gt;git&lt;/code&gt;.  This is great as you can maintain
-version control and document changes to your collaborators.&lt;/p&gt;
+if you edit within their web UI, the changes may show up as separate commits
+in their History page.  One of the benefits of Overleaf is that it is
+integrated with &lt;code&gt;git&lt;/code&gt;.  This is great as you can maintain version control
+and document changes to your collaborators.&lt;/p&gt;
 &lt;p&gt;With the power of &lt;code&gt;git&lt;/code&gt;, I wanted to find a way to bring all the version
 control to &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; and their nice UI to illustrate
 changes.&lt;/p&gt;
-&lt;p&gt;I came across this tutorial:
-&lt;a href=&#34;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&#34;&gt;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This website was briefly down for a day, which worried me, so I felt it
-might be good to preserve this tutorial in this blog post.&lt;/p&gt;
+&lt;p&gt;I came across this &lt;a href=&#34;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&#34;&gt;tutorial&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;The trick is using the default &lt;code&gt;git remote&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;First, sign up for a free account at &lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;
+and create a new project (I recommend the &amp;ldquo;Example Project&amp;rdquo; option):&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;new_project.png&#34; data-caption=&#34;Step 1: Create a new Overleaf project&#34;&gt;
+&lt;img src=&#34;new_project.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 1: Create a new Overleaf project
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To retrieve the &lt;code&gt;git clone&lt;/code&gt; command, select the Menu button in the upper left
+and the &lt;code&gt;Git&lt;/code&gt; option, and copy the &lt;code&gt;git clone&lt;/code&gt; command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here I use &lt;code&gt;&amp;lt;ABCDEF123456&amp;gt;&lt;/code&gt; as a placeholder for the real path.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;git_clone.png&#34; data-caption=&#34;Step 2: Retrieve git clone command&#34;&gt;
+&lt;img src=&#34;git_clone.png&#34; alt=&#34;&#34; width=&#34;50%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 2: Retrieve &lt;code&gt;git clone&lt;/code&gt; command
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Next, open up a command-line terminal and use the &lt;code&gt;git clone&lt;/code&gt; command and
+finish it with a more meaningful project name:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; git_integration_project
+$ cd git_integration_project
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You now have a copy of your Overleaf project locally! You can open the content
+with your favorite text editor, and &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt; and &lt;code&gt;git push&lt;/code&gt;
+new changes to Overleaf.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;To take this one step further and mirror a copy on GitHub, let&#39;s create
+an &lt;strong&gt;empty&lt;/strong&gt; &lt;a href=&#34;https://github.com/new&#34;&gt;new GitHub repository&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;github_new.png&#34; data-caption=&#34;Step 4: Create a new empty GitHub repository&#34;&gt;
+&lt;img src=&#34;github_new.png&#34; alt=&#34;&#34; width=&#34;75%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 4: Create a new empty GitHub repository
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Note that this is entirely empty. This is very important as the content
+will be populated from your Overleaf repository! Also, I made it a &lt;em&gt;private&lt;/em&gt;
+repository. You might find that important as well since you might be
+working on a paper that you want to keep private.&lt;/p&gt;
+&lt;p&gt;Next, within the &lt;code&gt;git_integration project&lt;/code&gt; folder, create a new &lt;code&gt;git remote&lt;/code&gt;
+called &lt;code&gt;github&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote github https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&#39;s look at our &lt;code&gt;git remote -v&lt;/code&gt; setup:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote -v
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (fetch)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&#39;s now replicate what we have on Overleaf to GitHub:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git push github (master)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you refresh your GitHub repository, you should see all the $\LaTeX$ files.&lt;/p&gt;
+&lt;p&gt;Of course, it would be nice to be able to push to both git repositories instead
+of having to do:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git push origin master
+$ git push github master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To do this, let&#39;s create another &lt;code&gt;git remote&lt;/code&gt; called &lt;code&gt;both&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+$ git remote set-url --add --push both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+$ git remote set-url --add --push both https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&#39;s inspect the &lt;code&gt;git remote -v&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote -v
+both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+both	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (fetch)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that&#39;s it! Now, any &lt;code&gt;git push both (master)&lt;/code&gt; will update both Overleaf and
+GitHub.&lt;/p&gt;
+&lt;p&gt;Now $\LaTeX$ + &lt;code&gt;git push&lt;/code&gt; on!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UofA Research Data Repository</title>
+      <link>https://astrochun.github.io/project/redata/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/redata/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;There has been a growing needs for data publishing and digital preservation to
+enable open and reproducible science.  One of the major drivers for researchers
+is the requirement from federal agencies (e.g., NSF, NASA, NIH, DoE)
+of a &lt;a href=&#34;https://data.library.arizona.edu/data-management-plans&#34;&gt;data management plan&lt;/a&gt;.
+Data repositories, such as, &lt;a href=&#34;https://dataverse.org/&#34;&gt;Dataverse&lt;/a&gt;,
+&lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt;, and &lt;a href=&#34;https://figshare.com/&#34;&gt;Figshare&lt;/a&gt; are being
+used across all disciplines, including science, humanities, medicine, and
+technology to satisfy funder&#39;s requirements and other needs (e.g., publishers
+requirements). These repository services focus on following the guiding data
+principles of &lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34;&gt;FAIR&lt;/a&gt;
+(Findable, Accessible, Interoperable, and Reusable).&lt;/p&gt;
+&lt;p&gt;In addition to these public repositories, R-1 universities have been providing
+institutional data repositories to serve the greater needs of their university.
+These repositories also enable university administration to track
+research output and productivity.&lt;/p&gt;
+&lt;p&gt;Motivated by a number of factors, the &lt;a href=&#34;https://new.libary.arizona.edu&#34;&gt;University of Arizona Libraries&lt;/a&gt;
+is leading the effort to develop and sustain a data repository with funding from the
+&lt;a href=&#34;https://provost.arizona.edu/provost-investment-fund&#34;&gt;Provost Investment Fund&lt;/a&gt;.
+The repository, called ReDATA, will be hosted through an
+&lt;a href=&#34;https://knowledge.figshare.com/institutions&#34;&gt;institutional Figshare&lt;/a&gt; site.&lt;/p&gt;
+&lt;p&gt;More information about ReDATA is available
+&lt;a href=&#34;https://data.library.arizona.edu/services/ua-research-data-repository&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In my current role as Research Data Systems Integration Specialist, I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop front- and/or back-end software to enable and automate
+identity and access management, data curation, and data preservation,
+and deploying them on cloud infrastructure&lt;/li&gt;
+&lt;li&gt;Engage with major campus stakeholders to identify and
+develop workflows for integrating ReDATA with existing library, campus
+computing, and research administration systems, such as, single-sign on
+(SSO) with the University&#39;s enterprise-level Shibboleth system,
+&lt;a href=&#34;https://orcid.org/&#34;&gt;ORCiD&lt;/a&gt;, and &lt;a href=&#34;http://hpc.arizona.edu/&#34;&gt;UofA HPC&lt;/a&gt;
+infrastructure&lt;/li&gt;
+&lt;li&gt;Engage with researchers across campus to use the data
+repository for open and reproducible science&lt;/li&gt;
+&lt;li&gt;Participate in discussions regarding data repository
+policies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;announcements&#34;&gt;Announcements&lt;/h3&gt;
+&lt;h4 id=&#34;seeking-aditional-deposits-in-our-closed-beta-phase&#34;&gt;Seeking aditional deposits in our closed beta phase&lt;/h4&gt;
+&lt;p&gt;[2020-06-01] Access to ReDATA service is currently by request only.
+Please contact us at &lt;a href=&#34;data-management@arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@arizona.edu&#34;&gt;data-management@arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;service-is-publicly-available-seeking-early-adopters&#34;&gt;Service is publicly available. Seeking Early Adopters&lt;/h4&gt;
+&lt;p&gt;[2020-03-01] We are looking for early adopters to deposit research
+datasets, code, media, and other materials and to provide feedback on process
+and policies, while acting as champions for the repository.&lt;/p&gt;
+&lt;p&gt;If you’d like to influence how UA’s public research data repository will
+operate, we would like to work with you! As an early adopter, you’ll be able
+to work directly with the data repository team.  Please contact us at:
+&lt;a href=&#34;data-management@arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@arizona.edu&#34;&gt;data-management@arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;upcoming-talks-and-events&#34;&gt;Upcoming Talks and Events&lt;/h3&gt;
+&lt;p&gt;We are planning a number of events in 2020.  Events will include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Weekly drop-in for help with depositing data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tech Talks</title>
+      <link>https://astrochun.github.io/project/techtalks/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/techtalks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Below are materials for recent presentations:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hackmd.io/NP65F9wUQiCC_kpPFrSivA?view&#34;&gt;Research Bazaar Tucson 2020: Beautiful Technical Documents Easily Made with $\LaTeX$ + Overleaf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://astrochun.github.io/post/overleaf_github_git_sync&#34;&gt;Integrating an Overleaf git repo with your GitHub account (the right way!)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -387,70 +598,6 @@ UofA and now attending UC Riverside for graduate school.&lt;/p&gt;
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/publication/2016-ap-j-828-67-l/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>UofA Research Data Repository</title>
-      <link>https://astrochun.github.io/project/redata/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/project/redata/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;There has been a growing need for digital preservation to enable open and
-reproducible science.  One of the major drivers for researchers is the
-requirement from federal agencies (e.g., NSF, NASA, NIH, DoE)
-of a &lt;a href=&#34;https://data.library.arizona.edu/data-management-plans&#34;&gt;data management plan&lt;/a&gt;.
-Data repositories, such as, &lt;a href=&#34;https://dataverse.org/&#34;&gt;Dataverse&lt;/a&gt;,
-&lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt;, and &lt;a href=&#34;https://figshare.com/&#34;&gt;Figshare&lt;/a&gt; are being
-used across all disciplines, including science, humanities, medicine, and
-technology to satisfy funder&#39;s requirements and other needs. These repository
-services focus on following the guiding data principles of
-&lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34;&gt;FAIR&lt;/a&gt;
-(Findable, Accessible, Interoperable, and Reusable).&lt;/p&gt;
-&lt;p&gt;In addition to these public repositories, R-1 universities have been providing
-institutional data repositories to serve the greater needs of their university.
-These repositories also enable university administration to track
-research output and productivity.&lt;/p&gt;
-&lt;p&gt;Motivated by a number of factors, the University of Arizona Libraries is leading
-the effort to develop and sustain a data repository with funding from the
-&lt;a href=&#34;https://provost.arizona.edu/provost-investment-fund&#34;&gt;Provost Investment Fund&lt;/a&gt;.
-The repository, called ReDATA, will be hosted through an
-&lt;a href=&#34;https://knowledge.figshare.com/institutions&#34;&gt;institutional Figshare&lt;/a&gt; site.&lt;/p&gt;
-&lt;p&gt;More information about the data repository is available
-&lt;a href=&#34;https://data.library.arizona.edu/services/ua-research-data-repository&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In my current role as Research Data Systems Integration Specialist, I help with&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Technical oversight and software development.  This includes engaging with
-major campus stakeholders to identify and develop workflows for integrating
-the research data repository system with existing library, campus computing,
-and research administration systems, such as, single-sign on (SSO) with
-the University&#39;s enterprise-level Shibboleth system, &lt;a href=&#34;https://orcid.org/&#34;&gt;ORCiD&lt;/a&gt;,
-and &lt;a href=&#34;http://hpc.arizona.edu/&#34;&gt;UofA HPC&lt;/a&gt; and &lt;a href=&#34;https://cyverse.org/&#34;&gt;CyVerse&lt;/a&gt;
-cyberinfrastructure&lt;/li&gt;
-&lt;li&gt;Conduct outreach to engage researchers across campus to use the data
-repository to satisfy funder&#39;s mandates and for open and reproducible science&lt;/li&gt;
-&lt;li&gt;Participate in discussions regarding data repository curation and governance
-policies.&lt;/li&gt;
-&lt;li&gt;Routine management and maintenance of the data repository&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;announcement-early-adopters-needed&#34;&gt;Announcement: Early Adopters Needed&lt;/h3&gt;
-&lt;p&gt;For Spring 2020, we are looking for early adopters to deposit research
-datasets, code, media, and other materials and to provide feedback on process
-and policies, while acting as champions for the repository.&lt;/p&gt;
-&lt;p&gt;If you’d like to influence how UA’s public research data repository will
-operate, we would like to work with you! As an early adopter, you’ll be able
-to work directly with the data repository team.  Please contact us at:
-&lt;a href=&#34;data-management@email.arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@email.arizona.edu&#34;&gt;data-management@email.arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;upcoming-talks-and-events&#34;&gt;Upcoming Talks and Events&lt;/h3&gt;
-&lt;p&gt;We are planning a number of events in 2020.  Events will include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Weekly drop-in at the CATalyst Studios for help with depositing data&lt;/li&gt;
-&lt;li&gt;Informational talks and demos at IT Summit InterACTIVE, and Research Bazaar
-Arizona&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
-</description>
     </item>
     
     <item>

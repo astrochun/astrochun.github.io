@@ -5,7 +5,7 @@
     <link>https://astrochun.github.io/tags/</link>
       <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Data Management</title>
       <link>https://astrochun.github.io/tags/data-management/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/data-management/</guid>
       <description></description>
     </item>
@@ -23,15 +23,23 @@
     <item>
       <title>Digital Literacy</title>
       <link>https://astrochun.github.io/tags/digital-literacy/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/digital-literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Figshare</title>
+      <link>https://astrochun.github.io/tags/figshare/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/figshare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Science</title>
       <link>https://astrochun.github.io/tags/open-science/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/open-science/</guid>
       <description></description>
     </item>
@@ -117,7 +125,7 @@
     </item>
     
     <item>
-      <title>cosmology: observations</title>
+      <title>Cosmology: Observations</title>
       <link>https://astrochun.github.io/tags/cosmology-observations/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/cosmology-observations/</guid>
@@ -133,7 +141,7 @@
     </item>
     
     <item>
-      <title>galaxies: high-redshift</title>
+      <title>Galaxies: High-Redshift</title>
       <link>https://astrochun.github.io/tags/galaxies-high-redshift/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-high-redshift/</guid>
@@ -213,14 +221,6 @@
     </item>
     
     <item>
-      <title>Figshare</title>
-      <link>https://astrochun.github.io/tags/figshare/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/figshare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>galaxies: starburst</title>
       <link>https://astrochun.github.io/tags/galaxies-starburst/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
@@ -277,7 +277,7 @@
     </item>
     
     <item>
-      <title>galaxies: formation</title>
+      <title>Galaxies: Formation</title>
       <link>https://astrochun.github.io/tags/galaxies-formation/</link>
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-formation/</guid>

@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Overleaf is an environment for researchers to collaboratively write their manuscripts and papers with $\LaTeX$. It is an amazing tool, but I have found that it has its limitations. For example, if you edit within their web UI, each character change would show up as separate changes in their History page. One of the benefits of Overleaf is that it is integrated with git. This is great as you can maintain version control and document changes to your collaborators.">
+  <meta name="description" content="Overleaf is an environment for researchers to collaboratively write their manuscripts and papers with $\LaTeX$. It is an amazing tool, but I have found that it has its limitations. For example, if you edit within their web UI, the changes may show up as separate commits in their History page. One of the benefits of Overleaf is that it is integrated with git. This is great as you can maintain version control and document changes to your collaborators.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://astrochun.github.io/post/overleaf_github_git_sync/">
@@ -107,21 +107,20 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Chun Ly">
   <meta property="og:url" content="https://astrochun.github.io/post/overleaf_github_git_sync/">
   <meta property="og:title" content="Integrating an Overleaf git repo with your GitHub account (the right way!) | Chun Ly">
-  <meta property="og:description" content="Overleaf is an environment for researchers to collaboratively write their manuscripts and papers with $\LaTeX$. It is an amazing tool, but I have found that it has its limitations. For example, if you edit within their web UI, each character change would show up as separate changes in their History page. One of the benefits of Overleaf is that it is integrated with git. This is great as you can maintain version control and document changes to your collaborators."><meta property="og:image" content="https://astrochun.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://astrochun.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Overleaf is an environment for researchers to collaboratively write their manuscripts and papers with $\LaTeX$. It is an amazing tool, but I have found that it has its limitations. For example, if you edit within their web UI, the changes may show up as separate commits in their History page. One of the benefits of Overleaf is that it is integrated with git. This is great as you can maintain version control and document changes to your collaborators."><meta property="og:image" content="https://astrochun.github.io/post/overleaf_github_git_sync/featured.png">
+  <meta property="twitter:image" content="https://astrochun.github.io/post/overleaf_github_git_sync/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-01-21T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-08-30T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-01-21T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-08-30T00:00:00&#43;00:00">
   
 
   
@@ -151,8 +150,12 @@
   },
   "headline": "Integrating an Overleaf git repo with your GitHub account (the right way!)",
   
-  "datePublished": "2020-01-21T00:00:00Z",
-  "dateModified": "2020-01-21T00:00:00Z",
+  "image": [
+    "https://astrochun.github.io/post/overleaf_github_git_sync/featured.png"
+  ],
+  
+  "datePublished": "2020-08-30T00:00:00Z",
+  "dateModified": "2020-08-30T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -167,7 +170,7 @@
       "url": "https://astrochun.github.io/img/icon-512.png"
     }
   },
-  "description": "Overleaf is an environment for researchers to collaboratively write their manuscripts and papers with $\\LaTeX$. It is an amazing tool, but I have found that it has its limitations. For example, if you edit within their web UI, each character change would show up as separate changes in their History page. One of the benefits of Overleaf is that it is integrated with git. This is great as you can maintain version control and document changes to your collaborators."
+  "description": "Overleaf is an environment for researchers to collaboratively write their manuscripts and papers with $\\LaTeX$. It is an amazing tool, but I have found that it has its limitations. For example, if you edit within their web UI, the changes may show up as separate commits in their History page. One of the benefits of Overleaf is that it is integrated with git. This is great as you can maintain version control and document changes to your collaborators."
 }
 </script>
 
@@ -486,18 +489,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Integrating an Overleaf git repo with your GitHub account (the right way!)</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -511,7 +522,7 @@
     
       
     
-    Jan 21, 2020
+    Aug 30, 2020
   </span>
   
 
@@ -520,7 +531,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    3 min read
   </span>
   
 
@@ -533,22 +544,29 @@
 
 </div>
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 86px;">
+  <div style="position: relative">
+    <img src="/post/overleaf_github_git_sync/featured_hu76cabcc5c35c531fc2c9bea89e871b1d_197203_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -559,17 +577,162 @@
       <p><a href="https://www.overleaf.com">Overleaf</a> is an environment for researchers to
 collaboratively write their manuscripts and papers with $\LaTeX$. It is
 an amazing tool, but I have found that it has its limitations. For example,
-if you edit within their web UI, each character change would show up as
-separate changes in their History page.  One of the benefits of Overleaf
-is that it is integrated with <code>git</code>.  This is great as you can maintain
-version control and document changes to your collaborators.</p>
+if you edit within their web UI, the changes may show up as separate commits
+in their History page.  One of the benefits of Overleaf is that it is
+integrated with <code>git</code>.  This is great as you can maintain version control
+and document changes to your collaborators.</p>
 <p>With the power of <code>git</code>, I wanted to find a way to bring all the version
 control to <a href="https://www.github.com">GitHub</a> and their nice UI to illustrate
 changes.</p>
-<p>I came across this tutorial:
-<a href="https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/">https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/</a></p>
-<p>This website was briefly down for a day, which worried me, so I felt it
-might be good to preserve this tutorial in this blog post.</p>
+<p>I came across this <a href="https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/">tutorial</a>!</p>
+<p>The trick is using the default <code>git remote</code> command.</p>
+<p>First, sign up for a free account at <a href="https://www.overleaf.com">Overleaf</a>
+and create a new project (I recommend the &ldquo;Example Project&rdquo; option):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="new_project.png" data-caption="Step 1: Create a new Overleaf project">
+<img src="new_project.png" alt="" width="100%" ></a>
+
+
+  
+  
+  <figcaption>
+    Step 1: Create a new Overleaf project
+  </figcaption>
+
+
+</figure>
+
+<p>To retrieve the <code>git clone</code> command, select the Menu button in the upper left
+and the <code>Git</code> option, and copy the <code>git clone</code> command:</p>
+<pre><code>    git clone https://git.overleaf.com/&lt;ABCDEF123456&gt;
+</code></pre>
+<p>Here I use <code>&lt;ABCDEF123456&gt;</code> as a placeholder for the real path.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="git_clone.png" data-caption="Step 2: Retrieve git clone command">
+<img src="git_clone.png" alt="" width="50%" ></a>
+
+
+  
+  
+  <figcaption>
+    Step 2: Retrieve <code>git clone</code> command
+  </figcaption>
+
+
+</figure>
+
+<p>Next, open up a command-line terminal and use the <code>git clone</code> command and
+finish it with a more meaningful project name:</p>
+<pre><code>$ git clone https://git.overleaf.com/&lt;ABCDEF123456&gt; git_integration_project
+$ cd git_integration_project
+</code></pre>
+<p>You now have a copy of your Overleaf project locally! You can open the content
+with your favorite text editor, and <code>git add</code>, <code>git commit</code> and <code>git push</code>
+new changes to Overleaf.</p>
+<hr>
+<p>To take this one step further and mirror a copy on GitHub, let's create
+an <strong>empty</strong> <a href="https://github.com/new">new GitHub repository</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="github_new.png" data-caption="Step 4: Create a new empty GitHub repository">
+<img src="github_new.png" alt="" width="75%" ></a>
+
+
+  
+  
+  <figcaption>
+    Step 4: Create a new empty GitHub repository
+  </figcaption>
+
+
+</figure>
+
+<p>Note that this is entirely empty. This is very important as the content
+will be populated from your Overleaf repository! Also, I made it a <em>private</em>
+repository. You might find that important as well since you might be
+working on a paper that you want to keep private.</p>
+<p>Next, within the <code>git_integration project</code> folder, create a new <code>git remote</code>
+called <code>github</code>:</p>
+<pre><code>$ git remote github https://github.com/&lt;USERNAME&gt;/git_integration_project.git
+</code></pre>
+<p>Let's look at our <code>git remote -v</code> setup:</p>
+<pre><code>$ git remote -v
+github	https://github.com/&lt;USERNAME&gt;/git_integration_project.git (fetch)
+github	https://github.com/&lt;USERNAME&gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&lt;ABCDEF123456&gt; (fetch)
+origin	https://git.overleaf.com/&lt;ABCDEF123456&gt; (push)
+</code></pre>
+<p>Let's now replicate what we have on Overleaf to GitHub:</p>
+<pre><code>$ git push github (master)
+</code></pre>
+<p>If you refresh your GitHub repository, you should see all the $\LaTeX$ files.</p>
+<p>Of course, it would be nice to be able to push to both git repositories instead
+of having to do:</p>
+<pre><code>$ git push origin master
+$ git push github master
+</code></pre>
+<p>To do this, let's create another <code>git remote</code> called <code>both</code>:</p>
+<pre><code>$ git remote add both https://git.overleaf.com/&lt;ABCDEF123456&gt;
+$ git remote set-url --add --push both https://git.overleaf.com/&lt;ABCDEF123456&gt;
+$ git remote set-url --add --push both https://github.com/&lt;USERNAME&gt;/git_integration_project.git
+</code></pre>
+<p>Let's inspect the <code>git remote -v</code>:</p>
+<pre><code>$ git remote -v
+both	https://git.overleaf.com/&lt;ABCDEF123456&gt; (fetch)
+both	https://git.overleaf.com/&lt;ABCDEF123456&gt; (push)
+both	https://github.com/&lt;USERNAME&gt;/git_integration_project.git (push)
+github	https://github.com/&lt;USERNAME&gt;/git_integration_project.git (fetch)
+github	https://github.com/&lt;USERNAME&gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&lt;ABCDEF123456&gt; (fetch)
+origin	https://git.overleaf.com/&lt;ABCDEF123456&gt; (push)
+</code></pre>
+<p>And that's it! Now, any <code>git push both (master)</code> will update both Overleaf and
+GitHub.</p>
+<p>Now $\LaTeX$ + <code>git push</code> on!</p>
 
     </div>
 

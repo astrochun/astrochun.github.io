@@ -5,7 +5,7 @@
     <link>https://astrochun.github.io/tags/digital-literacy/</link>
       <atom:link href="https://astrochun.github.io/tags/digital-literacy/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Literacy</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Digital Literacy</title>
@@ -13,79 +13,81 @@
     </image>
     
     <item>
-      <title>Tech Talks</title>
-      <link>https://astrochun.github.io/project/techtalks/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/project/techtalks/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Below are materials for recent presentations:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://astrochun.github.io/post/overleaf_github_git_sync&#34;&gt;Integrating an Overleaf git repo with your GitHub account (the right way!)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
-&lt;p&gt;fill in the blank&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>UofA Research Data Repository</title>
       <link>https://astrochun.github.io/project/redata/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/project/redata/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;There has been a growing need for digital preservation to enable open and
-reproducible science.  One of the major drivers for researchers is the
-requirement from federal agencies (e.g., NSF, NASA, NIH, DoE)
+&lt;p&gt;There has been a growing needs for data publishing and digital preservation to
+enable open and reproducible science.  One of the major drivers for researchers
+is the requirement from federal agencies (e.g., NSF, NASA, NIH, DoE)
 of a &lt;a href=&#34;https://data.library.arizona.edu/data-management-plans&#34;&gt;data management plan&lt;/a&gt;.
 Data repositories, such as, &lt;a href=&#34;https://dataverse.org/&#34;&gt;Dataverse&lt;/a&gt;,
 &lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt;, and &lt;a href=&#34;https://figshare.com/&#34;&gt;Figshare&lt;/a&gt; are being
 used across all disciplines, including science, humanities, medicine, and
-technology to satisfy funder&#39;s requirements and other needs. These repository
-services focus on following the guiding data principles of
-&lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34;&gt;FAIR&lt;/a&gt;
+technology to satisfy funder&#39;s requirements and other needs (e.g., publishers
+requirements). These repository services focus on following the guiding data
+principles of &lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34;&gt;FAIR&lt;/a&gt;
 (Findable, Accessible, Interoperable, and Reusable).&lt;/p&gt;
 &lt;p&gt;In addition to these public repositories, R-1 universities have been providing
 institutional data repositories to serve the greater needs of their university.
 These repositories also enable university administration to track
 research output and productivity.&lt;/p&gt;
-&lt;p&gt;Motivated by a number of factors, the University of Arizona Libraries is leading
-the effort to develop and sustain a data repository with funding from the
+&lt;p&gt;Motivated by a number of factors, the &lt;a href=&#34;https://new.libary.arizona.edu&#34;&gt;University of Arizona Libraries&lt;/a&gt;
+is leading the effort to develop and sustain a data repository with funding from the
 &lt;a href=&#34;https://provost.arizona.edu/provost-investment-fund&#34;&gt;Provost Investment Fund&lt;/a&gt;.
 The repository, called ReDATA, will be hosted through an
 &lt;a href=&#34;https://knowledge.figshare.com/institutions&#34;&gt;institutional Figshare&lt;/a&gt; site.&lt;/p&gt;
-&lt;p&gt;More information about the data repository is available
+&lt;p&gt;More information about ReDATA is available
 &lt;a href=&#34;https://data.library.arizona.edu/services/ua-research-data-repository&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In my current role as Research Data Systems Integration Specialist, I help with&lt;/p&gt;
+&lt;p&gt;In my current role as Research Data Systems Integration Specialist, I:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Technical oversight and software development.  This includes engaging with
-major campus stakeholders to identify and develop workflows for integrating
-the research data repository system with existing library, campus computing,
-and research administration systems, such as, single-sign on (SSO) with
-the University&#39;s enterprise-level Shibboleth system, &lt;a href=&#34;https://orcid.org/&#34;&gt;ORCiD&lt;/a&gt;,
-and &lt;a href=&#34;http://hpc.arizona.edu/&#34;&gt;UofA HPC&lt;/a&gt; and &lt;a href=&#34;https://cyverse.org/&#34;&gt;CyVerse&lt;/a&gt;
-cyberinfrastructure&lt;/li&gt;
-&lt;li&gt;Conduct outreach to engage researchers across campus to use the data
-repository to satisfy funder&#39;s mandates and for open and reproducible science&lt;/li&gt;
-&lt;li&gt;Participate in discussions regarding data repository curation and governance
+&lt;li&gt;Develop front- and/or back-end software to enable and automate
+identity and access management, data curation, and data preservation,
+and deploying them on cloud infrastructure&lt;/li&gt;
+&lt;li&gt;Engage with major campus stakeholders to identify and
+develop workflows for integrating ReDATA with existing library, campus
+computing, and research administration systems, such as, single-sign on
+(SSO) with the University&#39;s enterprise-level Shibboleth system,
+&lt;a href=&#34;https://orcid.org/&#34;&gt;ORCiD&lt;/a&gt;, and &lt;a href=&#34;http://hpc.arizona.edu/&#34;&gt;UofA HPC&lt;/a&gt;
+infrastructure&lt;/li&gt;
+&lt;li&gt;Engage with researchers across campus to use the data
+repository for open and reproducible science&lt;/li&gt;
+&lt;li&gt;Participate in discussions regarding data repository
 policies.&lt;/li&gt;
-&lt;li&gt;Routine management and maintenance of the data repository&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;announcement-early-adopters-needed&#34;&gt;Announcement: Early Adopters Needed&lt;/h3&gt;
-&lt;p&gt;For Spring 2020, we are looking for early adopters to deposit research
+&lt;h3 id=&#34;announcements&#34;&gt;Announcements&lt;/h3&gt;
+&lt;h4 id=&#34;seeking-aditional-deposits-in-our-closed-beta-phase&#34;&gt;Seeking aditional deposits in our closed beta phase&lt;/h4&gt;
+&lt;p&gt;[2020-06-01] Access to ReDATA service is currently by request only.
+Please contact us at &lt;a href=&#34;data-management@arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@arizona.edu&#34;&gt;data-management@arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;service-is-publicly-available-seeking-early-adopters&#34;&gt;Service is publicly available. Seeking Early Adopters&lt;/h4&gt;
+&lt;p&gt;[2020-03-01] We are looking for early adopters to deposit research
 datasets, code, media, and other materials and to provide feedback on process
 and policies, while acting as champions for the repository.&lt;/p&gt;
 &lt;p&gt;If you’d like to influence how UA’s public research data repository will
 operate, we would like to work with you! As an early adopter, you’ll be able
 to work directly with the data repository team.  Please contact us at:
-&lt;a href=&#34;data-management@email.arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@email.arizona.edu&#34;&gt;data-management@email.arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;data-management@arizona.edu&#34;&gt;&lt;a href=&#34;mailto:data-management@arizona.edu&#34;&gt;data-management@arizona.edu&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;upcoming-talks-and-events&#34;&gt;Upcoming Talks and Events&lt;/h3&gt;
 &lt;p&gt;We are planning a number of events in 2020.  Events will include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Weekly drop-in at the CATalyst Studios for help with depositing data&lt;/li&gt;
-&lt;li&gt;Informational talks and demos at IT Summit InterACTIVE, and Research Bazaar
-Arizona&lt;/li&gt;
+&lt;li&gt;Weekly drop-in for help with depositing data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This page is under construction. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tech Talks</title>
+      <link>https://astrochun.github.io/project/techtalks/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/project/techtalks/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Below are materials for recent presentations:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hackmd.io/NP65F9wUQiCC_kpPFrSivA?view&#34;&gt;Research Bazaar Tucson 2020: Beautiful Technical Documents Easily Made with $\LaTeX$ + Overleaf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://astrochun.github.io/post/overleaf_github_git_sync&#34;&gt;Integrating an Overleaf git repo with your GitHub account (the right way!)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
