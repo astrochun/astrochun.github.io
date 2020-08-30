@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Integrating an Overleaf git repo with your GitHub account (the right way!)</title>
+      <title>Integrating an Overleaf project with your GitHub account</title>
       <link>https://astrochun.github.io/post/overleaf_github_git_sync/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/post/overleaf_github_git_sync/</guid>
@@ -100,7 +100,7 @@ finish it with a more meaningful project name:&lt;/p&gt;
 $ cd git_integration_project
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You now have a copy of your Overleaf project locally! You can open the content
-with your favorite text editor, and &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt; and &lt;code&gt;git push&lt;/code&gt;
+with your favorite text editor, and &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt;
 new changes to Overleaf.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;To take this one step further and mirror a copy on GitHub, let&#39;s create
