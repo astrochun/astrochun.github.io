@@ -29,7 +29,7 @@ control to &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; and t
 changes.&lt;/p&gt;
 &lt;p&gt;I came across this &lt;a href=&#34;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&#34;&gt;tutorial&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;The trick is using the default &lt;code&gt;git remote&lt;/code&gt; command.&lt;/p&gt;
-&lt;p&gt;First, sign up for a free account at &lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: Sign up for a free account at &lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;
 and create a new project (I recommend the &amp;ldquo;Example Project&amp;rdquo; option):&lt;/p&gt;
 
 
@@ -60,11 +60,8 @@ and create a new project (I recommend the &amp;ldquo;Example Project&amp;rdquo; 
 
 &lt;/figure&gt;
 
-&lt;p&gt;To retrieve the &lt;code&gt;git clone&lt;/code&gt; command, select the Menu button in the upper left
-and the &lt;code&gt;Git&lt;/code&gt; option, and copy the &lt;code&gt;git clone&lt;/code&gt; command:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here I use &lt;code&gt;&amp;lt;ABCDEF123456&amp;gt;&lt;/code&gt; as a placeholder for the real path.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: Retrieve the &lt;code&gt;git clone&lt;/code&gt; command by selecting the Menu button in the
+upper left and the &lt;code&gt;Git&lt;/code&gt; option:&lt;/p&gt;
 
 
 
@@ -94,7 +91,11 @@ and the &lt;code&gt;Git&lt;/code&gt; option, and copy the &lt;code&gt;git clone&
 
 &lt;/figure&gt;
 
-&lt;p&gt;Next, open up a command-line terminal and use the &lt;code&gt;git clone&lt;/code&gt; command and
+&lt;p&gt;You should see a pop-up window containing something similar to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;               git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here I use &lt;code&gt;&amp;lt;ABCDEF123456&amp;gt;&lt;/code&gt; as a placeholder for the real path throughout this post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;: Open up a command-line terminal and execute this &lt;code&gt;git clone&lt;/code&gt; command and
 finish it with a more meaningful project name:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; git_integration_project
 $ cd git_integration_project
@@ -103,8 +104,8 @@ $ cd git_integration_project
 with your favorite text editor, and &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt;
 new changes to Overleaf.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;To take this one step further and mirror a copy on GitHub, let&#39;s create
-an &lt;strong&gt;empty&lt;/strong&gt; &lt;a href=&#34;https://github.com/new&#34;&gt;new GitHub repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;: To take this one step further and mirror a copy on GitHub,
+let&#39;s create an &lt;strong&gt;empty&lt;/strong&gt; &lt;a href=&#34;https://github.com/new&#34;&gt;new GitHub repository&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -138,7 +139,7 @@ an &lt;strong&gt;empty&lt;/strong&gt; &lt;a href=&#34;https://github.com/new&#34
 will be populated from your Overleaf repository! Also, I made it a &lt;em&gt;private&lt;/em&gt;
 repository. You might find that important as well since you might be
 working on a paper that you want to keep private.&lt;/p&gt;
-&lt;p&gt;Next, within the &lt;code&gt;git_integration project&lt;/code&gt; folder, create a new &lt;code&gt;git remote&lt;/code&gt;
+&lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt;: Within the &lt;code&gt;git_integration project&lt;/code&gt; folder, create a new &lt;code&gt;git remote&lt;/code&gt;
 called &lt;code&gt;github&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git remote github https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
 &lt;/code&gt;&lt;/pre&gt;
@@ -149,7 +150,7 @@ github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (
 origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
 origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let&#39;s now replicate what we have on Overleaf to GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt;: Let us now replicate what we have on Overleaf to GitHub:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git push github (master)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If you refresh your GitHub repository, you should see all the $\LaTeX$ files.&lt;/p&gt;
@@ -158,12 +159,12 @@ of having to do:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git push origin master
 $ git push github master
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To do this, let&#39;s create another &lt;code&gt;git remote&lt;/code&gt; called &lt;code&gt;both&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 7&lt;/strong&gt;: To do this, let&#39;s create another &lt;code&gt;git remote&lt;/code&gt; called &lt;code&gt;both&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git remote add both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
 $ git remote set-url --add --push both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
 $ git remote set-url --add --push both https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let&#39;s inspect the &lt;code&gt;git remote -v&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Let us inspect the &lt;code&gt;git remote -v&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git remote -v
 both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
 both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)

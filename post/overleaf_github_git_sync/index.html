@@ -586,7 +586,7 @@ control to <a href="https://www.github.com">GitHub</a> and their nice UI to illu
 changes.</p>
 <p>I came across this <a href="https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/">tutorial</a>!</p>
 <p>The trick is using the default <code>git remote</code> command.</p>
-<p>First, sign up for a free account at <a href="https://www.overleaf.com">Overleaf</a>
+<p><strong>Step 1</strong>: Sign up for a free account at <a href="https://www.overleaf.com">Overleaf</a>
 and create a new project (I recommend the &ldquo;Example Project&rdquo; option):</p>
 
 
@@ -617,11 +617,8 @@ and create a new project (I recommend the &ldquo;Example Project&rdquo; option):
 
 </figure>
 
-<p>To retrieve the <code>git clone</code> command, select the Menu button in the upper left
-and the <code>Git</code> option, and copy the <code>git clone</code> command:</p>
-<pre><code>    git clone https://git.overleaf.com/&lt;ABCDEF123456&gt;
-</code></pre>
-<p>Here I use <code>&lt;ABCDEF123456&gt;</code> as a placeholder for the real path.</p>
+<p><strong>Step 2</strong>: Retrieve the <code>git clone</code> command by selecting the Menu button in the
+upper left and the <code>Git</code> option:</p>
 
 
 
@@ -651,7 +648,11 @@ and the <code>Git</code> option, and copy the <code>git clone</code> command:</p
 
 </figure>
 
-<p>Next, open up a command-line terminal and use the <code>git clone</code> command and
+<p>You should see a pop-up window containing something similar to:</p>
+<pre><code>               git clone https://git.overleaf.com/&lt;ABCDEF123456&gt;
+</code></pre>
+<p>Here I use <code>&lt;ABCDEF123456&gt;</code> as a placeholder for the real path throughout this post.</p>
+<p><strong>Step 3</strong>: Open up a command-line terminal and execute this <code>git clone</code> command and
 finish it with a more meaningful project name:</p>
 <pre><code>$ git clone https://git.overleaf.com/&lt;ABCDEF123456&gt; git_integration_project
 $ cd git_integration_project
@@ -660,8 +661,8 @@ $ cd git_integration_project
 with your favorite text editor, and <code>git add</code>, <code>git commit</code>, and <code>git push</code>
 new changes to Overleaf.</p>
 <hr>
-<p>To take this one step further and mirror a copy on GitHub, let's create
-an <strong>empty</strong> <a href="https://github.com/new">new GitHub repository</a></p>
+<p><strong>Step 4</strong>: To take this one step further and mirror a copy on GitHub,
+let's create an <strong>empty</strong> <a href="https://github.com/new">new GitHub repository</a></p>
 
 
 
@@ -695,7 +696,7 @@ an <strong>empty</strong> <a href="https://github.com/new">new GitHub repository
 will be populated from your Overleaf repository! Also, I made it a <em>private</em>
 repository. You might find that important as well since you might be
 working on a paper that you want to keep private.</p>
-<p>Next, within the <code>git_integration project</code> folder, create a new <code>git remote</code>
+<p><strong>Step 5</strong>: Within the <code>git_integration project</code> folder, create a new <code>git remote</code>
 called <code>github</code>:</p>
 <pre><code>$ git remote github https://github.com/&lt;USERNAME&gt;/git_integration_project.git
 </code></pre>
@@ -706,7 +707,7 @@ github	https://github.com/&lt;USERNAME&gt;/git_integration_project.git (push)
 origin	https://git.overleaf.com/&lt;ABCDEF123456&gt; (fetch)
 origin	https://git.overleaf.com/&lt;ABCDEF123456&gt; (push)
 </code></pre>
-<p>Let's now replicate what we have on Overleaf to GitHub:</p>
+<p><strong>Step 6</strong>: Let us now replicate what we have on Overleaf to GitHub:</p>
 <pre><code>$ git push github (master)
 </code></pre>
 <p>If you refresh your GitHub repository, you should see all the $\LaTeX$ files.</p>
@@ -715,12 +716,12 @@ of having to do:</p>
 <pre><code>$ git push origin master
 $ git push github master
 </code></pre>
-<p>To do this, let's create another <code>git remote</code> called <code>both</code>:</p>
+<p><strong>Step 7</strong>: To do this, let's create another <code>git remote</code> called <code>both</code>:</p>
 <pre><code>$ git remote add both https://git.overleaf.com/&lt;ABCDEF123456&gt;
 $ git remote set-url --add --push both https://git.overleaf.com/&lt;ABCDEF123456&gt;
 $ git remote set-url --add --push both https://github.com/&lt;USERNAME&gt;/git_integration_project.git
 </code></pre>
-<p>Let's inspect the <code>git remote -v</code>:</p>
+<p>Let us inspect the <code>git remote -v</code>:</p>
 <pre><code>$ git remote -v
 both	https://git.overleaf.com/&lt;ABCDEF123456&gt; (fetch)
 both	https://git.overleaf.com/&lt;ABCDEF123456&gt; (push)
