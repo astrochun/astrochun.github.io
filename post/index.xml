@@ -141,7 +141,7 @@ repository. You might find that important as well since you might be
 working on a paper that you want to keep private.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt;: Within the &lt;code&gt;git_integration project&lt;/code&gt; folder, create a new &lt;code&gt;git remote&lt;/code&gt;
 called &lt;code&gt;github&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ git remote github https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;pre&gt;&lt;code&gt;$ git remote add github https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Let&#39;s look at our &lt;code&gt;git remote -v&lt;/code&gt; setup:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ git remote -v
