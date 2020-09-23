@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Currie | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/t.-currie/</link>
+      <atom:link href="https://astrochun.github.io/authors/t.-currie/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Currie</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>T. Currie</title>
+      <link>https://astrochun.github.io/authors/t.-currie/</link>
+    </image>
+    
+    <item>
+      <title>Dust Attenuation and H$α$ Star Formation Rates of z ̃ 0.5 Galaxies</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-747-l-16-l/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-747-l-16-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyman Break Galaxies at z ap 1.8-2.8: GALEX/NUV Imaging of the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2009-ap-j-697-1410-l/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2009-ap-j-697-1410-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

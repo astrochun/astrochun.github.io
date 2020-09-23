@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Monson | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/a.-monson/</link>
+      <atom:link href="https://astrochun.github.io/authors/a.-monson/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Monson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 01 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>A. Monson</title>
+      <link>https://astrochun.github.io/authors/a.-monson/</link>
+    </image>
+    
+    <item>
+      <title>A Dual-Narrowband Survey for H$α$ Emitters at Redshift of 2.2: Demonstration of the Technique and Constraints on the H$α$ Luminosity Function</title>
+      <link>https://astrochun.github.io/publication/2012-pasp-124-782-l/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-pasp-124-782-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

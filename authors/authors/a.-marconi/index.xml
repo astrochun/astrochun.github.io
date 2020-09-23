@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. Marconi | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/a.-marconi/</link>
+      <atom:link href="https://astrochun.github.io/authors/a.-marconi/index.xml" rel="self" type="application/rss+xml" />
+    <description>A. Marconi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Fri, 01 Jun 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>A. Marconi</title>
+      <link>https://astrochun.github.io/authors/a.-marconi/</link>
+    </image>
+    
+    <item>
+      <title>High-redshift Ly$α$ emitters with a large equivalent width. Properties of i&#39;-dropout galaxies with an NB921-band depression in the Subaru deep field</title>
+      <link>https://astrochun.github.io/publication/2007-aa-468-877-n/</link>
+      <pubDate>Fri, 01 Jun 2007 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2007-aa-468-877-n/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J.~C. Lee | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/j.~c.-lee/</link>
+      <atom:link href="https://astrochun.github.io/authors/j.~c.-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>J.~C. Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 01 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>J.~C. Lee</title>
+      <link>https://astrochun.github.io/authors/j.~c.-lee/</link>
+    </image>
+    
+    <item>
+      <title>The Relationship between Stellar Mass, Gas Metallicity, and Star Formation Rate for H$α$-Selected Galaxies at z ap 0.8 from the NewH$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2015-aj-149-79-d/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2015-aj-149-79-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Critical Look at the Mass-Metallicity-Star Formation Rate Relation in the Local Universe. I. An Improved Analysis Framework and Confounding Systematics</title>
+      <link>https://astrochun.github.io/publication/2014-ap-j-797-126-s/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2014-ap-j-797-126-s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nebular Attenuation in H$α$-selected Star-forming Galaxies at z = 0.8 from the NewH$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2013-aj-145-47-m/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2013-aj-145-47-m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Dual-Narrowband Survey for H$α$ Emitters at Redshift of 2.2: Demonstration of the Technique and Constraints on the H$α$ Luminosity Function</title>
+      <link>https://astrochun.github.io/publication/2012-pasp-124-782-l/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-pasp-124-782-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Average Metallicity and Star Formation Rate of Ly$α$ Emitters Probed by a Triple Narrowband Survey</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-745-12-n/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-745-12-n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The H$α$ Luminosity Function and Star Formation Rate Volume Density at z = 0.8 from the NEWFIRM H$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2011-ap-j-726-109-l/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2011-ap-j-726-109-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

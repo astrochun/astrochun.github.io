@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extinction | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/extinction/</link>
+      <atom:link href="https://astrochun.github.io/tags/extinction/index.xml" rel="self" type="application/rss+xml" />
+    <description>extinction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Fri, 01 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>extinction</title>
+      <link>https://astrochun.github.io/tags/extinction/</link>
+    </image>
+    
+    <item>
+      <title>Nebular Attenuation in H$α$-selected Star-forming Galaxies at z = 0.8 from the NewH$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2013-aj-145-47-m/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2013-aj-145-47-m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dust Attenuation and H$α$ Star Formation Rates of z ̃ 0.5 Galaxies</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-747-l-16-l/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-747-l-16-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

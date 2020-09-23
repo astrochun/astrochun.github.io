@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Sasaki | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/t.-sasaki/</link>
+      <atom:link href="https://astrochun.github.io/authors/t.-sasaki/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Sasaki</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Fri, 01 Sep 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>T. Sasaki</title>
+      <link>https://astrochun.github.io/authors/t.-sasaki/</link>
+    </image>
+    
+    <item>
+      <title>The End of the Reionization Epoch Probed by Ly$α$ Emitters at z = 6.5 in the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2006-ap-j-648-7-k/</link>
+      <pubDate>Fri, 01 Sep 2006 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2006-ap-j-648-7-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ly$α$ Emitters at z = 5.7 in the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2006-pasj-58-313-s/</link>
+      <pubDate>Sat, 01 Apr 2006 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2006-pasj-58-313-s/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Doi | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/m.-doi/</link>
+      <atom:link href="https://astrochun.github.io/authors/m.-doi/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Doi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Mar 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>M. Doi</title>
+      <link>https://astrochun.github.io/authors/m.-doi/</link>
+    </image>
+    
+    <item>
+      <title>The Luminosity Function and Star Formation Rate between Redshifts of 0.07 and 1.47 for Narrowband Emitters in the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2007-ap-j-657-738-l/</link>
+      <pubDate>Thu, 01 Mar 2007 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2007-ap-j-657-738-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The End of the Reionization Epoch Probed by Ly$α$ Emitters at z = 6.5 in the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2006-ap-j-648-7-k/</link>
+      <pubDate>Fri, 01 Sep 2006 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2006-ap-j-648-7-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ly$α$ Emitters at z = 5.7 in the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2006-pasj-58-313-s/</link>
+      <pubDate>Sat, 01 Apr 2006 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2006-pasj-58-313-s/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

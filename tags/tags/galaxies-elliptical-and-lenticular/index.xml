@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galaxies: Elliptical and Lenticular | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/galaxies-elliptical-and-lenticular/</link>
+      <atom:link href="https://astrochun.github.io/tags/galaxies-elliptical-and-lenticular/index.xml" rel="self" type="application/rss+xml" />
+    <description>Galaxies: Elliptical and Lenticular</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Tue, 01 May 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Galaxies: Elliptical and Lenticular</title>
+      <link>https://astrochun.github.io/tags/galaxies-elliptical-and-lenticular/</link>
+    </image>
+    
+    <item>
+      <title>High-Frequency VLBI Imaging of the Jet Base of M87</title>
+      <link>https://astrochun.github.io/publication/2007-ap-j-660-200-l/</link>
+      <pubDate>Tue, 01 May 2007 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2007-ap-j-660-200-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Attempt to Probe the Radio Jet Collimation Regions in NGC 4278, NGC 4374 (M84), and NGC 6166</title>
+      <link>https://astrochun.github.io/publication/2004-aj-127-119-l/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2004-aj-127-119-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

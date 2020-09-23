@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Staudaher | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/s.-staudaher/</link>
+      <atom:link href="https://astrochun.github.io/authors/s.-staudaher/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Staudaher</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>S. Staudaher</title>
+      <link>https://astrochun.github.io/authors/s.-staudaher/</link>
+    </image>
+    
+    <item>
+      <title>The H$α$ Luminosity Function and Star Formation Rate Volume Density at z = 0.8 from the NEWFIRM H$α$ Survey</title>
+      <link>https://astrochun.github.io/publication/2011-ap-j-726-109-l/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2011-ap-j-726-109-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

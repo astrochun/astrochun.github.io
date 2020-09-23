@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Chun Ly</title>
+    <link>https://astrochun.github.io/post/</link>
+      <atom:link href="https://astrochun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://astrochun.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Syncing an Overleaf project with your GitHub account</title>
+      <link>https://astrochun.github.io/post/overleaf_github_git_sync/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/post/overleaf_github_git_sync/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt; is an environment for researchers to
+collaboratively write their manuscripts and papers with $\LaTeX$. It is
+an amazing tool, but I have found that it has its limitations. For example,
+if you edit within their web UI, the changes may show up as separate commits
+in their History page.  One of the benefits of Overleaf is that it is
+integrated with &lt;code&gt;git&lt;/code&gt;.  This is great as you can maintain version control
+and document changes to your collaborators.&lt;/p&gt;
+&lt;p&gt;With the power of &lt;code&gt;git&lt;/code&gt;, I wanted to find a way to bring all the version
+control to &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; and their nice UI to illustrate
+changes.&lt;/p&gt;
+&lt;p&gt;I came across this &lt;a href=&#34;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&#34;&gt;tutorial&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;The trick is using the default &lt;code&gt;git remote&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: Sign up for a free account at &lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;
+and create a new project (I recommend the &amp;ldquo;Example Project&amp;rdquo; option):&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;new_project.png&#34; data-caption=&#34;Step 1: Create a new Overleaf project&#34;&gt;
+&lt;img src=&#34;new_project.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 1: Create a new Overleaf project
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: Retrieve the &lt;code&gt;git clone&lt;/code&gt; command by selecting the Menu button in the
+upper left and the &lt;code&gt;Git&lt;/code&gt; option:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;git_clone.png&#34; data-caption=&#34;Step 2: Retrieve git clone command&#34;&gt;
+&lt;img src=&#34;git_clone.png&#34; alt=&#34;&#34; width=&#34;50%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 2: Retrieve &lt;code&gt;git clone&lt;/code&gt; command
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;You should see a pop-up window containing something similar to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;               git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here I use &lt;code&gt;&amp;lt;ABCDEF123456&amp;gt;&lt;/code&gt; as a placeholder for the real path throughout this post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;: Open up a command-line terminal and execute this &lt;code&gt;git clone&lt;/code&gt; command and
+finish it with a more meaningful project name:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; git_integration_project
+$ cd git_integration_project
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You now have a copy of your Overleaf project locally! You can open the content
+with your favorite text editor, and &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt;
+new changes to Overleaf.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;: To take this one step further and mirror a copy on GitHub,
+let&#39;s create an &lt;strong&gt;empty&lt;/strong&gt; &lt;a href=&#34;https://github.com/new&#34;&gt;new GitHub repository&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;github_new.png&#34; data-caption=&#34;Step 4: Create a new empty GitHub repository&#34;&gt;
+&lt;img src=&#34;github_new.png&#34; alt=&#34;&#34; width=&#34;75%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 4: Create a new empty GitHub repository
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Note that this is entirely empty. This is very important as the content
+will be populated from your Overleaf repository! Also, I made it a &lt;em&gt;private&lt;/em&gt;
+repository. You might find that important as well since you might be
+working on a paper that you want to keep private.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt;: Within the &lt;code&gt;git_integration project&lt;/code&gt; folder, create a new &lt;code&gt;git remote&lt;/code&gt;
+called &lt;code&gt;github&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add github https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&#39;s look at our &lt;code&gt;git remote -v&lt;/code&gt; setup:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote -v
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (fetch)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt;: Let us now replicate what we have on Overleaf to GitHub:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git push github (master)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you refresh your GitHub repository, you should see all the $\LaTeX$ files.&lt;/p&gt;
+&lt;p&gt;Of course, it would be nice to be able to push to both git repositories instead
+of having to do:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git push origin master
+$ git push github master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 7&lt;/strong&gt;: To do this, let&#39;s create another &lt;code&gt;git remote&lt;/code&gt; called &lt;code&gt;both&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+$ git remote set-url --add --push both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+$ git remote set-url --add --push both https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let us inspect the &lt;code&gt;git remote -v&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote -v
+both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+both	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (fetch)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that&#39;s it! Now, any &lt;code&gt;git push both (master)&lt;/code&gt; will update both Overleaf and
+GitHub.&lt;/p&gt;
+&lt;p&gt;Now $\LaTeX$ + &lt;code&gt;git push&lt;/code&gt; on!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
