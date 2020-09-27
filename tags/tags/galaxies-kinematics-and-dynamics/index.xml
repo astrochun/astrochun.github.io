@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galaxies: Kinematics and Dynamics | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/galaxies-kinematics-and-dynamics/</link>
+      <atom:link href="https://astrochun.github.io/tags/galaxies-kinematics-and-dynamics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Galaxies: Kinematics and Dynamics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Tue, 01 May 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Galaxies: Kinematics and Dynamics</title>
+      <link>https://astrochun.github.io/tags/galaxies-kinematics-and-dynamics/</link>
+    </image>
+    
+    <item>
+      <title>High-Frequency VLBI Imaging of the Jet Base of M87</title>
+      <link>https://astrochun.github.io/publication/2007-ap-j-660-200-l/</link>
+      <pubDate>Tue, 01 May 2007 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2007-ap-j-660-200-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Discovery of Extended Thermal X-Ray Emission from PKS 2152-699: Evidence for a ``Jet-Cloud&#39;&#39; Interaction</title>
+      <link>https://astrochun.github.io/publication/2005-ap-j-618-609-l/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2005-ap-j-618-609-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

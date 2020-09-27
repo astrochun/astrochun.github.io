@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hydrodynamics | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/hydrodynamics/</link>
+      <atom:link href="https://astrochun.github.io/tags/hydrodynamics/index.xml" rel="self" type="application/rss+xml" />
+    <description>hydrodynamics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>hydrodynamics</title>
+      <link>https://astrochun.github.io/tags/hydrodynamics/</link>
+    </image>
+    
+    <item>
+      <title>The Structure and Dynamics of the Subparsec Jet in M87 Based on 50 VLBA Observations over 17 Years at 43 GHz</title>
+      <link>https://astrochun.github.io/publication/2018-ap-j-855-128-w/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2018-ap-j-855-128-w/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

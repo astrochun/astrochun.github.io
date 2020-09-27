@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Chun Ly</title>
+    <link>https://astrochun.github.io/post/</link>
+      <atom:link href="https://astrochun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://astrochun.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>When the pandemic hit, I used my data analysis and Google Sheet skills to inform</title>
+      <link>https://astrochun.github.io/post/covid19_research/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/post/covid19_research/</guid>
+      <description>&lt;p&gt;Without a doubt, COVID-19 has impacted every aspect of life, especially higher
+education. Earlier this year, the University of Arizona (UofA)
+&lt;a href=&#34;https://view.comms.arizona.edu/?qs=af589cd97cb2617e9fdf2ab657a0d6345f451dbc795ba254bc81195f60626149c14bc1d2f83064236848f4247e26ebfa57a0c9858c2d3201e12beef6136f1cf0df93fc33ec93b71912398904fbc91c6b&#34;&gt;announced&lt;/a&gt;
+it would start the Fall 2020 semester in a hybrid mode of in-person and online
+instruction, and had prepared for this re-entry in a number of ways.
+One of those priorities is testing of students, staff, and faculty to identify
+active cases. The UofA was not alone, as many other universities had implemented
+their own COVID-19 testing program.&lt;/p&gt;
+&lt;p&gt;In late August, the UofA provided summary data containing new daily tests
+(for the previous day) and cumulative numbers (July 31&amp;ndash;) on their main
+&lt;a href=&#34;https://covid19.arizona.edu/updates&#34;&gt;COVID-19 Updates webpage&lt;/a&gt;.  Over time, it
+was clear that the numbers were not improving, but I grew frustrated as it was
+difficult to see &lt;em&gt;quantitative&lt;/em&gt; trends.  Prior to the start of the semester, it
+was said during a COVID-19 webinar that the
+&lt;a href=&#34;https://covid19.arizona.edu/dashboard&#34;&gt;COVID-19 dashboard&lt;/a&gt; would be made
+available in late August.  So on September 3, I decided to start an independent
+volunteer project where I started to aggregate the summary data.  I announced
+it on &lt;a href=&#34;https://twitter.com/astrochunly/status/1301532415773478912&#34;&gt;Twitter&lt;/a&gt;, and
+started with whatever screenshots I had saved and began putting the information
+in a &lt;a href=&#34;https://bit.ly/UArizona_COVID_Testing&#34;&gt;Google Sheet&lt;/a&gt;, which I made &lt;em&gt;publicly&lt;/em&gt;
+available for &lt;strong&gt;everyone&lt;/strong&gt; to see. Over time, I had the help of a few UofA colleagues
+that connected with me through social media:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Jill McCleary, Deputy Director and Acting Head at &lt;a href=&#34;https://artmuseum.arizona.edu/&#34;&gt;UofA Museum of Art&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ironyofprint&#34;&gt;Cheryl Knott&lt;/a&gt;, Professor in the School of Information&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/scastiello&#34;&gt;Santiago Castiello-Gutiérrez&lt;/a&gt;, Ph.D. candidate in the Higher Education program&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I am so thankful to them as this project would not have been possible without them.&lt;/p&gt;
+&lt;p&gt;I chose Google Sheet for many reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Easy to use&lt;/li&gt;
+&lt;li&gt;Easy to publish&lt;/li&gt;
+&lt;li&gt;Easy to collaborate&lt;/li&gt;
+&lt;li&gt;Easy to make charts/graphs&lt;/li&gt;
+&lt;li&gt;As a programmer, built-in version control&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This project was very much &lt;a href=&#34;https://en.wikipedia.org/wiki/Open_science&#34;&gt;#openscience&lt;/a&gt;
+as hundreds of users checked out the spreadsheet daily to look at the latest updates.
+Since many users viewed it anonymously, it was hard to get exact numbers, but this
+was what I found from Twitter, Google, and Bitly tracking.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I estimate a total of 545 clicks on either the original Google or Bitly link&lt;/li&gt;
+&lt;li&gt;393 (72%) of those clicks were through Twitter and Facebook&lt;/li&gt;
+&lt;li&gt;The spreadsheet was shared via other platforms (SMS, email, etc.) for nearly
+152 additional clicks (28%)&lt;/li&gt;
+&lt;li&gt;There were 146 unique non-anonymous viewers to the Google Sheet&lt;/li&gt;
+&lt;li&gt;Using Bitly, I was able to see that viewers included those in at least ten
+different foreign countries.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This all happened mostly during a nearly two-week period before the COVID-19 dashboard
+went live on September 16.&lt;/p&gt;
+&lt;p&gt;The source of information came from my colleagues,
+&lt;a href=&#34;https://www.youtube.com/c/universityofarizona&#34;&gt;UofA&#39;s weekly re-entry broadcasting&lt;/a&gt;,
+and using the &lt;a href=&#34;https://archive.org/web/&#34;&gt;WayBackMachine&lt;/a&gt; to go back and look at the
+websites. After all the data were aggregated, there was a lot of quality control as some
+numbers disagreed, and that needed to be recorded in the Google Sheet with
+in-cell comments and source identification.  This is what we call good
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Data_management&#34;&gt;data management&lt;/a&gt; practice. Then, after
+I felt confident of all the numbers, I put together graphs that summarized the
+testing data.&lt;/p&gt;
+&lt;p&gt;The final culmination of this hard work by my colleagues and I is publishing
+the final table and visualization in the
+&lt;a href=&#34;https://arizona.figshare.com&#34;&gt;UofA Research Data Repository&lt;/a&gt;. The work is titled
+&lt;a href=&#34;https://doi.org/10.25422/azu.data.12966581&#34;&gt;&amp;ldquo;Independent Data Aggregation, Quality Control and Visualization of University of Arizona COVID-19 Re-Entry Testing Data&amp;rdquo;&lt;/a&gt; and is made available
+under a &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/deed.en&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;
+public domain license:&lt;/p&gt;
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/12966581/embed?show_title=true&#34; width=&#34;568&#34; height=&#34;351&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;I really enjoyed being able to share what I learned with the UofA community.
+I found myself needing to make this happen so everyone knew how fast COVID-19
+was spreading in the UofA community. We &lt;strong&gt;all&lt;/strong&gt; need to pull together to
+fight back, and gathering, checking and illustrating information was the best
+way for me to go about it.&lt;/p&gt;
+&lt;p&gt;#StaySafe, #BearDown, and #MaskUp!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syncing an Overleaf project with your GitHub account</title>
+      <link>https://astrochun.github.io/post/overleaf_github_git_sync/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/post/overleaf_github_git_sync/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt; is an environment for researchers to
+collaboratively write their manuscripts and papers with $\LaTeX$. It is
+an amazing tool, but I have found that it has its limitations. For example,
+if you edit within their web UI, the changes may show up as separate commits
+in their History page.  One of the benefits of Overleaf is that it is
+integrated with &lt;code&gt;git&lt;/code&gt;.  This is great as you can maintain version control
+and document changes to your collaborators.&lt;/p&gt;
+&lt;p&gt;With the power of &lt;code&gt;git&lt;/code&gt;, I wanted to find a way to bring all the version
+control to &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; and their nice UI to illustrate
+changes.&lt;/p&gt;
+&lt;p&gt;I came across this &lt;a href=&#34;https://ineed.coffee/3454/how-to-synchronize-an-overleaf-latex-paper-with-a-github-repository/&#34;&gt;tutorial&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;The trick is using the default &lt;code&gt;git remote&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: Sign up for a free account at &lt;a href=&#34;https://www.overleaf.com&#34;&gt;Overleaf&lt;/a&gt;
+and create a new project (I recommend the &amp;ldquo;Example Project&amp;rdquo; option):&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;new_project.png&#34; data-caption=&#34;Step 1: Create a new Overleaf project&#34;&gt;
+&lt;img src=&#34;new_project.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 1: Create a new Overleaf project
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: Retrieve the &lt;code&gt;git clone&lt;/code&gt; command by selecting the Menu button in the
+upper left and the &lt;code&gt;Git&lt;/code&gt; option:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;git_clone.png&#34; data-caption=&#34;Step 2: Retrieve git clone command&#34;&gt;
+&lt;img src=&#34;git_clone.png&#34; alt=&#34;&#34; width=&#34;50%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 2: Retrieve &lt;code&gt;git clone&lt;/code&gt; command
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;You should see a pop-up window containing something similar to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;               git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here I use &lt;code&gt;&amp;lt;ABCDEF123456&amp;gt;&lt;/code&gt; as a placeholder for the real path throughout this post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;: Open up a command-line terminal and execute this &lt;code&gt;git clone&lt;/code&gt; command and
+finish it with a more meaningful project name:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; git_integration_project
+$ cd git_integration_project
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You now have a copy of your Overleaf project locally! You can open the content
+with your favorite text editor, and &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt;
+new changes to Overleaf.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;: To take this one step further and mirror a copy on GitHub,
+let&#39;s create an &lt;strong&gt;empty&lt;/strong&gt; &lt;a href=&#34;https://github.com/new&#34;&gt;new GitHub repository&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;github_new.png&#34; data-caption=&#34;Step 4: Create a new empty GitHub repository&#34;&gt;
+&lt;img src=&#34;github_new.png&#34; alt=&#34;&#34; width=&#34;75%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Step 4: Create a new empty GitHub repository
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Note that this is entirely empty. This is very important as the content
+will be populated from your Overleaf repository! Also, I made it a &lt;em&gt;private&lt;/em&gt;
+repository. You might find that important as well since you might be
+working on a paper that you want to keep private.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt;: Within the &lt;code&gt;git_integration project&lt;/code&gt; folder, create a new &lt;code&gt;git remote&lt;/code&gt;
+called &lt;code&gt;github&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add github https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&#39;s look at our &lt;code&gt;git remote -v&lt;/code&gt; setup:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote -v
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (fetch)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt;: Let us now replicate what we have on Overleaf to GitHub:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git push github (master)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you refresh your GitHub repository, you should see all the $\LaTeX$ files.&lt;/p&gt;
+&lt;p&gt;Of course, it would be nice to be able to push to both git repositories instead
+of having to do:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git push origin master
+$ git push github master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 7&lt;/strong&gt;: To do this, let&#39;s create another &lt;code&gt;git remote&lt;/code&gt; called &lt;code&gt;both&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+$ git remote set-url --add --push both https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt;
+$ git remote set-url --add --push both https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let us inspect the &lt;code&gt;git remote -v&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote -v
+both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+both	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+both	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (fetch)
+github	https://github.com/&amp;lt;USERNAME&amp;gt;/git_integration_project.git (push)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (fetch)
+origin	https://git.overleaf.com/&amp;lt;ABCDEF123456&amp;gt; (push)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that&#39;s it! Now, any &lt;code&gt;git push both (master)&lt;/code&gt; will update both Overleaf and
+GitHub.&lt;/p&gt;
+&lt;p&gt;Now $\LaTeX$ + &lt;code&gt;git push&lt;/code&gt; on!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

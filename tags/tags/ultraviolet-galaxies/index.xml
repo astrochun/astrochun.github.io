@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ultraviolet: galaxies | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/ultraviolet-galaxies/</link>
+      <atom:link href="https://astrochun.github.io/tags/ultraviolet-galaxies/index.xml" rel="self" type="application/rss+xml" />
+    <description>ultraviolet: galaxies</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 01 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>ultraviolet: galaxies</title>
+      <link>https://astrochun.github.io/tags/ultraviolet-galaxies/</link>
+    </image>
+    
+    <item>
+      <title>The Stellar Population and Star Formation Rates of z ap 1.5-1.6 [O II]-emitting Galaxies Selected from Narrowband Emission-line Surveys</title>
+      <link>https://astrochun.github.io/publication/2012-ap-j-757-63-l/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2012-ap-j-757-63-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Census of Star-forming Galaxies at z = 1-3 in the Subaru Deep Field</title>
+      <link>https://astrochun.github.io/publication/2011-ap-j-735-91-l/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2011-ap-j-735-91-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
