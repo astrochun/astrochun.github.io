@@ -5,12 +5,94 @@
     <link>https://astrochun.github.io/post/</link>
       <atom:link href="https://astrochun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Posts</title>
       <link>https://astrochun.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>When the pandemic hit, I used my data analysis and Google Sheet skills to inform</title>
+      <link>https://astrochun.github.io/post/covid19_research/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/post/covid19_research/</guid>
+      <description>&lt;p&gt;Without a doubt, COVID-19 has impacted every aspect of life, especially higher
+education. Earlier this year, the University of Arizona (UofA)
+&lt;a href=&#34;https://view.comms.arizona.edu/?qs=af589cd97cb2617e9fdf2ab657a0d6345f451dbc795ba254bc81195f60626149c14bc1d2f83064236848f4247e26ebfa57a0c9858c2d3201e12beef6136f1cf0df93fc33ec93b71912398904fbc91c6b&#34;&gt;announced&lt;/a&gt;
+it would start the Fall 2020 semester in a hybrid mode of in-person and online
+instruction, and had prepared for this re-entry in a number of ways.
+One of those priorities is testing of students, staff, and faculty to identify
+active cases. The UofA was not alone, as many other universities had implemented
+their own COVID-19 testing program.&lt;/p&gt;
+&lt;p&gt;In late August, the UofA provided summary data containing new daily tests
+(for the previous day) and cumulative numbers (July 31&amp;ndash;) on their main
+&lt;a href=&#34;https://covid19.arizona.edu/updates&#34;&gt;COVID-19 Updates webpage&lt;/a&gt;.  Over time, it
+was clear that the numbers were not improving, but I grew frustrated as it was
+difficult to see &lt;em&gt;quantitative&lt;/em&gt; trends.  Prior to the start of the semester, it
+was said during a COVID-19 webinar that the
+&lt;a href=&#34;https://covid19.arizona.edu/dashboard&#34;&gt;COVID-19 dashboard&lt;/a&gt; would be made
+available in late August.  So on September 3, I decided to start an independent
+volunteer project where I started to aggregate the summary data.  I announced
+it on &lt;a href=&#34;https://twitter.com/astrochunly/status/1301532415773478912&#34;&gt;Twitter&lt;/a&gt;, and
+started with whatever screenshots I had saved and began putting the information
+in a &lt;a href=&#34;https://bit.ly/UArizona_COVID_Testing&#34;&gt;Google Sheet&lt;/a&gt;, which I made &lt;em&gt;publicly&lt;/em&gt;
+available for &lt;strong&gt;everyone&lt;/strong&gt; to see. Over time, I had the help of a few UofA colleagues
+that connected with me through social media:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Jill McCleary, Deputy Director and Acting Head at &lt;a href=&#34;https://artmuseum.arizona.edu/&#34;&gt;UofA Museum of Art&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ironyofprint&#34;&gt;Cheryl Knott&lt;/a&gt;, Professor in the School of Information&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/scastiello&#34;&gt;Santiago Castiello-Gutiérrez&lt;/a&gt;, Ph.D. candidate in the Higher Education program&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I am so thankful to them as this project would not have been possible without them.&lt;/p&gt;
+&lt;p&gt;I chose Google Sheet for many reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Easy to use&lt;/li&gt;
+&lt;li&gt;Easy to publish&lt;/li&gt;
+&lt;li&gt;Easy to collaborate&lt;/li&gt;
+&lt;li&gt;Easy to make charts/graphs&lt;/li&gt;
+&lt;li&gt;As a programmer, built-in version control&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This project was very much &lt;a href=&#34;https://en.wikipedia.org/wiki/Open_science&#34;&gt;#openscience&lt;/a&gt;
+as hundreds of users checked out the spreadsheet daily to look at the latest updates.
+Since many users viewed it anonymously, it was hard to get exact numbers, but this
+was what I found from Twitter, Google, and Bitly tracking.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I estimate a total of 545 clicks on either the original Google or Bitly link&lt;/li&gt;
+&lt;li&gt;393 (72%) of those clicks were through Twitter and Facebook&lt;/li&gt;
+&lt;li&gt;The spreadsheet was shared via other platforms (SMS, email, etc.) for nearly
+152 additional clicks (28%)&lt;/li&gt;
+&lt;li&gt;There were 146 unique non-anonymous viewers to the Google Sheet&lt;/li&gt;
+&lt;li&gt;Using Bitly, I was able to see that viewers included those in at least ten
+different foreign countries.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This all happened mostly during a nearly two-week period before the COVID-19 dashboard
+went live on September 16.&lt;/p&gt;
+&lt;p&gt;The source of information came from my colleagues,
+&lt;a href=&#34;https://www.youtube.com/c/universityofarizona&#34;&gt;UofA&#39;s weekly re-entry broadcasting&lt;/a&gt;,
+and using the &lt;a href=&#34;https://archive.org/web/&#34;&gt;WayBackMachine&lt;/a&gt; to go back and look at the
+websites. After all the data were aggregated, there was a lot of quality control as some
+numbers disagreed, and that needed to be recorded in the Google Sheet with
+in-cell comments and source identification.  This is what we call good
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Data_management&#34;&gt;data management&lt;/a&gt; practice. Then, after
+I felt confident of all the numbers, I put together graphs that summarized the
+testing data.&lt;/p&gt;
+&lt;p&gt;The final culmination of this hard work by my colleagues and I is publishing
+the final table and visualization in the
+&lt;a href=&#34;https://arizona.figshare.com&#34;&gt;UofA Research Data Repository&lt;/a&gt;. The work is titled
+&lt;a href=&#34;https://doi.org/10.25422/azu.data.12966581&#34;&gt;&amp;ldquo;Independent Data Aggregation, Quality Control and Visualization of University of Arizona COVID-19 Re-Entry Testing Data&amp;rdquo;&lt;/a&gt; and is made available
+under a &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/deed.en&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;
+public domain license:&lt;/p&gt;
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/12966581/embed?show_title=true&#34; width=&#34;568&#34; height=&#34;351&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;I really enjoyed being able to share what I learned with the UofA community.
+I found myself needing to make this happen so everyone knew how fast COVID-19
+was spreading in the UofA community. We &lt;strong&gt;all&lt;/strong&gt; need to pull together to
+fight back, and gathering, checking and illustrating information was the best
+way for me to go about it.&lt;/p&gt;
+&lt;p&gt;#StaySafe, #BearDown, and #MaskUp!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Syncing an Overleaf project with your GitHub account</title>
