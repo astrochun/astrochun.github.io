@@ -5,12 +5,52 @@
     <link>https://astrochun.github.io/tags/</link>
       <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://astrochun.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>COVID19</title>
+      <link>https://astrochun.github.io/tags/covid19/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Aggregation</title>
+      <link>https://astrochun.github.io/tags/data-aggregation/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/data-aggregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Publishing</title>
+      <link>https://astrochun.github.io/tags/data-publishing/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/data-publishing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Sheet</title>
+      <link>https://astrochun.github.io/tags/google-sheet/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/google-sheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Science</title>
+      <link>https://astrochun.github.io/tags/open-science/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/open-science/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Management</title>
@@ -33,14 +73,6 @@
       <link>https://astrochun.github.io/tags/figshare/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/figshare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Science</title>
-      <link>https://astrochun.github.io/tags/open-science/</link>
-      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/open-science/</guid>
       <description></description>
     </item>
     
@@ -93,7 +125,7 @@
     </item>
     
     <item>
-      <title>Galaxies: Jets-</title>
+      <title>Galaxies: Jets</title>
       <link>https://astrochun.github.io/tags/galaxies-jets/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-jets/</guid>
