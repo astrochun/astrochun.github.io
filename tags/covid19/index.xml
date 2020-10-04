@@ -74,9 +74,10 @@ and using the &lt;a href=&#34;https://archive.org/web/&#34;&gt;WayBackMachine&lt
 websites. After all the data were aggregated, there was a lot of quality control as some
 numbers disagreed, and that needed to be recorded in the Google Sheet with
 in-cell comments and source identification.  This is what we call good
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Data_management&#34;&gt;data management&lt;/a&gt; practice. Then, after
-I felt confident of all the numbers, I put together graphs that summarized the
-testing data.&lt;/p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Data_management&#34;&gt;data management&lt;/a&gt; practice.
+A preview of the machine-readable consolidated spreadsheet is available below:&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3asdKKUNbQj9tpMo8dircaSVxDHJR0fKo8L9cLQ3TMqHb-KBzHmCT_iRl2ie6xbtHEV3V5EHZjuo-/pubhtml?gid=880188181&amp;single=true&#34; frameborder=&#34;0&#34; width=&#34;715&#34; height=&#34;450&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Then, after I felt confident of all the numbers, &lt;a href=&#34;featured.png&#34;&gt;I put together graphs that summarized the testing data.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The final culmination of this hard work by my colleagues and I is publishing
 the final table and visualization in the
 &lt;a href=&#34;https://arizona.figshare.com&#34;&gt;UofA Research Data Repository&lt;/a&gt;. The work is titled
