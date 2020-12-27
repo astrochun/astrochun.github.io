@@ -5,12 +5,100 @@
     <link>https://astrochun.github.io/tags/</link>
       <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://astrochun.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>arXiv</title>
+      <link>https://astrochun.github.io/tags/arxiv/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astronomy</title>
+      <link>https://astrochun.github.io/tags/astronomy/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/astronomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BeautifulSoup</title>
+      <link>https://astrochun.github.io/tags/beautifulsoup/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/beautifulsoup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benty-Fields</title>
+      <link>https://astrochun.github.io/tags/benty-fields/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/benty-fields/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Preservation</title>
+      <link>https://astrochun.github.io/tags/digital-preservation/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/digital-preservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://astrochun.github.io/tags/github/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacking</title>
+      <link>https://astrochun.github.io/tags/hacking/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandas</title>
+      <link>https://astrochun.github.io/tags/pandas/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://astrochun.github.io/tags/python/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vox Charta</title>
+      <link>https://astrochun.github.io/tags/vox-charta/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/vox-charta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Scraping</title>
+      <link>https://astrochun.github.io/tags/web-scraping/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/web-scraping/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>COVID19</title>
@@ -49,22 +137,6 @@
       <link>https://astrochun.github.io/tags/open-science/</link>
       <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/open-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub</title>
-      <link>https://astrochun.github.io/tags/github/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hacking</title>
-      <link>https://astrochun.github.io/tags/hacking/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/hacking/</guid>
       <description></description>
     </item>
     
@@ -157,7 +229,7 @@
     </item>
     
     <item>
-      <title>Galaxies: Jets</title>
+      <title>Galaxies: Jets-</title>
       <link>https://astrochun.github.io/tags/galaxies-jets/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-jets/</guid>
@@ -189,7 +261,7 @@
     </item>
     
     <item>
-      <title>Cosmology: Observations</title>
+      <title>cosmology: observations</title>
       <link>https://astrochun.github.io/tags/cosmology-observations/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/cosmology-observations/</guid>
@@ -205,7 +277,7 @@
     </item>
     
     <item>
-      <title>Galaxies: High-Redshift</title>
+      <title>galaxies: high-redshift</title>
       <link>https://astrochun.github.io/tags/galaxies-high-redshift/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-high-redshift/</guid>
@@ -341,7 +413,7 @@
     </item>
     
     <item>
-      <title>Galaxies: Formation</title>
+      <title>galaxies: formation</title>
       <link>https://astrochun.github.io/tags/galaxies-formation/</link>
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/galaxies-formation/</guid>
@@ -405,7 +477,7 @@
     </item>
     
     <item>
-      <title>Cosmology: Early Universe</title>
+      <title>cosmology: early universe</title>
       <link>https://astrochun.github.io/tags/cosmology-early-universe/</link>
       <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/cosmology-early-universe/</guid>

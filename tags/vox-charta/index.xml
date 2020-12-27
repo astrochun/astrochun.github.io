@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vox Charta | Chun Ly</title>
+    <link>https://astrochun.github.io/tags/vox-charta/</link>
+      <atom:link href="https://astrochun.github.io/tags/vox-charta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vox Charta</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Vox Charta</title>
+      <link>https://astrochun.github.io/tags/vox-charta/</link>
+    </image>
+    
+    <item>
+      <title>Preserving your voting records on Vox Charta with Python</title>
+      <link>https://astrochun.github.io/post/voxcharta_preserve/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/post/voxcharta_preserve/</guid>
+      <description>&lt;p&gt;It&#39;s been a few months since I have done a tech/hacking post. I figured it might
+be worthwhile to do a post-mortem on the recent web scraping work that I did.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://voxcharta.org&#34;&gt;Vox Charta&lt;/a&gt;, a web application that allowed astronomers
+to vote and discuss about the latest manuscripts made available on
+&lt;a href=&#34;https://arxiv.org&#34;&gt;arXiv&lt;/a&gt;, was conceived in 2009 by
+&lt;a href=&#34;https://github.com/guillochon&#34;&gt;James Guillochon&lt;/a&gt;.
+It was used by thousands of astronomers internationally as there was no
+other options available for several years. Unfortunately, it was
+&lt;a href=&#34;https://twitter.com/astrocrash/status/1287053013589385217&#34;&gt;announced&lt;/a&gt;
+that the service would be sunsetted on December 31, 2020.&lt;/p&gt;
+&lt;p&gt;Personally I used Vox Charta since 2011 and have utilized its voting method to
+record astronomy papers of interest to me. When I heard the news of the sunset
+I immediately knew that I needed to #preserve my voting records. There were
+over 2,000 papers of interest to me!&lt;/p&gt;
+&lt;p&gt;So I went forth and built a simple Python software to extract that information.
+The &amp;ldquo;My Voting Records&amp;rdquo; content was stored in HTML, so it made sense to use
+&lt;a href=&#34;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&#34;&gt;&lt;code&gt;BeautifulSoup&lt;/code&gt;&lt;/a&gt;
+for extraction! It was quite fun to solve this problem; this was my first
+time building a web scraping tool. Loading the content was pretty straightforward:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import re
+from bs4 import BeautifulSoup
+import json
+import pandas as pd
+
+class Extract:
+    def __init__(self, filename, json_outfile, csv_outfile):
+    
+            self.log = log
+            self.filename = filename
+            self.json_outfile = json_outfile
+            self.csv_outfile = csv_outfile
+    
+            self.content = self.import_data()
+
+    def import_data(self):
+        &amp;quot;&amp;quot;&amp;quot;Import data&amp;quot;&amp;quot;&amp;quot;
+
+        with open(self.filename, &#39;r&#39;) as f:
+            content = f.read()
+        f.close()
+
+        return content
+
+    def soup_it(self):
+        &amp;quot;&amp;quot;&amp;quot;Construct BeautifulSoup data structure&amp;quot;&amp;quot;&amp;quot;
+
+        page_content = BeautifulSoup(self.content, &amp;quot;html.parser&amp;quot;)
+
+        return page_content
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because the exported HTML was not as well structured, some trial and error
+was needed to figure out how to extract specific content. In the end, I was
+able to scrape the arXiv ID, title, author list, author affiliation, abstract,
+arXiv categories, links, comments, and many other information. The method
+to retrieve the voting records is too long to put it here, but you can see
+it &lt;a href=&#34;https://github.com/astrochun/voxcharta-my-voting-record/blob/main/voxcharta_my_voting_record/extract.py#L77-L163&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Then, I added the ability to export the content to two machine-readable forms.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    def export_data(self, records_dict):
+        &amp;quot;&amp;quot;&amp;quot;Write JSON and csv files&amp;quot;&amp;quot;&amp;quot;
+
+        with open(self.json_outfile, &#39;w&#39;) as outfile:
+            json.dump(records_dict, outfile, indent=4)
+
+        df = pd.DataFrame.from_dict(records_dict, orient=&#39;index&#39;)
+        df.to_csv(self.csv_outfile, index=False)
+
+        # Write arxiv_id list
+        arxiv_outfile = self.csv_outfile.replace(&#39;.csv&#39;, &#39;_arxiv.txt&#39;)
+        clean_df = df.loc[(df[&#39;arxiv_id&#39;] != &#39;&#39;) &amp;amp; (df[&#39;arxiv_id&#39;].notna())]
+        clean_df.to_csv(arxiv_outfile, index=False, header=False,
+                        columns=[&#39;arxiv_id&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see, two types of files are provided: JSON and
+CSV. The latter is done with &lt;a href=&#34;https://pandas.pydata.org/&#34;&gt;&lt;code&gt;pandas&lt;/code&gt;&lt;/a&gt;.
+An example of the exported JSON output is available below.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;voxcharta_json.jpg&#34; &gt;
+&lt;img src=&#34;voxcharta_json.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I then provided my voting records to the maintainers of the
+&lt;a href=&#34;https://www.benty-fields.com/&#34;&gt;Benty-Fields&lt;/a&gt; web application. It
+has many features that are similar to Vox Charta by allowing for
+discussions and voting. In the end, those records were transferred
+over!&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;benty_fields.png&#34; &gt;
+&lt;img src=&#34;benty_fields.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you&#39;re interested in using this code, it is available
+&lt;a href=&#34;https://github.com/astrochun/voxcharta-my-voting-record&#34;&gt;here&lt;/a&gt;.
+The code is made available under a
+&lt;a href=&#34;https://github.com/astrochun/voxcharta-my-voting-record/blob/main/LICENSE&#34;&gt;GNU GPL-3.0&lt;/a&gt;
+License so other astronomers can preserve their precious Vox Charta records.&lt;/p&gt;
+&lt;p&gt;The README.md provides more details, but here are some quick
+installation and execution steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Download the complete webpage view from the &amp;ldquo;My Voting Record&amp;rdquo; page before
+the site is permanently down&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clone the repo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/astrochun/voxcharta-my-voting-record
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build it (preferably in a contained environment)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cd voxcharta-my-voting-record
+$ (sudo) python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can then easily execute the main script:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ vox_run -f myvotingrecords.htm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Many thanks to James Guillochon for being the selfless maintainer of Vox
+Charta for over a decade. I&#39;m also thankful to the Benty-Fields maintainers
+for their help.&lt;/p&gt;
+&lt;p&gt;If you found this &lt;strong&gt;open-source&lt;/strong&gt; software useful, consider sponsoring me
+through GitHub.&lt;/p&gt;
+&lt;iframe src=&#34;https://github.com/sponsors/astrochun/button&#34;
+title=&#34;Sponsor astrochun&#34; height=&#34;35&#34; width=&#34;116&#34; style=&#34;border: 0;&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
