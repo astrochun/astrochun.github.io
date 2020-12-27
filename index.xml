@@ -18,7 +18,7 @@
       <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/post/voxcharta_preserve/</guid>
       <description>&lt;p&gt;It&#39;s been a few months since I have done a tech/hacking post. I figured it might
-be worthwhile to do a post-mortem on the recent web scraping work that I did.&lt;/p&gt;
+be worthwhile to do a quick one on the recent web scraping work that I did.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://voxcharta.org&#34;&gt;Vox Charta&lt;/a&gt;, a web application that allowed astronomers
 to vote and discuss about the latest manuscripts made available on
 &lt;a href=&#34;https://arxiv.org&#34;&gt;arXiv&lt;/a&gt;, was conceived in 2009 by
