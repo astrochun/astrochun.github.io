@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chun Ly</title>
+    <link>https://astrochun.github.io/authors/chun-ly/</link>
+      <atom:link href="https://astrochun.github.io/authors/chun-ly/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chun Ly</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Chun Ly</title>
+      <link>https://astrochun.github.io/authors/chun-ly/</link>
+    </image>
+    
+    <item>
+      <title>The stellar population of metal-poor galaxies at z ensuremath≈ 0.8 and the evolution of the mass-metallicity relation</title>
+      <link>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping the Stellar Halo with the H3 Spectroscopic Survey</title>
+      <link>https://astrochun.github.io/publication/2019-ap-j-883-107-c/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2019-ap-j-883-107-c/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Laskar | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/t.-laskar/</link>
+      <atom:link href="https://astrochun.github.io/authors/t.-laskar/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Laskar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>T. Laskar</title>
+      <link>https://astrochun.github.io/authors/t.-laskar/</link>
+    </image>
+    
+    <item>
+      <title>Follow-up of the Neutron Star Bearing Gravitational-wave Candidate Events S190425z and S190426c with MMT and SOAR</title>
+      <link>https://astrochun.github.io/publication/2019-ap-j-880-l-4-h/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2019-ap-j-880-l-4-h/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

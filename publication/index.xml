@@ -5,12 +5,36 @@
     <link>https://astrochun.github.io/publication/</link>
       <atom:link href="https://astrochun.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://astrochun.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>The stellar population of metal-poor galaxies at z ensuremath≈ 0.8 and the evolution of the mass-metallicity relation</title>
+      <link>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping the Stellar Halo with the H3 Spectroscopic Survey</title>
+      <link>https://astrochun.github.io/publication/2019-ap-j-883-107-c/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2019-ap-j-883-107-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Follow-up of the Neutron Star Bearing Gravitational-wave Candidate Events S190425z and S190426c with MMT and SOAR</title>
+      <link>https://astrochun.github.io/publication/2019-ap-j-880-l-4-h/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2019-ap-j-880-l-4-h/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Structure and Dynamics of the Subparsec Jet in M87 Based on 50 VLBA Observations over 17 Years at 43 GHz</title>

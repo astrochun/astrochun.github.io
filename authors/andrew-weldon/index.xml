@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew Weldon | Chun Ly</title>
+    <link>https://astrochun.github.io/authors/andrew-weldon/</link>
+      <atom:link href="https://astrochun.github.io/authors/andrew-weldon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrew Weldon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrochun.github.io/img/icon-192.png</url>
+      <title>Andrew Weldon</title>
+      <link>https://astrochun.github.io/authors/andrew-weldon/</link>
+    </image>
+    
+    <item>
+      <title>The stellar population of metal-poor galaxies at z ensuremath≈ 0.8 and the evolution of the mass-metallicity relation</title>
+      <link>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

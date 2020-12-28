@@ -5,12 +5,20 @@
     <link>https://astrochun.github.io/tags/galaxies-abundances/</link>
       <atom:link href="https://astrochun.github.io/tags/galaxies-abundances/index.xml" rel="self" type="application/rss+xml" />
     <description>galaxies: abundances</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>galaxies: abundances</title>
       <link>https://astrochun.github.io/tags/galaxies-abundances/</link>
     </image>
+    
+    <item>
+      <title>The stellar population of metal-poor galaxies at z ensuremath≈ 0.8 and the evolution of the mass-metallicity relation</title>
+      <link>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2020-mnras-491-2254-w/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Metal Abundances across Cosmic Time (MACT) Survey. I. Optical Spectroscopy in the Subaru Deep Field</title>
