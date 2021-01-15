@@ -5,7 +5,7 @@
     <link>https://astrochun.github.io/authors/</link>
       <atom:link href="https://astrochun.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,58 @@
     </image>
     
     <item>
-      <title>Andrew Weldon</title>
-      <link>https://astrochun.github.io/authors/andrew-weldon/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/authors/andrew-weldon/</guid>
+      <title>Chun Ly</title>
+      <link>https://astrochun.github.io/authors/chun-ly/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/chun-ly/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chun Ly</title>
-      <link>https://astrochun.github.io/authors/chun-ly/</link>
+      <title>James E. Rhoads</title>
+      <link>https://astrochun.github.io/authors/james-e.-rhoads/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/james-e.-rhoads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kaitlyn Shin</title>
+      <link>https://astrochun.github.io/authors/kaitlyn-shin/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/kaitlyn-shin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matthew A. Malkan</title>
+      <link>https://astrochun.github.io/authors/matthew-a.-malkan/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/matthew-a.-malkan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mithi de los Reyes</title>
+      <link>https://astrochun.github.io/authors/mithi-de-los-reyes/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/mithi-de-los-reyes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sangeeta Malhotra</title>
+      <link>https://astrochun.github.io/authors/sangeeta-malhotra/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/authors/sangeeta-malhotra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andrew Weldon</title>
+      <link>https://astrochun.github.io/authors/andrew-weldon/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/authors/chun-ly/</guid>
+      <guid>https://astrochun.github.io/authors/andrew-weldon/</guid>
       <description></description>
     </item>
     

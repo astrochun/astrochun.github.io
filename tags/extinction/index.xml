@@ -5,12 +5,20 @@
     <link>https://astrochun.github.io/tags/extinction/</link>
       <atom:link href="https://astrochun.github.io/tags/extinction/index.xml" rel="self" type="application/rss+xml" />
     <description>extinction</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Fri, 01 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>extinction</title>
       <link>https://astrochun.github.io/tags/extinction/</link>
     </image>
+    
+    <item>
+      <title>The Metal Abundances across Cosmic Time (MACT) Survey. III - The relationship between stellar mass and star formation rate in extremely low-mass galaxies</title>
+      <link>https://astrochun.github.io/publication/2021-mnras-501-2231-s/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/publication/2021-mnras-501-2231-s/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nebular Attenuation in H$α$-selected Star-forming Galaxies at z = 0.8 from the NewH$α$ Survey</title>
