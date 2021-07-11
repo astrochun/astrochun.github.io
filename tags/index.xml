@@ -5,12 +5,68 @@
     <link>https://astrochun.github.io/tags/</link>
       <atom:link href="https://astrochun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://astrochun.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>bokeh</title>
+      <link>https://astrochun.github.io/tags/bokeh/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/bokeh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacking</title>
+      <link>https://astrochun.github.io/tags/hacking/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>https://astrochun.github.io/tags/heroku/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandas</title>
+      <link>https://astrochun.github.io/tags/pandas/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://astrochun.github.io/tags/python/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salary data</title>
+      <link>https://astrochun.github.io/tags/salary-data/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/salary-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streamlit</title>
+      <link>https://astrochun.github.io/tags/streamlit/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrochun.github.io/tags/streamlit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Astrophysics - Astrophysics of Galaxies</title>
@@ -121,30 +177,6 @@
       <link>https://astrochun.github.io/tags/github/</link>
       <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hacking</title>
-      <link>https://astrochun.github.io/tags/hacking/</link>
-      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/hacking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pandas</title>
-      <link>https://astrochun.github.io/tags/pandas/</link>
-      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/pandas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://astrochun.github.io/tags/python/</link>
-      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrochun.github.io/tags/python/</guid>
       <description></description>
     </item>
     
