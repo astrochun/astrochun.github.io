@@ -141,8 +141,7 @@ def main():
 &lt;p&gt;As discussed earlier, interactions with the data is done with different views.
 Currently, I have five of them:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Trends: General facts and numbers (e.g. number of employees, salary budget,
-etc.), for each fiscal year&lt;/li&gt;
+&lt;li&gt;Trends: General facts and numbers (e.g. number of employees, salary budget), for each fiscal year&lt;/li&gt;
 &lt;li&gt;Salary Summary: Statistics and percentile salary data, includes salary histogram&lt;/li&gt;
 &lt;li&gt;Highest Earners: Extract data above a minimum salary&lt;/li&gt;
 &lt;li&gt;College/Division Data: Similar to Salary Summary but extracted for each college(s)/division(s)&lt;/li&gt;
@@ -221,8 +220,30 @@ content in the main page. Here&#39;s a screenshot for the Salary Summary page&lt
 
 &lt;/figure&gt;
 
+&lt;h2 id=&#34;whats-next&#34;&gt;What&#39;s next?&lt;/h2&gt;
+&lt;h4 id=&#34;next-feature&#34;&gt;Next feature!&lt;/h4&gt;
+&lt;p&gt;Recently &lt;a href=&#34;https://twitter.com/astrochunly/status/1407485898485239809&#34;&gt;I asked users what the next key feature&lt;/a&gt;
+they would like to see. With 40% of the vote, users felt that having a search
+tool to look at individual salary would be key.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/uarizona?ref_src=twsrc%5Etfw&#34;&gt;@uarizona&lt;/a&gt; salary app is all about the experience of the users, so help me prioritize what&amp;#39;s the next 😎 feature for 🚀!&lt;a href=&#34;https://t.co/sPs8xmkTbz&#34;&gt;https://t.co/sPs8xmkTbz&lt;/a&gt;&lt;a href=&#34;https://twitter.com/CAJUArizona?ref_src=twsrc%5Etfw&#34;&gt;@CAJUArizona&lt;/a&gt; &lt;a href=&#34;https://twitter.com/UCWArizona?ref_src=twsrc%5Etfw&#34;&gt;@UCWArizona&lt;/a&gt; &lt;a href=&#34;https://twitter.com/coba_uarizona?ref_src=twsrc%5Etfw&#34;&gt;@coba_uarizona&lt;/a&gt;&lt;/p&gt;&amp;mdash; Chun Ly, Ph.D. (@astrochunly) &lt;a href=&#34;https://twitter.com/astrochunly/status/1407485898485239809?ref_src=twsrc%5Etfw&#34;&gt;June 22, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h4 id=&#34;more-data-views&#34;&gt;More data views!&lt;/h4&gt;
+&lt;p&gt;In 2020, UArizona completed the
+&lt;a href=&#34;https://hr.arizona.edu/content/university-career-architecture-project-ucap&#34;&gt;University Career Architecture Project (UCAP)&lt;/a&gt;,
+which map every employee to specific career streams. I recently submitted
+a public request for FY2020-21 data that includes UCAP and other
+demographics (e.g. sex, race, ethnicity). In fact,
+&lt;a href=&#34;https://twitter.com/astrochunly/status/1392310191190732802&#34;&gt;UCAP was my original motivation for this app&lt;/a&gt;.
+With a proper mapping of career streams, any UArizona member could
+easily compare their salary against those across the campus with the
+same job responsibilities.&lt;/p&gt;
+&lt;p&gt;Once I have these data, I&#39;ll then add additional views to explore
+the UCAP classification and other demographics.&lt;/p&gt;
+&lt;h2 id=&#34;support-it&#34;&gt;Support it!&lt;/h2&gt;
 &lt;p&gt;If you found this &lt;strong&gt;open-source&lt;/strong&gt; software useful, consider sponsoring me
-through GitHub.&lt;/p&gt;
+through GitHub with a small donation. Your name will be included as a sponsor
+on the app&#39;s main page&lt;/p&gt;
 &lt;iframe src=&#34;https://github.com/sponsors/astrochun/button&#34;
 title=&#34;Sponsor astrochun&#34; height=&#34;35&#34; width=&#34;116&#34; style=&#34;border: 0;&#34;&gt;
 &lt;/iframe&gt;
