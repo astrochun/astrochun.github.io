@@ -139,18 +139,19 @@ def main():
 &lt;/figure&gt;
 
 &lt;p&gt;As discussed earlier, interactions with the data is done with different views.
-Currently, I have five of them:&lt;/p&gt;
+Currently, I have six of them:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trends: General facts and numbers (e.g. number of employees, salary budget), for each fiscal year&lt;/li&gt;
 &lt;li&gt;Salary Summary: Statistics and percentile salary data, includes salary histogram&lt;/li&gt;
 &lt;li&gt;Highest Earners: Extract data above a minimum salary&lt;/li&gt;
 &lt;li&gt;College/Division Data: Similar to Salary Summary but extracted for each college(s)/division(s)&lt;/li&gt;
 &lt;li&gt;Department Data: Similar to Salary Summary but extracted for each department(s)&lt;/li&gt;
+&lt;li&gt;Individual Search: Search for all data for individuals or by looking at each department&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;This can easily be done on the side and then the main page is loaded&lt;/p&gt;
+&lt;p&gt;This can easily be done on the sidebar and then the main page is loaded&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;DATA_VIEWS = [
-    &#39;About&#39;, &#39;Trends&#39;, &#39;Salary Summary&#39;, &#39;Highest Earners&#39;,
-    &#39;College/Division Data&#39;, &#39;Department Data&#39;
+    &#39;About&#39;, &#39;Individual Search (NEW)&#39;, &#39;Trends&#39;, &#39;Salary Summary&#39;,
+    &#39;Highest Earners&#39;, &#39;College/Division Data&#39;, &#39;Department Data&#39;,
 ]
 
 def select_data_view() -&amp;gt; str:
@@ -188,9 +189,13 @@ def main():
         views.subset_select_data_page(df, &#39;Department&#39;, &#39;department&#39;,
                                       pay_norm)
 
+    # Load individual search
+    if view_select == &#39;Individual Search&#39;:
+        views.individual_search_page(data_dict, unique_df)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here &lt;code&gt;views&lt;/code&gt; is a module and each of its function displays different
-content in the main page. Here&#39;s a screenshot for the Salary Summary page&lt;/p&gt;
+&lt;p&gt;Here &lt;code&gt;views&lt;/code&gt; is a Python module and each of its function displays
+different  content in the main page. Here&#39;s a screenshot for the
+Salary Summary page&lt;/p&gt;
 
 
 
