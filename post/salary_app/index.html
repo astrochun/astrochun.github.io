@@ -28,8 +28,7 @@
   
     
   
-  <meta name="description" content="Motivation The Daily Wildcat of the University of Arizona (UArizona) has routinely provided the salary of UArizona employees for nearly a decade through public requests. While this allowed for the easy viewing of information for an individual, the analysis from the Daily Wildcat was rather limited. As such, I wanted to build a data visualization app that allow anyone to explore the data for 100% transparency.
-How The salary data were available as machine-readable CSV files, so it made sense to build a Python application that uses pandas to extract, transform, and load (ETL) the data.">
+  <meta name="description" content="Motivation The Daily Wildcat of the University of Arizona (UArizona) has routinely provided the salary of UArizona employees for nearly a decade through public requests. While this allowed for the easy viewing of information for an individual, the analysis from the Daily Wildcat was rather limited. As such, I wanted to build a data visualization app that would allow anyone to explore the data for 100% transparency. I call it sapp4ua, which is short for the salary app for UArizona.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://astrochun.github.io/post/salary_app/">
@@ -115,14 +114,13 @@ How The salary data were available as machine-readable CSV files, so it made sen
   <meta property="og:site_name" content="Chun Ly">
   <meta property="og:url" content="https://astrochun.github.io/post/salary_app/">
   <meta property="og:title" content="Building a streamlit app to serve UArizona salary data and deploying it on Heroku | Chun Ly">
-  <meta property="og:description" content="Motivation The Daily Wildcat of the University of Arizona (UArizona) has routinely provided the salary of UArizona employees for nearly a decade through public requests. While this allowed for the easy viewing of information for an individual, the analysis from the Daily Wildcat was rather limited. As such, I wanted to build a data visualization app that allow anyone to explore the data for 100% transparency.
-How The salary data were available as machine-readable CSV files, so it made sense to build a Python application that uses pandas to extract, transform, and load (ETL) the data."><meta property="og:image" content="https://astrochun.github.io/post/salary_app/featured.png">
+  <meta property="og:description" content="Motivation The Daily Wildcat of the University of Arizona (UArizona) has routinely provided the salary of UArizona employees for nearly a decade through public requests. While this allowed for the easy viewing of information for an individual, the analysis from the Daily Wildcat was rather limited. As such, I wanted to build a data visualization app that would allow anyone to explore the data for 100% transparency. I call it sapp4ua, which is short for the salary app for UArizona."><meta property="og:image" content="https://astrochun.github.io/post/salary_app/featured.png">
   <meta property="twitter:image" content="https://astrochun.github.io/post/salary_app/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-07-11T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2021-08-29T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-07-11T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-08-29T00:00:00&#43;00:00">
   
 
   
@@ -156,8 +154,8 @@ How The salary data were available as machine-readable CSV files, so it made sen
     "https://astrochun.github.io/post/salary_app/featured.png"
   ],
   
-  "datePublished": "2021-07-11T00:00:00Z",
-  "dateModified": "2021-07-11T00:00:00Z",
+  "datePublished": "2021-08-29T00:00:00Z",
+  "dateModified": "2021-08-29T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -172,7 +170,7 @@ How The salary data were available as machine-readable CSV files, so it made sen
       "url": "https://astrochun.github.io/img/icon-512.png"
     }
   },
-  "description": "Motivation The Daily Wildcat of the University of Arizona (UArizona) has routinely provided the salary of UArizona employees for nearly a decade through public requests. While this allowed for the easy viewing of information for an individual, the analysis from the Daily Wildcat was rather limited. As such, I wanted to build a data visualization app that allow anyone to explore the data for 100% transparency.\nHow The salary data were available as machine-readable CSV files, so it made sense to build a Python application that uses pandas to extract, transform, and load (ETL) the data."
+  "description": "Motivation The Daily Wildcat of the University of Arizona (UArizona) has routinely provided the salary of UArizona employees for nearly a decade through public requests. While this allowed for the easy viewing of information for an individual, the analysis from the Daily Wildcat was rather limited. As such, I wanted to build a data visualization app that would allow anyone to explore the data for 100% transparency. I call it sapp4ua, which is short for the salary app for UArizona."
 }
 </script>
 
@@ -524,7 +522,7 @@ How The salary data were available as machine-readable CSV files, so it made sen
     
       
     
-    Jul 11, 2021
+    Aug 29, 2021
   </span>
   
 
@@ -533,7 +531,7 @@ How The salary data were available as machine-readable CSV files, so it made sen
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    5 min read
+    8 min read
   </span>
   
 
@@ -663,8 +661,9 @@ How The salary data were available as machine-readable CSV files, so it made sen
 the salary of UArizona employees for nearly a decade through public requests.
 While this allowed for the easy viewing of information for an individual,
 the analysis from the Daily Wildcat was rather limited. As such, I wanted to
-build a data visualization app that allow anyone to explore the data for
-100% transparency.</p>
+build a data visualization app that would allow anyone to explore the data for
+100% transparency. I call it <code>sapp4ua</code>, which is short for the
+salary app for UArizona. It's available at <a href="https://sapp4ua.herokuapp.com">https://sapp4ua.herokuapp.com</a></p>
 <h2 id="how">How</h2>
 <p>The salary data were available as machine-readable CSV files, so it made sense
 to build a Python application that uses <code>pandas</code> to extract, transform, and
@@ -678,7 +677,7 @@ From there, I put together the software to load the data and provide different
 &ldquo;data views&rdquo; that were different interactions with the data. The code is
 available on <a href="https://www.github.com/astrochun/uarizona-salary-app">GitHub</a>
 under an MIT License. There are many resources and blogs about building a
-<code>streamlit</code>, so I won't go in details here, but I will illustrate some
+<code>streamlit</code> app, so I won't go in details here, but I will illustrate some
 aspects:</p>
 <p>Loading in data can be simple.</p>
 <pre><code class="language-python">
@@ -719,16 +718,16 @@ def main():
     # Load data
     data_dict = load_data()
 </code></pre>
-<p>The above code loads every previous year's of available data into a <code>dict</code>
+<p>The above code loads each previous year of available data into a <code>dict</code>
 of <code>pandas</code> DataFrames. The <code>st.cache</code> decorator ensures that the data is
-loaded into memory once. This ensures a shorter response time when it's
+loaded into memory only once. This ensures a shorter response time when it's
 deployed and users are accessing the app frequently. Here, I made the data
 publicly available in Google Drive. I could have gone with an SQL server,
 but given the  small record sizes (~10,000 records), and the reliability
 of Google Drive, this worked well for an MVP.</p>
 <p>To select from the data, I utilized <code>streamlit</code> sidebar widgets to add the
 layer for selection. For example, the following selects the data for one
-fiscal year:</p>
+year:</p>
 <pre><code class="language-python">def select_fiscal_year() -&gt; str:
     &quot;&quot;&quot;Sidebar widget to select fiscal year&quot;&quot;&quot;
 
@@ -781,14 +780,19 @@ def main():
 <p>As discussed earlier, interactions with the data is done with different views.
 Currently, I have six of them:</p>
 <ol>
-<li>Trends: General facts and numbers (e.g. number of employees, salary budget), for each fiscal year</li>
-<li>Salary Summary: Statistics and percentile salary data, includes salary histogram</li>
-<li>Highest Earners: Extract data above a minimum salary</li>
-<li>College/Division Data: Similar to Salary Summary but extracted for each college(s)/division(s)</li>
-<li>Department Data: Similar to Salary Summary but extracted for each department(s)</li>
-<li>Individual Search: Search for all data for individuals or by looking at each department</li>
+<li>Trends: General facts and numbers (e.g. number of employees, salary budget),
+for each fiscal year.</li>
+<li>Salary Summary: Statistics and percentile salary data, includes salary
+histogram.</li>
+<li>Highest Earners: Extract data above a minimum salary.</li>
+<li>College/Division Data: Similar to Salary Summary but extracted for each
+college(s)/division(s).</li>
+<li>Department Data: Similar to Salary Summary but extracted for each
+department(s).</li>
+<li>Individual Search: Search for all data for individuals or by looking at
+each department. You can read more <a href="#whats-important-for-end-users">here</a>.</li>
 </ol>
-<p>This can easily be done on the sidebar and then the main page is loaded</p>
+<p>This can easily be done on the sidebar and then the main page is loaded:</p>
 <pre><code class="language-python">DATA_VIEWS = [
     'About', 'Individual Search (NEW)', 'Trends', 'Salary Summary',
     'Highest Earners', 'College/Division Data', 'Department Data',
@@ -833,9 +837,9 @@ def main():
     if view_select == 'Individual Search':
         views.individual_search_page(data_dict, unique_df)
 </code></pre>
-<p>Here <code>views</code> is a Python module and each of its function displays
-different  content in the main page. Here's a screenshot for the
-Salary Summary page</p>
+<p>Here <code>views</code> is a Python module and each function displays
+different content in the main page. Here's a screenshot for the
+Salary Summary page:</p>
 
 
 
@@ -865,10 +869,157 @@ Salary Summary page</p>
 
 </figure>
 
-<h2 id="newest-feature">Newest feature!</h2>
-<p>Recently <a href="https://twitter.com/astrochunly/status/1407485898485239809">I asked users what the next key feature</a>
-they would like to see. With 40% of the vote, users felt that having a search
-tool to look at individual salary would be key.</p>
+<h2 id="deploying-it-on-heroku">Deploying it on Heroku</h2>
+<p>With a functional app, it's easy to have it locally deployed with the
+following command:</p>
+<pre><code>streamlit run salary_app:main
+</code></pre>
+<p>To make it available on a production instance, I looked into hosting services
+(called Platform as a Service), and it turned out that
+<a href="https://heroku.com/about">Heroku</a> has a free tier for serverless deployment.
+It seems as though it's one of the popular options among <code>streamlit</code> users to
+deploy their apps. Note that <code>streamlit</code> runs a web server so static
+site hosting services (e.g., GitHub Pages) will not work. To get started,
+first <a href="https://signup.heroku.com/">sign-up</a> for a Heroku account. To create
+your first Heroku project, select the &ldquo;Create New App&rdquo; option from the New
+button. Here the project name needs to be unique across all of Heroku
+because it will point to <code>https://&lt;project-name&gt;.herokuapp.com</code>.</p>
+<p>Now you have a project that can be triggered to deploy after any codebase
+changes. What I learned is that Heroku is developer friendly.
+It has at least three ways to deploy it:</p>
+<ol>
+<li>Manually using <code>git</code></li>
+<li>Using GitHub integration</li>
+<li>Using a GitHub Action</li>
+</ol>
+<h3 id="commandline-deployment">Command-line deployment</h3>
+<p>For the first method, this follows a <code>git</code> workflow for deployment. In
+short you create a <code>git</code> remote locally, login with the <code>heroku</code> cli, and
+push changes to the Heroku <code>git</code> repo. An update to the remote triggers
+a deployment and within a minute or two your app is publicly available!
+There's more information available here in the
+<a href="https://devcenter.heroku.com/articles/git">Heroku docs</a>.</p>
+<p>My steps were a bit different as I had already created a Heroku project
+through the UI and already had a local <code>.git</code> repo. I simply got the Heroku
+<code>git</code> URL through the Settings menu for the project; it should look like:</p>
+<pre><code>https://git.heroku.com/&lt;project-name&gt;.git
+</code></pre>
+<p>Now all you need to do is add it as a <code>git</code> remote in your local <code>.git</code> repo:</p>
+<pre><code>git remote add heroku https://git.heroku.com/&lt;project-name&gt;.git
+</code></pre>
+<p>You will need to install the
+<a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku CLI</a> (<code>heroku</code>) and
+login: <code>heroku login</code>. After that is done, you deploy with a push:</p>
+<pre><code>git push heroku main
+</code></pre>
+<h3 id="continuous-deployment">Continuous deployment</h3>
+<p>The above step is great if you're learning to deploy your app for the first
+time. However, this step is manual and it's tedious as you make improvements
+to your app.</p>
+<p>Heroku has a couple of options for continuous deployment (CD). The first of
+which is GitHub integration. Through the Heroku UI, the &ldquo;Deploy&rdquo; menu for
+the project has configuration settings for deployment.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="screenshot3.png" data-caption="GitHub integration in Heroku">
+<img src="screenshot3.png" alt="" width="100%" ></a>
+
+
+  
+  
+  <figcaption>
+    GitHub integration in Heroku
+  </figcaption>
+
+
+</figure>
+
+<p>After you connect your Heroku app with your GitHub account, you can easily
+enable CD with the &ldquo;Enable Automatic Deploys&rdquo; button.</p>
+<p>While this is great, I realized that this will re-deploy with any changes
+to the GitHub repo. That is, even a simple change to the README.md or the
+CHANGELOG would trigger a new deployment. Thus, a bit of control over
+deployment is still needed.</p>
+<p>While developing this app, I followed a GitHub workflow where I created a new
+branch which is then merged into the <code>main</code> branch through a pull request
+(PR). To distinguish changes to the code from other changes that does not
+impact end users, I performed a <code>git tag</code> which is related to a version
+bump of the codebase. The advantage here is that I can easily trigger
+deployment based on a new tag using GitHub Actions:</p>
+<pre><code>name: Heroku Deployment
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  heroku-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Heroku deployment
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: &quot;&lt;project-name&gt;&quot;
+          heroku_email: &quot;myemail@dot.com&quot;
+</code></pre>
+<p>You will need to create a Heroku API token (it's in the &ldquo;Account Settings&rdquo;
+option of your Heroku account) and add it as a secret in the GitHub repo.
+With the above workflow, I can easily trigger a deployment using</p>
+<pre><code>git push --tags
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="screenshot4.png" data-caption="GitHub Actions with a Heroku deployment">
+<img src="screenshot4.png" alt="" width="100%" ></a>
+
+
+  
+  
+  <figcaption>
+    GitHub Actions with a Heroku deployment
+  </figcaption>
+
+
+</figure>
+
+<p><strong>And that's how I built a <code>streamlit</code> app that I easily deployed on Heroku
+for free!</strong></p>
+<h2 id="whats-important-for-end-users">What's important for end users?</h2>
+<p>Recently I asked users for the next feature they would like to see.
+With 40% of the vote, users felt that having a search tool to look at
+individuals&rsquo; salary data would be great.</p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">.<a href="https://twitter.com/uarizona?ref_src=twsrc%5Etfw">@uarizona</a> salary app is all about the experience of the users, so help me prioritize what&#39;s the next 😎 feature for 🚀!<a href="https://t.co/sPs8xmkTbz">https://t.co/sPs8xmkTbz</a><a href="https://twitter.com/CAJUArizona?ref_src=twsrc%5Etfw">@CAJUArizona</a> <a href="https://twitter.com/UCWArizona?ref_src=twsrc%5Etfw">@UCWArizona</a> <a href="https://twitter.com/coba_uarizona?ref_src=twsrc%5Etfw">@coba_uarizona</a></p>&mdash; Chun Ly, Ph.D. (@astrochunly) <a href="https://twitter.com/astrochunly/status/1407485898485239809?ref_src=twsrc%5Etfw">June 22, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -888,9 +1039,9 @@ same job responsibilities.</p>
 <p>Once I have these data, I'll then add additional views to explore
 the UCAP classification and other demographics.</p>
 <h2 id="support-it">Support it!</h2>
-<p>If you found this <strong>open-source</strong> software useful, consider sponsoring me
-through GitHub with a small donation. Your name will be included as a sponsor
-on the app's main page</p>
+<p>If you found this <strong>open-source</strong> software or this tutorial post useful,
+consider sponsoring me through GitHub with a small donation. Your name will
+be included as a sponsor on the app's main page!</p>
 <iframe src="https://github.com/sponsors/astrochun/button"
 title="Sponsor astrochun" height="35" width="116" style="border: 0;">
 </iframe>

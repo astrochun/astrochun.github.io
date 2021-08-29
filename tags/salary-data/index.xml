@@ -5,7 +5,7 @@
     <link>https://astrochun.github.io/tags/salary-data/</link>
       <atom:link href="https://astrochun.github.io/tags/salary-data/index.xml" rel="self" type="application/rss+xml" />
     <description>Salary data</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>MIT License</copyright><lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrochun.github.io/img/icon-192.png</url>
       <title>Salary data</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Building a streamlit app to serve UArizona salary data and deploying it on Heroku</title>
       <link>https://astrochun.github.io/post/salary_app/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://astrochun.github.io/post/salary_app/</guid>
       <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;The &lt;a href=&#34;https://www.wildcat.arizona.edu/&#34;&gt;Daily Wildcat&lt;/a&gt; of the
@@ -23,8 +23,9 @@
 the salary of UArizona employees for nearly a decade through public requests.
 While this allowed for the easy viewing of information for an individual,
 the analysis from the Daily Wildcat was rather limited. As such, I wanted to
-build a data visualization app that allow anyone to explore the data for
-100% transparency.&lt;/p&gt;
+build a data visualization app that would allow anyone to explore the data for
+100% transparency. I call it &lt;code&gt;sapp4ua&lt;/code&gt;, which is short for the
+salary app for UArizona. It&#39;s available at &lt;a href=&#34;https://sapp4ua.herokuapp.com&#34;&gt;https://sapp4ua.herokuapp.com&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
 &lt;p&gt;The salary data were available as machine-readable CSV files, so it made sense
 to build a Python application that uses &lt;code&gt;pandas&lt;/code&gt; to extract, transform, and
@@ -38,7 +39,7 @@ From there, I put together the software to load the data and provide different
 &amp;ldquo;data views&amp;rdquo; that were different interactions with the data. The code is
 available on &lt;a href=&#34;https://www.github.com/astrochun/uarizona-salary-app&#34;&gt;GitHub&lt;/a&gt;
 under an MIT License. There are many resources and blogs about building a
-&lt;code&gt;streamlit&lt;/code&gt;, so I won&#39;t go in details here, but I will illustrate some
+&lt;code&gt;streamlit&lt;/code&gt; app, so I won&#39;t go in details here, but I will illustrate some
 aspects:&lt;/p&gt;
 &lt;p&gt;Loading in data can be simple.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -79,16 +80,16 @@ def main():
     # Load data
     data_dict = load_data()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The above code loads every previous year&#39;s of available data into a &lt;code&gt;dict&lt;/code&gt;
+&lt;p&gt;The above code loads each previous year of available data into a &lt;code&gt;dict&lt;/code&gt;
 of &lt;code&gt;pandas&lt;/code&gt; DataFrames. The &lt;code&gt;st.cache&lt;/code&gt; decorator ensures that the data is
-loaded into memory once. This ensures a shorter response time when it&#39;s
+loaded into memory only once. This ensures a shorter response time when it&#39;s
 deployed and users are accessing the app frequently. Here, I made the data
 publicly available in Google Drive. I could have gone with an SQL server,
 but given the  small record sizes (~10,000 records), and the reliability
 of Google Drive, this worked well for an MVP.&lt;/p&gt;
 &lt;p&gt;To select from the data, I utilized &lt;code&gt;streamlit&lt;/code&gt; sidebar widgets to add the
 layer for selection. For example, the following selects the data for one
-fiscal year:&lt;/p&gt;
+year:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def select_fiscal_year() -&amp;gt; str:
     &amp;quot;&amp;quot;&amp;quot;Sidebar widget to select fiscal year&amp;quot;&amp;quot;&amp;quot;
 
@@ -141,14 +142,19 @@ def main():
 &lt;p&gt;As discussed earlier, interactions with the data is done with different views.
 Currently, I have six of them:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Trends: General facts and numbers (e.g. number of employees, salary budget), for each fiscal year&lt;/li&gt;
-&lt;li&gt;Salary Summary: Statistics and percentile salary data, includes salary histogram&lt;/li&gt;
-&lt;li&gt;Highest Earners: Extract data above a minimum salary&lt;/li&gt;
-&lt;li&gt;College/Division Data: Similar to Salary Summary but extracted for each college(s)/division(s)&lt;/li&gt;
-&lt;li&gt;Department Data: Similar to Salary Summary but extracted for each department(s)&lt;/li&gt;
-&lt;li&gt;Individual Search: Search for all data for individuals or by looking at each department&lt;/li&gt;
+&lt;li&gt;Trends: General facts and numbers (e.g. number of employees, salary budget),
+for each fiscal year.&lt;/li&gt;
+&lt;li&gt;Salary Summary: Statistics and percentile salary data, includes salary
+histogram.&lt;/li&gt;
+&lt;li&gt;Highest Earners: Extract data above a minimum salary.&lt;/li&gt;
+&lt;li&gt;College/Division Data: Similar to Salary Summary but extracted for each
+college(s)/division(s).&lt;/li&gt;
+&lt;li&gt;Department Data: Similar to Salary Summary but extracted for each
+department(s).&lt;/li&gt;
+&lt;li&gt;Individual Search: Search for all data for individuals or by looking at
+each department. You can read more &lt;a href=&#34;#whats-important-for-end-users&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;This can easily be done on the sidebar and then the main page is loaded&lt;/p&gt;
+&lt;p&gt;This can easily be done on the sidebar and then the main page is loaded:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;DATA_VIEWS = [
     &#39;About&#39;, &#39;Individual Search (NEW)&#39;, &#39;Trends&#39;, &#39;Salary Summary&#39;,
     &#39;Highest Earners&#39;, &#39;College/Division Data&#39;, &#39;Department Data&#39;,
@@ -193,9 +199,9 @@ def main():
     if view_select == &#39;Individual Search&#39;:
         views.individual_search_page(data_dict, unique_df)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here &lt;code&gt;views&lt;/code&gt; is a Python module and each of its function displays
-different  content in the main page. Here&#39;s a screenshot for the
-Salary Summary page&lt;/p&gt;
+&lt;p&gt;Here &lt;code&gt;views&lt;/code&gt; is a Python module and each function displays
+different content in the main page. Here&#39;s a screenshot for the
+Salary Summary page:&lt;/p&gt;
 
 
 
@@ -225,10 +231,157 @@ Salary Summary page&lt;/p&gt;
 
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;newest-feature&#34;&gt;Newest feature!&lt;/h2&gt;
-&lt;p&gt;Recently &lt;a href=&#34;https://twitter.com/astrochunly/status/1407485898485239809&#34;&gt;I asked users what the next key feature&lt;/a&gt;
-they would like to see. With 40% of the vote, users felt that having a search
-tool to look at individual salary would be key.&lt;/p&gt;
+&lt;h2 id=&#34;deploying-it-on-heroku&#34;&gt;Deploying it on Heroku&lt;/h2&gt;
+&lt;p&gt;With a functional app, it&#39;s easy to have it locally deployed with the
+following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;streamlit run salary_app:main
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To make it available on a production instance, I looked into hosting services
+(called Platform as a Service), and it turned out that
+&lt;a href=&#34;https://heroku.com/about&#34;&gt;Heroku&lt;/a&gt; has a free tier for serverless deployment.
+It seems as though it&#39;s one of the popular options among &lt;code&gt;streamlit&lt;/code&gt; users to
+deploy their apps. Note that &lt;code&gt;streamlit&lt;/code&gt; runs a web server so static
+site hosting services (e.g., GitHub Pages) will not work. To get started,
+first &lt;a href=&#34;https://signup.heroku.com/&#34;&gt;sign-up&lt;/a&gt; for a Heroku account. To create
+your first Heroku project, select the &amp;ldquo;Create New App&amp;rdquo; option from the New
+button. Here the project name needs to be unique across all of Heroku
+because it will point to &lt;code&gt;https://&amp;lt;project-name&amp;gt;.herokuapp.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now you have a project that can be triggered to deploy after any codebase
+changes. What I learned is that Heroku is developer friendly.
+It has at least three ways to deploy it:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Manually using &lt;code&gt;git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Using GitHub integration&lt;/li&gt;
+&lt;li&gt;Using a GitHub Action&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;commandline-deployment&#34;&gt;Command-line deployment&lt;/h3&gt;
+&lt;p&gt;For the first method, this follows a &lt;code&gt;git&lt;/code&gt; workflow for deployment. In
+short you create a &lt;code&gt;git&lt;/code&gt; remote locally, login with the &lt;code&gt;heroku&lt;/code&gt; cli, and
+push changes to the Heroku &lt;code&gt;git&lt;/code&gt; repo. An update to the remote triggers
+a deployment and within a minute or two your app is publicly available!
+There&#39;s more information available here in the
+&lt;a href=&#34;https://devcenter.heroku.com/articles/git&#34;&gt;Heroku docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My steps were a bit different as I had already created a Heroku project
+through the UI and already had a local &lt;code&gt;.git&lt;/code&gt; repo. I simply got the Heroku
+&lt;code&gt;git&lt;/code&gt; URL through the Settings menu for the project; it should look like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://git.heroku.com/&amp;lt;project-name&amp;gt;.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now all you need to do is add it as a &lt;code&gt;git&lt;/code&gt; remote in your local &lt;code&gt;.git&lt;/code&gt; repo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote add heroku https://git.heroku.com/&amp;lt;project-name&amp;gt;.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will need to install the
+&lt;a href=&#34;https://devcenter.heroku.com/articles/heroku-cli&#34;&gt;Heroku CLI&lt;/a&gt; (&lt;code&gt;heroku&lt;/code&gt;) and
+login: &lt;code&gt;heroku login&lt;/code&gt;. After that is done, you deploy with a push:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push heroku main
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;continuous-deployment&#34;&gt;Continuous deployment&lt;/h3&gt;
+&lt;p&gt;The above step is great if you&#39;re learning to deploy your app for the first
+time. However, this step is manual and it&#39;s tedious as you make improvements
+to your app.&lt;/p&gt;
+&lt;p&gt;Heroku has a couple of options for continuous deployment (CD). The first of
+which is GitHub integration. Through the Heroku UI, the &amp;ldquo;Deploy&amp;rdquo; menu for
+the project has configuration settings for deployment.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;screenshot3.png&#34; data-caption=&#34;GitHub integration in Heroku&#34;&gt;
+&lt;img src=&#34;screenshot3.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    GitHub integration in Heroku
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After you connect your Heroku app with your GitHub account, you can easily
+enable CD with the &amp;ldquo;Enable Automatic Deploys&amp;rdquo; button.&lt;/p&gt;
+&lt;p&gt;While this is great, I realized that this will re-deploy with any changes
+to the GitHub repo. That is, even a simple change to the README.md or the
+CHANGELOG would trigger a new deployment. Thus, a bit of control over
+deployment is still needed.&lt;/p&gt;
+&lt;p&gt;While developing this app, I followed a GitHub workflow where I created a new
+branch which is then merged into the &lt;code&gt;main&lt;/code&gt; branch through a pull request
+(PR). To distinguish changes to the code from other changes that does not
+impact end users, I performed a &lt;code&gt;git tag&lt;/code&gt; which is related to a version
+bump of the codebase. The advantage here is that I can easily trigger
+deployment based on a new tag using GitHub Actions:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;name: Heroku Deployment
+
+on:
+  push:
+    tags:
+      - &#39;v*&#39;
+
+jobs:
+  heroku-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Heroku deployment
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: &amp;quot;&amp;lt;project-name&amp;gt;&amp;quot;
+          heroku_email: &amp;quot;myemail@dot.com&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will need to create a Heroku API token (it&#39;s in the &amp;ldquo;Account Settings&amp;rdquo;
+option of your Heroku account) and add it as a secret in the GitHub repo.
+With the above workflow, I can easily trigger a deployment using&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push --tags
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;screenshot4.png&#34; data-caption=&#34;GitHub Actions with a Heroku deployment&#34;&gt;
+&lt;img src=&#34;screenshot4.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    GitHub Actions with a Heroku deployment
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;And that&#39;s how I built a &lt;code&gt;streamlit&lt;/code&gt; app that I easily deployed on Heroku
+for free!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;whats-important-for-end-users&#34;&gt;What&#39;s important for end users?&lt;/h2&gt;
+&lt;p&gt;Recently I asked users for the next feature they would like to see.
+With 40% of the vote, users felt that having a search tool to look at
+individuals&amp;rsquo; salary data would be great.&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/uarizona?ref_src=twsrc%5Etfw&#34;&gt;@uarizona&lt;/a&gt; salary app is all about the experience of the users, so help me prioritize what&amp;#39;s the next 😎 feature for 🚀!&lt;a href=&#34;https://t.co/sPs8xmkTbz&#34;&gt;https://t.co/sPs8xmkTbz&lt;/a&gt;&lt;a href=&#34;https://twitter.com/CAJUArizona?ref_src=twsrc%5Etfw&#34;&gt;@CAJUArizona&lt;/a&gt; &lt;a href=&#34;https://twitter.com/UCWArizona?ref_src=twsrc%5Etfw&#34;&gt;@UCWArizona&lt;/a&gt; &lt;a href=&#34;https://twitter.com/coba_uarizona?ref_src=twsrc%5Etfw&#34;&gt;@coba_uarizona&lt;/a&gt;&lt;/p&gt;&amp;mdash; Chun Ly, Ph.D. (@astrochunly) &lt;a href=&#34;https://twitter.com/astrochunly/status/1407485898485239809?ref_src=twsrc%5Etfw&#34;&gt;June 22, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
@@ -248,9 +401,9 @@ same job responsibilities.&lt;/p&gt;
 &lt;p&gt;Once I have these data, I&#39;ll then add additional views to explore
 the UCAP classification and other demographics.&lt;/p&gt;
 &lt;h2 id=&#34;support-it&#34;&gt;Support it!&lt;/h2&gt;
-&lt;p&gt;If you found this &lt;strong&gt;open-source&lt;/strong&gt; software useful, consider sponsoring me
-through GitHub with a small donation. Your name will be included as a sponsor
-on the app&#39;s main page&lt;/p&gt;
+&lt;p&gt;If you found this &lt;strong&gt;open-source&lt;/strong&gt; software or this tutorial post useful,
+consider sponsoring me through GitHub with a small donation. Your name will
+be included as a sponsor on the app&#39;s main page!&lt;/p&gt;
 &lt;iframe src=&#34;https://github.com/sponsors/astrochun/button&#34;
 title=&#34;Sponsor astrochun&#34; height=&#34;35&#34; width=&#34;116&#34; style=&#34;border: 0;&#34;&gt;
 &lt;/iframe&gt;
