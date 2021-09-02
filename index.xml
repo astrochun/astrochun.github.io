@@ -234,7 +234,7 @@ Salary Summary page:&lt;/p&gt;
 &lt;h2 id=&#34;deploying-it-on-heroku&#34;&gt;Deploying it on Heroku&lt;/h2&gt;
 &lt;p&gt;With a functional app, it&#39;s easy to have it locally deployed with the
 following command:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;streamlit run salary_app:main
+&lt;pre&gt;&lt;code&gt;streamlit run salary_app/main.py
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;To make it available on a production instance, I looked into hosting services
 (called Platform as a Service), and it turned out that
